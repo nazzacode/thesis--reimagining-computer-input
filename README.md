@@ -8,10 +8,9 @@ _Author_: Nathan Sharp (nathansharp03@gmail.com)
 _Supervisor_: Antonio Barbalace
 
 Dissertation thesis submitted to the University of Edinburgh for the degree of BSc in Computational Cognitive Science 2022.
-
 This thesis is a continued work in progress. 
 For the latest version see `thesis--reimagining-computer-input.pdf`.
-For a dated version see `old_versions/`
+For a dated versions see `old_versions/`.
 
 ## Giving Feedback
 If you would like to give me some feedback (please do!), please either _markup with hypothesis?_ or _use this link for adobe acrobat (online)_
