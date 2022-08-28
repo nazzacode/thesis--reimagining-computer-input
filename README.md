@@ -4,7 +4,7 @@
 
 ![Collage](images/project_collage1.png?raw=true "Title")
 
-_Author_: Nathan Sharp (nathansharp03@gmail.com)
+_Author_: Nathan Sharp (nathansharp03@gmail.com)  
 _Supervisor_: Antonio Barbalace
 
 Dissertation thesis submitted to the University of Edinburgh for the degree of BSc in Computational Cognitive Science 2022.
