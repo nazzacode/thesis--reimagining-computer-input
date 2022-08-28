@@ -1,6 +1,11 @@
+<!-- TODOs
+- [ ] add some emojis!
+- [ ]
+-->
+
 # Re-Imagining Input: Beyond the Typewriter Keyboard
 
-> Building a wearable Hand Controlled Input Device (HCID) for the advancing XR revolution
+> Building a wearable Hand Controlled Input Device (HCID) for the advancing XR revolution.
 
 ![Collage](images/project_collage1.png?raw=true "Title")
 
@@ -26,11 +31,12 @@ If you would like to give me some feedback (please do!), please either _markup w
 > Finally, we begin an ongoing practical project to design and build a new Hand Controlled Input Device (HCID) to (1) better the typewriter keyboard (also mouse and touchscreen), and (2) be suitable for the XR revolution.
 > We propose a new interface and implement it from scratch. 
 
-## Motivation
+<!-- ## Motivation  -->
 
-## What Problem does it solve
+<!-- ## What Problem does it solve -->
 
 <!-- please cite using.. --> 
+
 
 <!-- comment  --> 
 [//]: # (comment.)
