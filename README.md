@@ -7,7 +7,7 @@
 
 > Building a wearable Hand Controlled Input Device (HCID) for the advancing XR revolution.
 
-*Thesis exploring the future of computer input. We study the theory, conduct case studies, then design and build a new input device for the advancing XR revolution.*
+**Thesis exploring the future of computer input. We study the theory, conduct case studies, then design and build a new input device for the advancing XR revolution.**
 
 ![Collage](images/project_collage1.png?raw=true "Title")
 
