@@ -7,7 +7,7 @@
 ...
 
 ## Giving Feedback
-If you would like to give me some feedback (please do!), please either /marup with hypothesis?/ or /use this link for adobe acrobat (online)/
+If you would like to give me some feedback (please do!), please either _markup with hypothesis?_ or _use this link for adobe acrobat (online)_
 
 Author: Nathan Sharp (nathansharp03@gmail.com)
 
