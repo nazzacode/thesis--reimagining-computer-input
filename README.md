@@ -4,9 +4,10 @@
 -->
 
 # Re-Imagining Input: Beyond the Typewriter Keyboard
-[![read & comment - click here](https://img.shields.io/badge/read_%26_comment-click_here-EC1C24?style=for-the-badge&logo=Adobe+Acrobat+Reader&logoColor=white)](https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:35a33218-982e-4083-be8c-a14ed8bcfbc0 "Read and comment with adobe acrobat (online)")
 
 > Building a wearable Hand Controlled Input Device (HCID) for the advancing XR revolution.
+
+[![read & comment - click here](https://img.shields.io/badge/read_%26_comment-click_here-EC1C24?style=for-the-badge&logo=Adobe+Acrobat+Reader&logoColor=white)](https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:35a33218-982e-4083-be8c-a14ed8bcfbc0 "Read and comment with adobe acrobat (online)")
 
 **Thesis exploring the future of computer input. We study the theory, conduct case studies, then design and build a new input device for the advancing XR revolution.**
 
