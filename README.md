@@ -23,16 +23,9 @@ _Supervisor_: Antonio Barbalace
 - Download the pdf file directly: [`thesis_reimagining-computer-input_vX-X.pdf`](thesis_reimagining-computer-input_v1-0.pdf)
 - For a older versions see the `old_versions/` folder
 
-Note the pdf is not currently fully reproducible from the `.tex` file (as there are many additional missing files). The `.tex` file is currently only to serve as a more there to serve as 
-
-<!--
-## Contributing | Giving Feedback
-If you would like to give me some feedback (please do!), please either _markup with hypothesis?_ or _use this link for adobe acrobat (online)_
-- how to pull request to update tex file?
--->
+Note, it is not possible to compile the thesis pdf directly from the `.tex` file for now, rather the `.tex` file is there for git diffs, and for those who may wish to contribute edits at source. 
 
 ## Abstract
-<!-- push abstract changes to thesis --> 
 > A novel theoretical and practical work on 'the augmentation of human intelligence with computers' aka Brain-Computer Interfaces (BCI); with a focus on input devices.
 > First, we lay out our new ’5AA’ framework for analysing the capacities of BCIs.
 > This induces our historical lens of studying BCI ’interface revolutions’ and leads to our central claim: of being in the midst of a 5th fundamental revolution-- the XR revolution.
@@ -41,10 +34,6 @@ If you would like to give me some feedback (please do!), please either _markup w
 > In particular, we classify the many shortcomings of the (typewriter) keyboard, both for XR and more generally.
 > Finally, we undertake an ongoing practical project to design and build a new Hand Controlled Input Device (HCID) to (1) better the typewriter keyboard (also mouse and touchscreen), and (2) be native to the coming XR revolution.
 > We propose a new interface and implement it from scratch. 
-
-
-<!-- ## Compiling the pdf and reproducibility  -->
-
 
 <!-- ## Introduction  -->
 <!-- selection of topics from intro?  -->
