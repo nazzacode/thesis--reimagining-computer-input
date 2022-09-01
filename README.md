@@ -11,14 +11,14 @@
 
 **Thesis exploring the future of computer input. We study the theory, conduct case studies, then design and build a new input device for the advancing XR revolution.**
 
-![Collage](images/project_collage1.png?raw=true "Title")
+![Collage](images/project_collage1.png?raw=true "Collage of images collected and produced for the thesis")
 
-Thesis submitted to the University of Edinburgh for the degree of BSc in Computational Cognitive Science 2022.
-This thesis is a continued work in progress. 
+Original thesis submitted to the University of Edinburgh for the degree of BSc in Computational Cognitive Science 2022.
+Note, this thesis is a continued work in progress. 
  
-<!-- - Read and comment on the latest version: [here](https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:35a33218-982e-4083-be8c-a14ed8bcfbc0) -->
-<!-- - Find the source file at the top level [~thesis_reimagining-computer-input_vX-X.pdf](thesis_reimagining-computer-input_v1-0.pdf)  -->
-<!-- - For a history of older versions see `old_versions/`. -->
+- Read and comment feedback on the latest version: [click here](https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:35a33218-982e-4083-be8c-a14ed8bcfbc0)
+- Download the pdf file: [~thesis_reimagining-computer-input_vX-X.pdf~](thesis_reimagining-computer-input_v1-0.pdf)
+- For a older versions see the `old_versions/` folder
 
 _Author_: Nathan Sharp (nathansharp03@gmail.com)  
 _Supervisor_: Antonio Barbalace
