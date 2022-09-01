@@ -17,7 +17,7 @@ Original thesis submitted to the University of Edinburgh for the degree of BSc i
 Note, this thesis is a continued work in progress. 
  
 - Read and comment feedback on the latest version: [click here](https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:35a33218-982e-4083-be8c-a14ed8bcfbc0)
-- Download the pdf file: [~thesis_reimagining-computer-input_vX-X.pdf~](thesis_reimagining-computer-input_v1-0.pdf)
+- Download the pdf file directly: [`thesis_reimagining-computer-input_vX-X.pdf`](thesis_reimagining-computer-input_v1-0.pdf)
 - For a older versions see the `old_versions/` folder
 
 _Author_: Nathan Sharp (nathansharp03@gmail.com)  
