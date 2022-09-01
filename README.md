@@ -4,9 +4,7 @@
 -->
 
 # Re-Imagining Input: Beyond the Typewriter Keyboard
-
 > Building a wearable Hand Controlled Input Device (HCID) for the advancing XR revolution.
-
 **Thesis exploring the future of computer input. We study the theory, conduct case studies, then design and build a new input device for the advancing XR revolution.**
 
 ![Collage](images/project_collage1.png?raw=true "Title")
@@ -16,12 +14,15 @@ This thesis is a continued work in progress.
 For the latest version see `thesis--reimagining-computer-input.pdf`.
 For a dated versions see `old_versions/`.
 
+Read the latest PDF version here: [thesis--reimagining-computer-input.pdf](thesis--reimagining-computer-input.pdf)
+
 _Author_: Nathan Sharp (nathansharp03@gmail.com)  
 _Supervisor_: Antonio Barbalace
 
 <!--
-## Giving Feedback
+## Contributing | Giving Feedback
 If you would like to give me some feedback (please do!), please either _markup with hypothesis?_ or _use this link for adobe acrobat (online)_
+- how to pull request to update tex file?
 -->
 
 ## Abstract
