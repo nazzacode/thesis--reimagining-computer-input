@@ -4,17 +4,20 @@
 -->
 
 # Re-Imagining Input: Beyond the Typewriter Keyboard
+[![read & comment - click here](https://img.shields.io/badge/read_%26_comment-click_here-blue?style=for-the-badge&logo=Adobe+Acrobat+Reader&logoColor=white)](https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:35a33218-982e-4083-be8c-a14ed8bcfbc0)
+
 > Building a wearable Hand Controlled Input Device (HCID) for the advancing XR revolution.
+
 **Thesis exploring the future of computer input. We study the theory, conduct case studies, then design and build a new input device for the advancing XR revolution.**
 
 ![Collage](images/project_collage1.png?raw=true "Title")
 
 Thesis submitted to the University of Edinburgh for the degree of BSc in Computational Cognitive Science 2022.
 This thesis is a continued work in progress. 
-For the latest version see `thesis--reimagining-computer-input.pdf`.
-For a dated versions see `old_versions/`.
-
-Read the latest PDF version here: [thesis--reimagining-computer-input.pdf](thesis--reimagining-computer-input.pdf)
+ 
+<!-- - Read and comment on the latest version: [here](https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:35a33218-982e-4083-be8c-a14ed8bcfbc0) -->
+<!-- - Find the source file at the top level [~thesis_reimagining-computer-input_vX-X.pdf](thesis_reimagining-computer-input_v1-0.pdf)  -->
+<!-- - For a history of older versions see `old_versions/`. -->
 
 _Author_: Nathan Sharp (nathansharp03@gmail.com)  
 _Supervisor_: Antonio Barbalace
@@ -36,9 +39,19 @@ If you would like to give me some feedback (please do!), please either _markup w
 > Finally, we undertake an ongoing practical project to design and build a new Hand Controlled Input Device (HCID) to (1) better the typewriter keyboard (also mouse and touchscreen), and (2) be native to the coming XR revolution.
 > We propose a new interface and implement it from scratch. 
 
-<!-- ## Motivation  -->
 
-<!-- ## What Problem does it solve -->
+<!-- ## Giving feedback -->
+<!-- If you would to read and leave a comment, please do so via the: [adobe acrobat (online)](https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:35a33218-982e-4083-be8c-a14ed8bcfbc0) -->
+
+<!-- ## Compiling the pdf and reproducibility  -->
+
+
+<!-- ## Introduction  -->
+<!-- selection of topics from intro?  -->
+
+<!-- ### Motivation  -->
+
+<!-- ### What Problem does it solve -->
 
 <!-- ## Next Steps
 - look for funding
@@ -49,4 +62,3 @@ If you would like to give me some feedback (please do!), please either _markup w
 
 
 <!-- comment  --> 
-[//]: # (comment.)
