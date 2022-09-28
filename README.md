@@ -7,7 +7,7 @@
 [![read & comment - click here](https://img.shields.io/badge/read_%26_comment-click_here-EC1C24?style=for-the-badge&logo=Adobe+Acrobat+Reader&logoColor=white)](https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:c0905d27-960c-4743-a640-0ed3ea55c4e2 "Read and comment with adobe acrobat (online)")
 
 # Re-Imagining Input: Beyond the Typewriter Keyboard
-> Building a new handheld input device for the advancing XR revolution to supersede the keyboard
+Building a new handheld input device for the advancing XR revolution to supersede the keyboard
 
 <!-- **Thesis exploring the future of computer input. We develop theory, conduct case studies, then design and build a new input device to supersede the keyboard in the advancing XR revolution.** -->
 
@@ -27,25 +27,20 @@ _Supervisor_: Antonio Barbalace
 Note that 1) this thesis has received minor updates since the original submission, and 2) it is not possible to compile the pdf perfectly from the `.tex` file alone as there are many missing files: it exists for git diffs, and for those who may wish to contribute edits/commentary here. 
  
 ## Access 
-1. Contribute publicly via adobe acrobat online: (link at top)
-2. Download the pdf directly: [`thesis_reimagining-computer-input.pdf`](thesis_reimagining-computer-input.pdf) (then click `Download`)
+1. Read and contribute publicly via adobe acrobat online: (link at top)
+2. Download the pdf directly via github: [`thesis_reimagining-computer-input.pdf`](thesis_reimagining-computer-input.pdf) (then click `Download`)
 3. (Expert/Brave) Suggest edits to the `.tex` file directly: [`thesis_reimagining-computer-input.tex`](thesis_reimagining-computer-input.tex) (this is the most useful but unwieldy)
 
-### Feedback 
 All feedback is welcome and strongly encouraged!
-If you can contribute annotations via adobe online, we recommend the following helpful scheme:
-| Annotation                                                               | Meaning            |
-|--------------------------------------------------------------------------|--------------------|
-| ![#f1e7b6](https://via.placeholder.com/15/f1e7b6/f1e7b6.png) / `textbox` | comment            |
-| ![#b8d5bc](https://via.placeholder.com/15/b8d5bc/b8d5bc.png)             | good/really like |
-| ![#dc8f8e](https://via.placeholder.com/15/dc8f8e/dc8f8e.png)             | disagree/dislike |
-| ![#c9bbec](https://via.placeholder.com/15/c9bbec/c9bbec.png)             | confused.com     |
-| `other`                                             | go wild            |
+
+## Sample Page
+![Sample Page](images/sample_page1.png?raw=true)
+
 
 ## Future Work
-We are aiming to continue this work. You expect to find us at:
+We are aiming to continue this work. You can out more about the project at:
 - Github: [Bodhi BCI](https://github.com/bodhiBCI)
 - Email: nathansharp03@gmail.com
-- Mailing list sign-up: COMING SOON
+- Potential website / mailing list: COMING SOON
  
 Reach out if you would like to discuss or are interested in collaborating :wave:.
