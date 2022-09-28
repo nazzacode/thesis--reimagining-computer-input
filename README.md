@@ -41,7 +41,7 @@ If you can contribute annotations via adobe online, we recommend the following h
 | ![#b8d5bc](https://via.placeholder.com/15/b8d5bc/b8d5bc.png)             | good/really like |
 | ![#dc8f8e](https://via.placeholder.com/15/dc8f8e/dc8f8e.png)             | disagree/dislike |
 | ![#c9bbec](https://via.placeholder.com/15/c9bbec/c9bbec.png)             | confused.com     |
-| `underline` / `strikethough`                                             | go wild            |
+| `other`                                             | go wild            |
 
 ## Future Work
 We are aiming to continue this work. You expect to find us at:
