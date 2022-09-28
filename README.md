@@ -5,14 +5,23 @@
 
 # Re-Imagining Input: Beyond the Typewriter Keyboard
 
-[![read & comment - click here](https://img.shields.io/badge/read_%26_comment-click_here-EC1C24?style=for-the-badge&logo=Adobe+Acrobat+Reader&logoColor=white)](https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:35a33218-982e-4083-be8c-a14ed8bcfbc0 "Read and comment with adobe acrobat (online)")
+[![read & comment - click here](https://img.shields.io/badge/read_%26_comment-click_here-EC1C24?style=for-the-badge&logo=Adobe+Acrobat+Reader&logoColor=red)](https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:35a33218-982e-4083-be8c-a14ed8bcfbc0 "Read and comment with adobe acrobat (online)")
 
-> Building a wearable Hand Controlled Input Device (HCID) for the advancing XR revolution.
+> Building a new input device for the advancing XR revolution to supersede the keyboard.
 
-**This thesis explores the future of computer input. We discuss the theory, conduct case studies, then design and build a new input device for the advancing XR revolution.**
+<!-- **Thesis exploring the future of computer input. We develop theory, conduct case studies, then design and build a new input device to supersede the keyboard in the advancing XR revolution.** -->
 
 ![Collage](images/project_collage1.png?raw=true "Collage of images collected and produced for the thesis")
 
+## Abstract
+
+> Here we present novel work on Brain-Computer Interfaces (BCI) aka 'the augmentation of human intelligence with computers, with a focus on input devices.
+> A thesis in three parts: I) Theory, II) Case Studies, and III) Practical.
+> Part I lays out our novel worldview relating to BCI.
+> Part II conducts case studies on existing, past and envisioned interface devices.
+> Part III is a project to develop a new high-throughput and high-pervasiveness input device to 1) supersede the keyboard, and 2) be suitable for XR.
+
+# Details 
 Thesis submitted to the University of Edinburgh for the degree of BSc in Computational Cognitive Science 2022.
 Note, this thesis is a continued work in progress. 
 
@@ -21,19 +30,9 @@ _Supervisor_: Antonio Barbalace
  
 - Read and comment feedback on the latest version: [here](https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:35a33218-982e-4083-be8c-a14ed8bcfbc0)
 - Download the pdf file directly: [`thesis_reimagining-computer-input_vX-X.pdf`](thesis_reimagining-computer-input_v1-0.pdf)
-- For a older versions see the `old_versions/` folder
+<!-- - For a older versions see the `old_versions/` folder -->
 
-Note, it is not possible to compile the thesis pdf directly from the `.tex` file for now, rather the `.tex` file is there for git diffs, and for those who may wish to contribute edits at source. 
-
-## Abstract
-> A novel theoretical and practical work on 'the augmentation of human intelligence with computers' aka Brain-Computer Interfaces (BCI); with a focus on input devices.
-> First, we lay out our new ’5AA’ framework for analysing the capacities of BCIs.
-> This induces our historical lens of studying BCI ’interface revolutions’ and leads to our central claim: of being in the midst of a 5th fundamental revolution-- the XR revolution.
-> We go on to identify the ’Achillies heel of XR': the absence of development in a high-throughput, high-pervasiveness input modality for XR.
-> Second, we conduct cases studies on existing, past and envisioned interface devices.
-> In particular, we classify the many shortcomings of the (typewriter) keyboard, both for XR and more generally.
-> Finally, we undertake an ongoing practical project to design and build a new Hand Controlled Input Device (HCID) to (1) better the typewriter keyboard (also mouse and touchscreen), and (2) be native to the coming XR revolution.
-> We propose a new interface and implement it from scratch. 
+Note, it is not possible to compile the thesis pdf perfectly from the `.tex` file alone,  it is there for git diffs, and for those who may wish to contribute edits here. 
 
 <!-- ## Introduction  -->
 <!-- selection of topics from intro?  -->
