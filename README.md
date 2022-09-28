@@ -29,7 +29,7 @@ Note that 1) this thesis has received minor updates since the original submissio
  
 ## Feedback
 All feedback is welcome and strongly encouraged!
-- Contribute publicly via adobe acrobat online: [here](https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:35a33218-982e-4083-be8c-a14ed8bcfbc0) 
+- Contribute publicly via adobe acrobat online: [here](https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:77e74c82-6c13-4cd2-8d50-0db14987b18b) 
 - Download the pdf directly: [`thesis_reimagining-computer-input.pdf`](thesis_reimagining-computer-input.pdf) 
 - (Expert/Brave) Make edits to the `.tex` file directly: [`thesis_reimagining-computer-input.tex`](thesis_reimagining-computer-input.tex) 
 
