@@ -1,3 +1,0 @@
-[submodule "firmware-zmk"]
-	path = firmware-zmk
-	url = https://github.com/bodhiBCI/firmware-zmk.git
