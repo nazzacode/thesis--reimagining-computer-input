@@ -36,11 +36,11 @@ Note that 1) this thesis has received minor updates since the original submissio
 All feedback is welcome and strongly encouraged!
 If you can contribute annotations via adobe online, we recommend the following helpful scheme:
  
-  - ![#f1e7b6](https://via.placeholder.com/15/f1e7b6/f1e7b6.png) / `textbox`: comment
-- ![#b8d5bc](https://via.placeholder.com/15/b8d5bc/b8d5bc.png): good/really like
-  - ![#dc8f8e](https://via.placeholder.com/15/dc8f8e/dc8f8e.png): disagree/dislike
-  - purple![#c9bbec](https://via.placeholder.com/15/c9bbec/c9bbec.png): confused.com
-  - `underline` / `strikethough`: go wild
+- ![#f1e7b6](https://via.placeholder.com/15/f1e7b6/f1e7b6.png) / `textbox`: comment
+- ![#b8d5bc](https://via.placeholder.com/15/b8d5bc/b8d5bc.png) : good/really like
+- ![#dc8f8e](https://via.placeholder.com/15/dc8f8e/dc8f8e.png) : disagree/dislike
+- ![#c9bbec](https://via.placeholder.com/15/c9bbec/c9bbec.png) : confused.com
+- `underline` / `strikethough`: go wild
 
 ## Future Work
 We are aiming to continue this work. You can so far find us at:
