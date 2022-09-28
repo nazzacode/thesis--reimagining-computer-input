@@ -25,7 +25,7 @@ Thesis submitted to the University of Edinburgh School of Informatics for the de
 _Author_: Nathan Sharp (nathansharp03@gmail.com)  
 _Supervisor_: Antonio Barbalace
 
-Note that, 1) this thesis has received minor updates since the original submission, and 2) it is not possible to compile the pdf perfectly from the `.tex` file alone as there are many missing files: it exists for git diffs, and for those who may wish to contribute edits/commentary here. 
+Note that 1) this thesis has received minor updates since the original submission, and 2) it is not possible to compile the pdf perfectly from the `.tex` file alone as there are many missing files: it exists for git diffs, and for those who may wish to contribute edits/commentary here. 
  
 ## Feedback
 All feedback is welcome and strongly encouraged!
@@ -34,7 +34,7 @@ All feedback is welcome and strongly encouraged!
 - (Expert/Brave) Make edits to the `.tex` file directly: [`thesis_reimagining-computer-input.tex`](thesis_reimagining-computer-input.tex) 
 
 ## Future Work
-We are aiming to continue this work in a new project. You can so far find us at:
+We are aiming to continue this work. You can so far find us at:
 - Github: [Bodhi BCI](https://github.com/bodhiBCI)
 - Email: nathansharp03@gmail.com
  
