@@ -35,6 +35,7 @@ Note that 1) this thesis has received minor updates since the original submissio
 ### Feedback 
 All feedback is welcome and strongly encouraged!
 If you can contribute annotations via adobe online, we recommend the following helpful scheme:
+| Annotation                                                               | Meaning            |
 |--------------------------------------------------------------------------|--------------------|
 | ![#f1e7b6](https://via.placeholder.com/15/f1e7b6/f1e7b6.png) / `textbox` | comment            |
 | ![#b8d5bc](https://via.placeholder.com/15/b8d5bc/b8d5bc.png)             | : good/really like |
