@@ -29,18 +29,17 @@ Note that 1) this thesis has received minor updates since the original submissio
 ## Access 
 1. Read and contribute publicly via adobe acrobat online: (link at top)
 2. Download the pdf directly via github: [`thesis_reimagining-computer-input.pdf`](thesis_reimagining-computer-input.pdf) (then click `Download`)
-3. (Expert/Brave) Suggest edits to the `.tex` file directly: [`thesis_reimagining-computer-input.tex`](thesis_reimagining-computer-input.tex) (this is the most useful but unwieldy)
+3. Make suggested edits to the `.tex` file directly: [`thesis_reimagining-computer-input.tex`](thesis_reimagining-computer-input.tex) (useful but unwieldy)
 
 All feedback is welcome and strongly encouraged!
 
 ## Sample Page
 ![Sample Page](images/sample_page1.png?raw=true)
 
-
 ## Future Work
-We are aiming to continue this work. You can out more about the project at:
+We are continuing this work (and looking for collaborators and investment). You can us find via:
 - Github: [Bodhi BCI](https://github.com/bodhiBCI)
 - Email: nathansharp03@gmail.com
 - Potential website / mailing list: COMING SOON
  
-Reach out if you would like to discuss or are interested in collaborating :wave:.
+Don't be shy, reach out to say hi :wave:.
