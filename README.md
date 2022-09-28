@@ -31,7 +31,7 @@ Note that 1) this thesis has received minor updates since the original submissio
 2. Download the pdf directly via github: [`thesis_reimagining-computer-input.pdf`](thesis_reimagining-computer-input.pdf) (then click `Download`)
 3. Make suggested edits to the `.tex` file directly: [`thesis_reimagining-computer-input.tex`](thesis_reimagining-computer-input.tex) (useful but unwieldy)
 
-All feedback is welcome and strongly encouraged!
+All feedback is welcome!
 
 ## Sample Page
 ![Sample Page](images/sample_page1.png?raw=true)
