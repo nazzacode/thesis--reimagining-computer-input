@@ -20,17 +20,13 @@
 > Part III is a project to develop a new high-throughput and high-pervasiveness input device to 1) supersede the keyboard, and 2) be suitable for XR.
 
 ## Details 
-Thesis submitted to the University of Edinburgh, School of Informatics for the degree of BSc in Computational Cognitive Science 2022.
+Thesis submitted to the University of Edinburgh School of Informatics for the degree of BSc in Computational Cognitive Science 2022.
 
 _Author_: Nathan Sharp (nathansharp03@gmail.com)  
 _Supervisor_: Antonio Barbalace
 
-Note that, this thesis has received minor updates since the original submission and it is not possible to compile the thesis pdf perfectly from the `.tex` file alone:  it exists for git diffs, and for those who may wish to contribute edits/commentary here. 
+Note that, 1) this thesis has received minor updates since the original submission, and 2) it is not possible to compile the pdf perfectly from the `.tex` file alone as there are many missing files: it exists for git diffs, and for those who may wish to contribute edits/commentary here. 
  
-<!-- - Feedback welcome and encouraged on the latest version: [here](https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:35a33218-982e-4083-be8c-a14ed8bcfbc0) (link also at top)   -->
-<!-- - Download the pdf file directly at: [`thesis_reimagining-computer-input.pdf`](thesis_reimagining-computer-input.pdf) -->
-<!-- - For a older versions see the `old_versions/` folder -->
-
 ## Feedback
 All feedback is welcome and strongly encouraged!
 - Contribute publicly via adobe acrobat online: [here](https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:35a33218-982e-4083-be8c-a14ed8bcfbc0) 
