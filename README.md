@@ -12,7 +12,7 @@ Building a new handheld input device for the advancing XR revolution to supersed
 <!-- **Thesis exploring the future of computer input. We develop theory, conduct case studies, then design and build a new input device to supersede the keyboard in the advancing XR revolution.** -->
 
 ## Abstract
-> Here we present novel work on Brain-Computer Interfaces (BCI) aka 'the augmentation of human intelligence with computers', with a focus on input devices.
+> Here we present a novel work on Brain-Computer Interfaces (BCI) aka 'the augmentation of human intelligence with computers', with a focus on input devices.
 > A thesis in three parts: I) Theory, II) Case Studies, and III) Practical.
 > Part I lays out our novel worldview relating to BCI.
 > Part II conducts case studies on existing, past and envisioned interface devices.
