@@ -36,8 +36,8 @@ Note that 1) this thesis has received minor updates since the original submissio
 All feedback is welcome and strongly encouraged!
 If you can contribute annotations via adobe online, we recommend the following helpful scheme:
  
-  - ![#f1e7b6](https://via.placeholder.com/15/f1e7b6/f1e7b6.png)/textbox: comment
-  - green: good/really like
+  - `![#f1e7b6](https://via.placeholder.com/15/f1e7b6/f1e7b6.png)` / `textbox`: comment
+- ![#dc8f8e](https://via.placeholder.com/15/dc8f8e/dc8f8e.png): good/really like
   - red: disagree/dislike
   - purple: confused.com
   - underline/strikethough: go wild
