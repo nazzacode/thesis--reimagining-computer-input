@@ -4,7 +4,7 @@
 
 # Re-Imagining Input: Beyond the Typewriter Keyboard
 
-[![read & comment - click here](https://img.shields.io/badge/read_%26_comment-click_here-EC1C24?style=for-the-badge&logo=Adobe+Acrobat+Reader&logoColor=white)](https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:77e74c82-6c13-4cd2-8d50-0db14987b18b "Read and comment with adobe acrobat (online)")
+[![read & comment - click here](https://img.shields.io/badge/read_%26_comment-click_here-EC1C24?style=for-the-badge&logo=Adobe+Acrobat+Reader&logoColor=white)](https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:c0905d27-960c-4743-a640-0ed3ea55c4e2 "Read and comment with adobe acrobat (online)")
 
 > Building a new handheld input device for the advancing XR revolution to supersede the keyboard
 
@@ -30,7 +30,7 @@ Note that 1) this thesis has received minor updates since the original submissio
 ## Feedback
 All feedback is welcome and strongly encouraged!
 - Contribute publicly via adobe acrobat online: (link at top)
-- Download the pdf directly: [`thesis_reimagining-computer-input.pdf`](thesis_reimagining-computer-input.pdf) 
+- Download the pdf directly: [`thesis_reimagining-computer-input.pdf`](thesis_reimagining-computer-input.pdf) (then click `Download`)
 - (Expert/Brave) Make edits to the `.tex` file directly: [`thesis_reimagining-computer-input.tex`](thesis_reimagining-computer-input.tex) 
 
 ## Future Work
