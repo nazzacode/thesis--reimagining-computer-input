@@ -27,11 +27,20 @@ _Supervisor_: Antonio Barbalace
 
 Note that 1) this thesis has received minor updates since the original submission, and 2) it is not possible to compile the pdf perfectly from the `.tex` file alone as there are many missing files: it exists for git diffs, and for those who may wish to contribute edits/commentary here. 
  
-## Feedback
+## Access 
+1. Contribute publicly via adobe acrobat online: (link at top)
+2. Download the pdf directly: [`thesis_reimagining-computer-input.pdf`](thesis_reimagining-computer-input.pdf) (then click `Download`)
+3. (Expert/Brave) Make edits to the `.tex` file directly: [`thesis_reimagining-computer-input.tex`](thesis_reimagining-computer-input.tex) 
+
+### Feedback 
 All feedback is welcome and strongly encouraged!
-- Contribute publicly via adobe acrobat online: (link at top)
-- Download the pdf directly: [`thesis_reimagining-computer-input.pdf`](thesis_reimagining-computer-input.pdf) (then click `Download`)
-- (Expert/Brave) Make edits to the `.tex` file directly: [`thesis_reimagining-computer-input.tex`](thesis_reimagining-computer-input.tex) 
+If you can contribute annotations via adobe online, we recommend the following helpful scheme:
+ 
+  - ![#f03c15](https://via.placeholder.com/15/f03c15/f03c15.png)/textbox: comment
+  - green: good/really like
+  - red: disagree/dislike
+  - purple: confused.com
+  - underline/strikethough: go wild
 
 ## Future Work
 We are aiming to continue this work. You can so far find us at:
