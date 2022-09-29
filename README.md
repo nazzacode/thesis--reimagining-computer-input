@@ -46,5 +46,6 @@ If you can contribute annotations via adobe online, we recommend the following h
 We are aiming to continue this work. You can so far find us at:
 - Github: [Bodhi BCI](https://github.com/bodhiBCI)
 - Email: nathansharp03@gmail.com
+- Mailing List Sign-up: COMING SOON
  
 Reach out if you would like to discuss or are interested in collaborating :wave:.
