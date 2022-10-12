@@ -2,15 +2,14 @@
 - [ ] add some emojis!
 -->
 
-# Re-Imagining Input: Beyond the Typewriter Keyboard
+![Collage](images/project_collage1.png?raw=true "Collage of images collected and produced for the thesis")
 
 [![read & comment - click here](https://img.shields.io/badge/read_%26_comment-click_here-EC1C24?style=for-the-badge&logo=Adobe+Acrobat+Reader&logoColor=white)](https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:c0905d27-960c-4743-a640-0ed3ea55c4e2 "Read and comment with adobe acrobat (online)")
 
+# Re-Imagining Input: Beyond the Typewriter Keyboard
 > Building a new handheld input device for the advancing XR revolution to supersede the keyboard
 
 <!-- **Thesis exploring the future of computer input. We develop theory, conduct case studies, then design and build a new input device to supersede the keyboard in the advancing XR revolution.** -->
-
-![Collage](images/project_collage1.png?raw=true "Collage of images collected and produced for the thesis")
 
 ## Abstract
 > Here we present novel work on Brain-Computer Interfaces (BCI) aka 'the augmentation of human intelligence with computers', with a focus on input devices.
