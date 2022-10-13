@@ -7,9 +7,15 @@
 [![read & comment - click here](https://img.shields.io/badge/read_%26_comment-click_here-EC1C24?style=for-the-badge&logo=Adobe+Acrobat+Reader&logoColor=white)](https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:c0905d27-960c-4743-a640-0ed3ea55c4e2 "Read and comment with adobe acrobat (online)")
 
 # Re-Imagining Input: Beyond the Typewriter Keyboard
-My undergraduate thesis on building a new handheld input device for the advancing XR revolution to supersede the keyboard.
+My undergraduate thesis building a new handheld input device for the advancing XR revolution to supersede the keyboard (and the theory of Brain-Computer Interfaces).
 
-<!-- **Thesis exploring the future of computer input. We develop theory, conduct case studies, then design and build a new input device to supersede the keyboard in the advancing XR revolution.** -->
+## Details 
+Thesis submitted to the University of Edinburgh School of Informatics for the degree of BSc in Computational Cognitive Science 2022.
+
+_Author_: Nathan Sharp  
+_Supervisor_: Antonio Barbalace
+
+Note that 1) the thesis has received minor updates since the original submission, and 2) it is not possible to compile the pdf perfectly from the `.tex` file alone as there are many missing files (it exists for git diffs, and for those who wish to contribute edits/commentary here). 
 
 ## Abstract
 > Here we present a novel work on Brain-Computer Interfaces (BCI) aka 'the augmentation of human intelligence with computers', with a focus on input devices.
@@ -18,13 +24,7 @@ My undergraduate thesis on building a new handheld input device for the advancin
 > Part II conducts case studies on existing, past and envisioned interface devices.
 > Part III is a project to develop a new high-throughput and high-pervasiveness input device to 1) supersede the keyboard, and 2) be suitable for XR.
 
-## Details 
-Thesis submitted to the University of Edinburgh School of Informatics for the degree of BSc in Computational Cognitive Science 2022.
 
-_Author_: Nathan Sharp  
-_Supervisor_: Antonio Barbalace
-
-Note that 1) this thesis has received minor updates since the original submission, and 2) it is not possible to compile the pdf perfectly from the `.tex` file alone as there are many missing files: it exists for git diffs, and for those who may wish to contribute edits/commentary here. 
  
 ## Access 
 1. Read and contribute publicly via adobe acrobat online: (link at top)
