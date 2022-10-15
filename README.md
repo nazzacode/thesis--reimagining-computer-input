@@ -3,9 +3,9 @@
 -->
 
 <!-- Crop to be shorter.. -->
-![Collage](images/project_collage1.png?raw=true "Collage of images collected and produced for the thesis")
+![Collage](images/project_collage2.png?raw=true "Collage of images collected and produced for the thesis")
 
-[![read & comment - click here](https://img.shields.io/badge/read_%26_comment-click_here-EC1C24?style=for-the-badge&logo=Adobe+Acrobat+Reader&logoColor=white)](https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:c0905d27-960c-4743-a640-0ed3ea55c4e2 "Read and comment with adobe acrobat (online)")
+[![read & comment - click here](https://img.shields.io/badge/read_%26_comment-click_here-EC1C24?style=for-the-badge&logo=Adobe+Acrobat+Reader&logoColor=white)](https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:28e0608e-92b0-4c03-bbde-4edb06cecb87 "Read and comment with adobe acrobat (online)")
 
 # Re-Imagining Input: Beyond the Typewriter Keyboard
 My undergraduate thesis on the theory of Brain-Computer Interfaces and building a new handheld input device for the advancing XR revolution to supersede the keyboard.
@@ -33,12 +33,12 @@ _Supervisor_: Antonio Barbalace
 All feedback is welcome!
 
 ## Sample Page
-![Sample Page](images/sample_page1.png?raw=true)
+![Sample Page](images/sample_page2.png?raw=true)
 
 ## Future Work
 We are looking to continue this work (currently searching for collaborators and investment). You can find  us via:
 - Github: [Bodhi BCI](https://github.com/bodhiBCI)
 - Email: nathansharp03@gmail.com
-- Potential website / mailing list: COMING SOON
+- Potential website /mailing list/blog: COMING SOON
  
-Don't be shy, reach out to say hi :wave:.
+Don't be shy, reach out and say hi :wave:.
