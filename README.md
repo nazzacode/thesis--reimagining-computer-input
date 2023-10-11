@@ -5,7 +5,7 @@
 <!-- Crop to be shorter.. -->
 ![Collage](images/project_collage2.png?raw=true "Collage of images collected and produced for the thesis")
 
-[![read & comment - click here](https://img.shields.io/badge/read_%26_comment-click_here-EC1C24?style=for-the-badge&logo=Adobe+Acrobat+Reader&logoColor=white)](https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:28e0608e-92b0-4c03-bbde-4edb06cecb87 "Read and comment with adobe acrobat (online)")
+<!-- [![read & comment - click here](https://img.shields.io/badge/read_%26_comment-click_here-EC1C24?style=for-the-badge&logo=Adobe+Acrobat+Reader&logoColor=white)](https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:28e0608e-92b0-4c03-bbde-4edb06cecb87 "Read and comment with adobe acrobat (online)") -->
 
 # Re-Imagining Input: Beyond the Typewriter Keyboard
 My undergraduate thesis on the theory of Brain-Computer Interfaces and building a new handheld input device for the advancing XR revolution to supersede the keyboard.
