@@ -37,7 +37,7 @@ All feedback is welcome!
 
 ## Future Work
 We are looking to continue this work (currently searching for collaborators and investment). You can find  us via:
-- Github: [Bodhi BCI](https://github.com/bodhiBCI)
+<!-- - Github: [Bodhi BCI](https://github.com/bodhiBCI) -->
 - Email: nathansharp03@gmail.com
 - Potential website /mailing list/blog: COMING SOON
  
