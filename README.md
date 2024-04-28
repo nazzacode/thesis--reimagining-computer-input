@@ -26,9 +26,7 @@ _Supervisor_: Antonio Barbalace
 > Part III is a project to develop a new high-throughput and high-pervasiveness input device to 1) supersede the keyboard, and 2) be suitable for XR.
  
 ## Access 
-1. Read and contribute publicly via adobe acrobat online: (link at top)
-2. Download the pdf directly via github: [`thesis_reimagining-computer-input.pdf`](thesis_reimagining-computer-input.pdf) (then click `Download`)
-3. Contribute edits to the `.tex` file directly: [`thesis_reimagining-computer-input.tex`](thesis_reimagining-computer-input.tex)
+Download the pdf directly via github: [`thesis_reimagining-computer-input.pdf`](thesis_reimagining-computer-input.pdf) (then click `Download`)
 
 All feedback is welcome!
 
