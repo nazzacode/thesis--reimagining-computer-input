@@ -1,0 +1,16 @@
+# latex build products
+src/*.aux
+src/*.bbl
+src/*.bcf
+src/*.blg
+src/*.fdb_latexmk
+src/*.fls
+src/*.lof
+src/*.log
+src/*.lot
+src/*.out
+src/*.run.xml
+src/*.toc
+src/*.xdv
+src/*.pdf
+!src/eushield-normal.pdf

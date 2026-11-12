@@ -11,7 +11,7 @@
 \usepackage{capt-of}
 \usepackage{hyperref}
 \usepackage[url=false]{biblatex}
-\addbibresource{/home/nathan/org/roam/Trees/HCID/Thesis/HCID.bib}
+\addbibresource{HCID.bib}
 \usepackage{float}
 \usepackage{geometry}
 \usepackage{ugcheck}
@@ -77,7 +77,7 @@ To the lovely staff of Edinburgh UCreate Studio, who have bankrolled my 3D-print
 To my marker Bjoern, who has promised to increase my grade for mentioning him in my acknowledgements.
 To the Emacs text editor, who has tortured me so bitterly over these years.
 To the members of the ARTSEY discord server, who are incredible.
-To Sami, who set up my latex template.
+To Sami, who set up my LaTeX template.
 To my girlfriend Xin.
 And to you, the reader, as I have some doubts that what follows makes much sense.
 \end{acknowledgements}
@@ -127,8 +127,8 @@ And to you, the reader, as I have some doubts that what follows makes much sense
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.7\textwidth]{../../../Images/xr_ui3_crop.jpg}
-\caption{Artists impression of an \hyperref[org39cbd51]{XR} interface}
+\includegraphics[width=0.7\textwidth]{figures/xr_ui3_crop.jpg}
+\caption{Artist's impression of an \hyperref[org39cbd51]{XR} interface}
 \end{figure}
 
 15 years before the first mass-market personal computer, Douglas ``Doug'' Engelbart begins his seminal 1962 work, 'Augmenting Human Intellect' \autocite{engelbartAugmentingHumanIntellect1962} lamenting;
@@ -184,7 +184,7 @@ And how can we best contribute to this future?
 
 Building the full suite of technology to fully realise our vision is regrettably beyond the scope of this thesis.
 However, we do wish to get started.
-Engelbart's theoretical work \autocite{engelbartAugmentingHumanIntellect1962}  led him to prophesise the Graphic User Interface (GUI) and pioneer its invention including the accompanying computer mouse.
+Engelbart's theoretical work \autocite{engelbartAugmentingHumanIntellect1962}  led him to prophesy the Graphic User Interface (GUI) and pioneer its invention including the accompanying computer mouse.
 In humble comparison, our work leads us to design and build a high-throughput, high-pervasiveness input modality for \hyperref[org39cbd51]{XR}.
 
 \chapter*{Topics and Themes}
@@ -193,7 +193,7 @@ In humble comparison, our work leads us to design and build a high-throughput, h
 \markboth{Topics and Themes}{Topics and Themes}
 \begin{figure}[h]
 \centering
-\includegraphics[width=\textwidth]{../../../Images/themes_and_topics.png}
+\includegraphics[width=\textwidth]{figures/themes_and_topics.png}
 \caption{\label{fig:topics_themes}Map of topics and themes}
 \end{figure}
 
@@ -219,7 +219,7 @@ Ultimately, the problem we get drawn to solving is: \emph{designing and building
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=\textwidth]{../../../Images/thesis_map2_transparent.png}
+\includegraphics[width=\textwidth]{figures/thesis_map2_transparent.png}
 \caption[Thesis map]{\label{fig:topic_map}Map (graph) of section headings and connections (created in Emacs using Org-Mode, \texttt{org-roam} and \texttt{org-roam-ui}).}
 \end{figure}
 
@@ -235,14 +235,14 @@ For example ``\hyperref[sec:org4bd894e]{The 3 hands problem}'' (\S \ref{sec:org4
 \label{sec:org11b36a2}
 \addcontentsline{toc}{section}{Chapter Reading Guide}
 \markboth{Chapter Reading Guide}{Chapter Reading Guide}
-At the high level this thesis is split intro three distinct parts, (I) \hyperref[sec:orge0d2df2]{Theory}, (II) \hyperref[sec:orgb1f4c1e]{Case Studies}, and (III) \hyperref[sec:org5f92648]{Practical}.
+At the high level this thesis is split into three distinct parts, (I) \hyperref[sec:orge0d2df2]{Theory}, (II) \hyperref[sec:orgb1f4c1e]{Case Studies}, and (III) \hyperref[sec:org5f92648]{Practical}.
 
 Part I, \emph{Theory} or \emph{The BCI Manifesto}, is an account of our comprehensive worldview relating to BCI.
-Part II, \emph{Case Studies} or \emph{Doug Engelbart and the Keyset}, contains cases studies of past, existing and envisioned computer input devices, through the lens of our theoretical worldview, with a specific focus on the limitations of the typewriter keyboard and attempts to overcome them.
+Part II, \emph{Case Studies} or \emph{Doug Engelbart and the Keyset}, contains case studies of past, existing and envisioned computer input devices, through the lens of our theoretical worldview, with a specific focus on the limitations of the typewriter keyboard and attempts to overcome them.
 Part III, \emph{Practical} or \emph{A wearable input device ready for \hyperref[org39cbd51]{XR}}, is a practical project motivated by our theoretical work and case studies that documents the first iteration of our engineering project to develop a new high-throughput, high-pervasiveness input device to 1) supersede the keyboard, and 2) be suitable for \hyperref[org39cbd51]{XR}.
 
 It could be argued that we present two reasonably distinct theses in one.
-The first is the theoretical work in Part I, and the second is the practical project in part III (with part II being something of a bridge between them-- applying the theory to constrain design thinking).
+The first is the theoretical work in Part I, and the second is the practical project in Part III (with Part II being something of a bridge between them-- applying the theory to constrain design thinking).
 The practical was the original intended work-- the theory grew out of the original 'Motivation' section.
 \textbf{Nevertheless, it is our opinion that the theory ended up the more complete work, being more timeless and better suited to the presentation format of an academic thesis.}
 The practical work became a snapshot of our thinking and progress at a certain time.
@@ -258,7 +258,7 @@ We also introduce the dominant computing (interface) paradigm of \emph{general p
 
 \item[{Chapter 3: \hyperref[sec:org020dbaa]{Interfaces}}] We study interfaces as the communication bridge between humans and computers, covering their;  \hyperref[sec:org94f7b3f]{rich interpretation under information theory} (\S \ref{sec:org94f7b3f}), \hyperref[sec:orgb51491d]{undervalued significance} (\S \ref{sec:orgb51491d}) in the literature and society, and progression in \hyperref[sec:orgd66842e]{revolutionary cycles} (\S \ref{sec:orgd66842e}) caused by \hyperref[sec:org61d0814]{switching costs and network effects} (\S \ref{sec:org61d0814}).
 
-\item[{Chapter 4: \hyperref[sec:org9ee01b8]{Brain-Computer Interfaces (BCI)}}] We consider Brain-Computer Interfaces as an entwined superstructure of these three elements (brains, computers and interfaces) . Our definition being broader than that generally applied in the literature, we explore the \hyperref[sec:org86b40c5]{philosophical underpinnings and implications} (\S \ref{sec:org86b40c5}) of our world view, covering theories from the literature and extending them with our own.
+\item[{Chapter 4: \hyperref[sec:org9ee01b8]{Brain-Computer Interfaces (BCI)}}] We consider Brain-Computer Interfaces as an entwined superstructure of these three elements (brains, computers and interfaces). Our definition being broader than that generally applied in the literature, we explore the \hyperref[sec:org86b40c5]{philosophical underpinnings and implications} (\S \ref{sec:org86b40c5}) of our worldview, covering theories from the literature and extending them with our own.
 \end{description}
 
 In summary of the first four chapters, we set out the significance of computers to humans, consider them on a path to unison, and concern ourselves with the forces and details governing their entwinement.
@@ -266,16 +266,16 @@ In summary of the first four chapters, we set out the significance of computers 
 \begin{description}
 \item[{Chapter 5: \hyperref[sec:org7f79682]{The 5AA: 5 Advancing Attributes of BCI Interfaces}}] This is our centrepiece theoretical model in which we systemise the fundamental 'Advancing Attributes' of BCI interfaces; which acts as a reference context for the rest of our work.
 
-\item[{Chapter 6 \hyperref[sec:orgbbbb2de]{The BCI Interface Revolutions: Past, Present and Future}}] A detailed look at our central historical narrative: six revolutions that changed/will change the face of computing.
+\item[{Chapter 6: \hyperref[sec:orgbbbb2de]{The BCI Interface Revolutions: Past, Present and Future}}] A detailed look at our central historical narrative: six revolutions that changed/will change the face of computing.
 This leads to our central claim that we are in the midst of a 5\textsuperscript{th} fundamental revolution-- \hyperref[sec:org33e9f1b]{the XR computing revolution} (\S \ref{sec:org33e9f1b}).
 We also relate many possible lessons about what the future of computing holds such as \hyperref[sec:org65142ce]{Moore's blunder} (\S \ref{sec:org65142ce}).
 
 \item[{Chapter 7: \hyperref[sec:orgb165994]{The Next Revolution: XR Computing}}] We then consider the coming \hyperref[org39cbd51]{XR} revolution in detail, covering its features and opportunities.
 We review the expected \hyperref[sec:orgb88004b]{output paradigm/devices} (\S \ref{sec:orgb88004b}).
-Next we consider the potential \hyperref[sec:org93500e2]{input landscape} (\S \ref{sec:org93500e2}) and draw the key conclusion that there is an \emph{Achillies heel of \hyperref[org39cbd51]{XR}}: that nobody is building high-throughput, high-pervasiveness input for \hyperref[org39cbd51]{XR} to supersede the (symbolic) functionality of the keyboard.
+Next we consider the potential \hyperref[sec:org93500e2]{input landscape} (\S \ref{sec:org93500e2}) and draw the key conclusion that there is an \emph{Achilles heel of \hyperref[org39cbd51]{XR}}: that nobody is building high-throughput, high-pervasiveness input for \hyperref[org39cbd51]{XR} to supersede the (symbolic) functionality of the keyboard.
 We explore this in detail including the \hyperref[sec:org23d9ecb]{radical new opportunities} (\S \ref{sec:org23d9ecb}) of such a device.
 
-\item[{Chapter 8: \hyperref[sec:org6a11140]{Input Devices}}] Continuing in this interest, we collect our findings on \hyperref[sec:org6a11140]{input devices} (\S \ref{sec:org6a11140}), bringing many of our discovered heuristic models, including the \hyperref[sec:org0736070]{distinction between symbolic input and pointing devices} (\S \ref{sec:org0736070}) and the \hyperref[sec:org4ee11b2]{centrality of Hand Controlled Input Devicess (HCIDs) in human interfaces} (\S \ref{sec:org4ee11b2}) amongst others.
+\item[{Chapter 8: \hyperref[sec:org6a11140]{Input Devices}}] Continuing in this interest, we collect our findings on \hyperref[sec:org6a11140]{input devices} (\S \ref{sec:org6a11140}), bringing many of our discovered heuristic models, including the \hyperref[sec:org0736070]{distinction between symbolic input and pointing devices} (\S \ref{sec:org0736070}) and the \hyperref[sec:org4ee11b2]{centrality of Hand Controlled Input Devices (HCIDs) in human interfaces} (\S \ref{sec:org4ee11b2}) amongst others.
 Then we consider some additional alternate input methods such as \hyperref[sec:orged432e5]{Eye Tracking} (\S \ref{sec:orged432e5}) and \hyperref[sec:org238989b]{Voice Control} (\S \ref{sec:org238989b}).
 
 \begin{description}
@@ -289,7 +289,7 @@ Then we consider some additional alternate input methods such as \hyperref[sec:o
 \item[{Chapter 10: \hyperref[sec:org20f3860]{Typewriter Keyboard}}] First and most importantly we examine the typewriter keyboard, noting its high-throughput value proposition in the present interface landscape and documenting its \hyperref[sec:org9338bc4]{extensive flaws} (\S \ref{sec:org9338bc4}).
 We also cover the interesting \hyperref[sec:org44f0cbf]{two interface problem} (\S \ref{sec:org44f0cbf}) which explores the costs of currently having both desktop and mobile interface paradigms, rather than some unified computing environment.
 
-\item[{Chapter 11: \hyperref[sec:org895c4cc]{Ergonomic Keyboards}}] We cover ergonomics keyboards largely for the ways they have found innovative solutions to many of the problems of the standard keyboard.
+\item[{Chapter 11: \hyperref[sec:org895c4cc]{Ergonomic Keyboards}}] We cover ergonomic keyboards largely for the ways they have found innovative solutions to many of the problems of the standard keyboard.
 
 \item[{Chapter 12: \hyperref[sec:org9f2dc02]{Computer Mouse (Pointing Devices)}}] Next we consider the computer mouse and the broader category of pointing devices.
 We consider the computer mouse's value proposition and historical entwinement with the GUI computing revolution.
@@ -298,7 +298,7 @@ Here we also flesh out one of our central ideas: \hyperref[sec:org4bd894e]{the 3
 \item[{Chapter 13: \hyperref[sec:orgdb71557]{Stenotype} }] We briefly cover the stenotype, a chorded typing machine capable of typing at 300wpm.
 We explore the mechanism for how it achieves this and draw the important lesson that the standard keyboard does not even come close to maximising potential throughput.
 
-\item[{Chapter 14:  \hyperref[sec:org492bcd7]{Touchscreen}}] We study touchscreen and the interfaces they integrate into.
+\item[{Chapter 14:  \hyperref[sec:org492bcd7]{Touchscreen}}] We study touchscreens and the interfaces they integrate into.
 We cover their \hyperref[sec:org4552562]{advantages} (\S \ref{sec:org4552562}) and \hyperref[sec:orgf3c2e36]{drawbacks} (\S \ref{sec:orgf3c2e36}) in detail.
 
 \item[{Chapter 15: \hyperref[sec:org1b6f9a0]{AlphaGrip controller}}] We  conduct a short case study of the AlphaGrip controller, the historical attempt to build  an input device most aligned to our design specification.
@@ -321,10 +321,10 @@ We cover their \hyperref[sec:org4552562]{advantages} (\S \ref{sec:org4552562}) a
 
 \item[{Chapter 22: \hyperref[sec:org70f081f]{Design Decisions and Discussion}}] We provide a lengthy account of our various design decisions.
 
-\item[{Chapter 23:  \hyperref[sec:orgf0596d4]{Next Steps: HCID v0.4}}] covers our existing plans, which are already partially complete to evolve our prototype design.
+\item[{Chapter 23:  \hyperref[sec:orgf0596d4]{Next Steps: HCID v0.4}}] Covers our existing plans, which are already partially complete, to evolve our prototype design.
 \end{description}
 
-Finally we present \hyperref[sec:org68cb77f]{Discussion and Conlusions} for each part individually and the thesis as a whole.
+Finally we present \hyperref[sec:org68cb77f]{Discussion and Conclusions} for each part individually and the thesis as a whole.
 
 \chapter*{Motivation}
 \label{sec:org9603ff4}
@@ -352,7 +352,7 @@ This project was shaped by the following motivations:
 \end{itemize}
 \end{mdframed}
 
-\chapter*{Summary of contributions}
+\chapter*{Summary of Contributions}
 \label{sec:orgaa4d7e6}
 \addcontentsline{toc}{section}{Summary of Contributions}
 \markboth{Summary of Academic Contributions}{Summary of Contributions}
@@ -372,11 +372,11 @@ A summary of our major contributions:
 
 \item A new history of BCI, informed by our \hyperref[org2644eb5]{5AA} framework, through our lens of 'interface revolutions'.
 
-\item A predictive futurology of BCI, specifically with regards to the imminent \hyperref[org39cbd51]{XR} revolution, opposing much of the prevailing wisdom.
+\item A predictive futurology of BCI, specifically with regard to the imminent \hyperref[org39cbd51]{XR} revolution, opposing much of the prevailing wisdom.
 
-\item The identification and analysis of the 'Achilles heel of \hyperref[org39cbd51]{XR}': that nobody is building high-throughput, high pervasiveness, ergonomic input for \hyperref[org39cbd51]{XR}.
+\item The identification and analysis of the 'Achilles heel of \hyperref[org39cbd51]{XR}': that nobody is building high-throughput, high-pervasiveness, ergonomic input for \hyperref[org39cbd51]{XR}.
 
-\item Cases studies on existing, past and envisioned interface devices.
+\item Case studies on existing, past and envisioned interface devices.
 
 \item A taxonomy of the many flaws of the typewriter keyboard, including the retelling of Doug Engelbart's '3 hands problem'.
 
@@ -419,7 +419,7 @@ We need concepts that explain this arc of increasing collective intelligence in 
 What made human civilisation in 1902 more advanced than in 1290?
 And likewise in 2019 than in 1902?
 
-Broadly widely cited explanations cover (a) nutrition and literacy, (b) increasing population size, (c) memetic evolution\footnote{Fitter ideas and culture survive and propagate. For example societal norms, education and government institutions.}, and (d) tool-use/technology.
+Broadly, widely cited explanations cover (a) nutrition and literacy, (b) increasing population size, (c) memetic evolution\footnote{Fitter ideas and culture survive and propagate. For example societal norms, education and government institutions.}, and (d) tool-use/technology.
 
 \section{What will make us more powerful in future}
 \label{sec:org63310d1}
@@ -427,9 +427,9 @@ Presuming that we can continue along this path of increasing civilisational capa
 For what reasons will humans in 2109 consider 2019 primitive?
 
 Many factors listed in the previous section have reached their limit.
-Less than 10\% of the world is malnourished \autocite{OurWorldData}, the global literacy rate for working-age people is above 90\% \autocite{OurWorldData}, and the world population is currently 8.9 Billion-- growing slowly and now projected to plateau or even begin shrinking in the next 50 years \autocite{OurWorldData}.
+Less than 10\% of the world is malnourished \autocite{OurWorldData}, the global literacy rate for working-age people is above 90\% \autocite{OurWorldData}, and the world population is currently 8.9 billion-- growing slowly and now projected to plateau or even begin shrinking in the next 50 years \autocite{OurWorldData}.
 
-From our previously listed factors, only (c) memetic evolution and, (d) tools/technology seems highly relevant to future progress.
+From our previously listed factors, only (c) memetic evolution and (d) tools/technology seem highly relevant to future progress.
 We also expect new factors driving progress such as (e) artificial intelligence, (f) robotics/automation, and (g) genetic engineering.
 Interestingly, with the exception of memetic evolution, all factors identified could be considered subtypes of tools/technology.
 
@@ -465,7 +465,7 @@ This creates a strong feedback loop-- a compounding opportunity for progress.
 For example, they allow us to capture and calculate the movement of stars with greater accuracy than we could otherwise dream of.
 In this way, computers amplify intelligence, humanity's greatest strength.
 
-Most people only intuit this in a shallow sense, you can caricature this view as 'computers make us more \emph{capable}', downplaying the significance of the situation.
+Most people only intuit this in a shallow sense; you can caricature this view as 'computers make us more \emph{capable}', downplaying the significance of the situation.
 The implications of the fuller truth are breathtaking-- computers are making us much more intelligent.
 
 \section{\hyperref[orgbaec896]{General-Purpose Computing} (\hyperref[org6ef4753]{GPC})}
@@ -474,7 +474,7 @@ Computers come in many sorts from simple sensors to supercomputers, but for huma
 
 \begin{mdframed}
 \begin{description}
-\item[{\label{orgbaec896}General-Purpose Computing (\label{org6ef4753}GPC)}] Computing paradigm where the widest possible computing functionality is to provide some individual end users through a single unified interface.
+\item[{\label{orgbaec896}General-Purpose Computing (\label{org6ef4753}GPC)}] Computing paradigm where the widest possible computing functionality is provided to individual end users through a single unified interface.
 \end{description}
 \end{mdframed}
 
@@ -494,7 +494,7 @@ Computational theory strongly suggests that a sufficiently advanced computing de
 
 \begin{mdframed}
 \begin{description}
-\item[{\label{org78bb90f}Church-Turing-Deutsch Prinicple}] A universal computing device can simulate every physical process\footnote{A corollary to this is that the Universe is in some sense a computation. A similar implication holds for the theory of mind, yielding the \emph{\hyperref[computational theory of mind]{computational theory of mind}}} \autocite{deutschQuantumTheoryChurchTuring1985}.
+\item[{\label{org78bb90f}Church-Turing-Deutsch Principle}] A universal computing device can simulate every physical process\footnote{A corollary to this is that the Universe is in some sense a computation. A similar implication holds for the theory of mind, yielding the \emph{\hyperref[computational theory of mind]{computational theory of mind}}.} \autocite{deutschQuantumTheoryChurchTuring1985}.
 \end{description}
 \end{mdframed}
 
@@ -507,7 +507,7 @@ Even retreating to some weaker theory of computability, it is hard to specify an
 \label{sec:org97180ae}
 \begin{wrapfigure}{l}{0.51\textwidth}
 \centering
-\includegraphics[width=0.49\textwidth]{../../../Images/moores_law2.jpg}
+\includegraphics[width=0.49\textwidth]{figures/moores_law2.jpg}
 \caption{Moore's law's exponential growth}
 \end{wrapfigure}
 
@@ -524,7 +524,7 @@ Exponential scaling (Moore's law) is notoriously difficult for humans to intuit 
 \begin{description}
 \item[{\label{org4e0f6c1}Moore's Blunder}] Failing to recognise how the exponential progress of Moore's law could soon make a currently smaller/slower/more expensive computing paradigm viable and competitive for functionality.
 \begin{itemize}
-\item \hyperref[org4e0f6c1]{Moore's blunder} is particularly astonishing when exhibited by a firm who's ascendance owed much to understanding this exact dynamic.
+\item \hyperref[org4e0f6c1]{Moore's blunder} is particularly astonishing when exhibited by a firm whose ascendance owed much to understanding this exact dynamic.
 \end{itemize}
 \end{description}
 \end{mdframed}
@@ -533,7 +533,7 @@ In the 1970s, market leader IBM thought personal computers were a fad, believing
 By the time they were proved wrong with the enormous commercial success of personal computers in 1977\footnote{Specifically the Apple II, PET 2001 and TRS-80.}, it took them four years to release their own in 1981. It was such a rushed and low-budget job that they never built --and hence couldn't patent-- their own chipset and were soon 'copycatted' out of the market by cheap clones, to the eventual benefit of Microsoft who licensed the software on all these devices.
 Amazingly, despite \hyperref[org4e0f6c1]{Moore's blunder} enabling Microsoft's ascendance to become the most valuable company in the world, they would go on to make an almost indistinguishable miscalculation.
 
-In the mid-2000s Microsoft paid little attention to mobile computing\footnote{They did develop a somewhat popular PDA (Personal Digital Assistant) platform 'Pocket PC' which crammed a desktop-inspired OS into chunky handhelds (see \hyperref[sec:org0d3bcff]{Mobile computing}; \S \ref{sec:org0d3bcff})}, as their leadership doubted that a slim pocket-sized device could have enough computing power to run serious applications.
+In the mid-2000s Microsoft paid little attention to mobile computing\footnote{They did develop a somewhat popular PDA (Personal Digital Assistant) platform 'Pocket PC' which crammed a desktop-inspired OS into chunky handhelds (see \hyperref[sec:org0d3bcff]{Mobile computing}; \S \ref{sec:org0d3bcff}).}, as their leadership doubted that a slim pocket-sized device could have enough computing power to run serious applications.
 When they were proved wrong with the enormous commercial success of the iPhone in 2007 (and later Android in 2008), it took them three years to release their own Windows Phone in 2010, by which time Android and iOS had entrenched themselves in the 3rd party 'app' ecosystem\footnote{Not to mention their core OS offering was also relatively poor.} and Microsoft failed to ever gain significant market share in the mobile market.
 
 \chapter{Interfaces}
@@ -572,7 +572,7 @@ Interface devices are so powerful (when combined with computers), that they can 
 
 \begin{mdframed}
 \begin{description}
-\item[{Linguistic Relativity (Sapir-Worf hypothesis)}] The structure of a language affects its speakers' worldview or cognition, and thus people's perceptions and cognitive capabilities are relative to their spoken language.
+\item[{Linguistic Relativity (Sapir-Whorf hypothesis)}] The structure of a language affects its speakers' worldview or cognition, and thus people's perceptions and cognitive capabilities are relative to their spoken language.
 \end{description}
 \end{mdframed}
 
@@ -587,7 +587,7 @@ Withholding comment on human-human linguistics, we assert that it applies in its
 
 Consider the cliche example of linguistic relativity-- whether colour perception varies between speakers of languages that classify colours differently.
 With \hyperref[orga30ac29]{interface relativity}, there is no denying that you see colours meaningfully differently when looking through thermal imaging goggles: you are literally perceiving parts of the electromagnetic spectrum that are undetectable otherwise.
-Similar arguments can be made for thinking with a keyboard, python, the internet, a heads-up-displays, etc.
+Similar arguments can be made for thinking with a keyboard, Python, the internet, a heads-up display, etc.
 Computer interfaces widen the umwelt of available information and cognition in a multitude of directions.
 
 \section{Information theory for interfaces}
@@ -600,9 +600,9 @@ Computer interfaces widen the umwelt of available information and cognition in a
 
 For understanding BCI interfaces, we naturally take great interest in the formal treatment of communication, that is, \emph{information theory}.
 Idealistically information theory could transmute the problem of designing an interface to the problem of designing a strong communication protocol.
-Unfortunately, a rigorous specification of a BCI protocol is out of reach, given the messy, complex communication channels of the real world: cognitive representation, human biomechanics, semantic models\footnote{One specific difficulty of rigorously applying information theory to the analysis of symbolic (language) interfaces this there is no concept of semantic meaning in information theory, information is entirely described as a probability distribution so the meaning must be crudely approximated.}, etc.
+Unfortunately, a rigorous specification of a BCI protocol is out of reach, given the messy, complex communication channels of the real world: cognitive representation, human biomechanics, semantic models\footnote{One specific difficulty of rigorously applying information theory to the analysis of symbolic (language) interfaces is that there is no concept of semantic meaning in information theory, information is entirely described as a probability distribution so the meaning must be crudely approximated.}, etc.
 Accordingly, we restrict our study here to a few simple but powerful concepts that we can interpret in the context of BCI interfaces.
-Many of these concepts find direct application our \hyperref[sec:org7f79682]{5AA framework} (\S \ref{sec:org7f79682}).
+Many of these concepts find direct application in our \hyperref[sec:org7f79682]{5AA framework} (\S \ref{sec:org7f79682}).
 
 A note on \emph{words per minute (WPM)}.
 As you will see, we use the familiar concept of WPM as a crude stand-in for \emph{bitrate}.
@@ -653,7 +653,7 @@ Specifically, we restrict our quantitative study to WPM (Words Per Minute).
 
 \begin{mdframed}
 \begin{description}
-\item[{Data Compression (Coding)}] the process of encoding information using fewer bits than the original representation. Can be \emph{lossy} or \emph{lossless} depending on whether the original can be fully reconstructed from the compression.
+\item[{Data Compression (Coding)}] The process of encoding information using fewer bits than the original representation. Can be \emph{lossy} or \emph{lossless} depending on whether the original can be fully reconstructed from the compression.
 \begin{itemize}
 \item \emph{Interpretation:} \hyperref[sec:orge2035bf]{5AA Abstraction-compression} (\S \ref{sec:orge2035bf}).
 \item \emph{Note:} Also consider the adjacent data science concept of
@@ -740,7 +740,7 @@ The opposite is downtime.
 \label{sec:orgd66842e}
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.9\textwidth]{../../../Images/the_interface_revolution_cycle.png}
+\includegraphics[width=0.9\textwidth]{figures/the_interface_revolution_cycle.png}
 \caption{\label{fig:interface_rev_cycle}The interface revolution cycle}
 \end{figure}
 
@@ -754,9 +754,9 @@ Similarly revolutionary dynamics occurred with every \hyperref[sec:orgbbbb2de]{i
 \subsection{Causes: switching costs and network effects}
 \label{sec:org61d0814}
 What causes this cycle of revolutions?
-In evolutionary terms, interface design is a fitness landscape where design flows towards a local optima (top of a hill).
+In evolutionary terms, interface design is a fitness landscape where design flows towards a local optimum (top of a hill).
 \textbf{Potentially beneficial changes require crossing a fitness 'valley' which incurs \emph{switching costs}\footnote{For example having computers (and humans) migrated to using keyboards.} and must overcome \emph{network effects}.}
-\textbf{This leads to interfaces getting 'stuck' at a non-ideal local optima for a long time before the switching costs/network effects are overcome by a considerably better alternative in a 'revolution'.}
+\textbf{This leads to interfaces getting 'stuck' at a non-ideal local optimum for a long time before the switching costs/network effects are overcome by a considerably better alternative in a 'revolution'.}
 
 \begin{mdframed}
 \begin{description}
@@ -781,7 +781,7 @@ We find this model to be highly explanatory, for example in indicating why moder
 When the next interface revolution breaks through, it can draw on the many minor improvements that were not alone enough to reach mass adoption.
 
 Note the disanalogy to the progress of computers vis-a-vis \hyperref[sec:org97180ae]{Moore's law} (§ \ref{sec:org97180ae}).
-Progressing from an intergrated circuit with 100 transistors to one with 1,000,000 was a smoother curve of many complementary innovations, free from singular revolutions that displaced the existing paradigm\footnote{Quantum computing could become a notable exception to this rule.}.
+Progressing from an integrated circuit with 100 transistors to one with 1,000,000 was a smoother curve of many complementary innovations, free from singular revolutions that displaced the existing paradigm\footnote{Quantum computing could become a notable exception to this rule.}.
 
 \chapter{Brain-Computer Interfaces (BCI)}
 \label{sec:org9ee01b8}
@@ -793,14 +793,14 @@ Progressing from an intergrated circuit with 100 transistors to one with 1,000,0
 
 \begin{wrapfigure}{r}{0.55\textwidth}
 \centering
-\includegraphics[width=0.53\textwidth]{../../../Images/abacus_ring.jpeg}
+\includegraphics[width=0.53\textwidth]{figures/abacus_ring.jpeg}
 \caption[Abacus ring; an early BCI]{A functioning abacus ring from the Qing Dynasty (1644-1912); an early BCI?}
 \end{wrapfigure}
 
 Our use of the term \emph{BCI} is most similar to your current conception of the term \emph{personal computer} or just \emph{computer}.
 Though we use all three terms (and also \emph{computer interface}) somewhat interchangeably, we favour the term BCI.
 \textbf{This is because the term BCI helpfully encourages thinking of the human, computer and interface as a mutually specified union.}
-\textbf{Neglecting this and talking just of \emph{computers}, fosters the hidden assumption that humans/interfaces are unimportant.}
+\textbf{Neglecting this and talking just of \emph{computers} fosters the hidden assumption that humans/interfaces are unimportant.}
 Specifically we note the widespread blindspot of assuming interfaces remain constant, when they are themselves a technological artefact, inclined towards \hyperref[sec:orgd66842e]{revolutionary change} (\S \ref{sec:orgd66842e}).
 Specifically, in our current culture, the term \emph{computer} assumes the interface paradigms of desktop and mobile and we overlook the prospect of them changing accordingly.
 
@@ -852,7 +852,7 @@ Table \ref{tab:b_vs_c_vs_i} presents a comparative summary of attributes of brai
 }
 }
 
-A key intuition we take away is: how much can you change the human? Not much. How much can you change the computer? fast but incrementally. How much can you change the interface? Massively on occasion.
+A key intuition we take away is: how much can you change the human? Not much. How much can you change the computer? Fast but incrementally. How much can you change the interface? Massively on occasion.
 
 \section{The inputs and the outputs}
 \label{sec:org2df8f03}
@@ -866,7 +866,7 @@ We adhere to the following convention for distinguishing the direction of inform
 
 \medskip
 \noindent This means that \emph{input} devices primarily transmit information from the brain to the computer, whilst \emph{output} devices do the reverse.
-Examples of input devices include mice, keyboards, microphones and, touchscreens; likewise, monitors, speakers, VR headsets, and printers are all output devices.
+Examples of input devices include mice, keyboards, microphones, and touchscreens; likewise, monitors, speakers, VR headsets, and printers are all output devices.
 
 \section{Philosophical underpinnings}
 \label{sec:org86b40c5}
@@ -883,7 +883,7 @@ If you find yourself doubting the absoluteness of some claim, retreat to a weake
 \item[{The Computational Theory of Mind\label{computational theory of mind} (\label{org204d6ba}CTM)}] The brain is a computer and cognition/consciousness is a computation, bounded by the theory of computation.
 \begin{itemize}
 \item \emph{Note:} We regard the \hyperref[org204d6ba]{CTM} as highly probable, though even a weaker case of the \hyperref[org204d6ba]{CTM} (that \emph{much} of the brain's functioning is computational) suggests that the brain can be seamlessly interfaced with, and extended by, external computation.
-\item \emph{Note:} The \emph{\hyperref[org78bb90f]{Church-Turing-Deutsch Prinicple}}  implies the \hyperref[org204d6ba]{CTM}.
+\item \emph{Note:} The \emph{\hyperref[org78bb90f]{Church-Turing-Deutsch Principle}}  implies the \hyperref[org204d6ba]{CTM}.
 \end{itemize}
 \end{description}
 \end{mdframed}
@@ -912,7 +912,7 @@ The insinuation is 1) the confidence of an upgrade (extend vs. enhance), and 2) 
 \end{description}
 \end{mdframed}
 
-\textbf{The \hyperref[org760d146]{ECMT} is the most potent theoretical underpinning of our work}\footnote{Particularly our \hyperref[sec:org5f92648]{practical project} (\S \ref{sec:org5f92648})}.
+\textbf{The \hyperref[org760d146]{ECMT} is the most potent theoretical underpinning of our work}\footnote{Particularly our \hyperref[sec:org5f92648]{practical project} (\S \ref{sec:org5f92648}).}.
 \textbf{The key realisation is that the magnitude of extended-ness is not at all fixed.}
 \textbf{It matters tremendously whether you have an abacus extended mind or an AI supercomputer heads-up-display extended mind.}
 \textbf{This is an actual differential in cognitive capacity.}
@@ -939,7 +939,7 @@ For example, in VR you can experience nausea because the input from your eyes an
 
 \begin{mdframed}
 \begin{description}
-\item[{\label{org1ce07fc}Functional Equivalence}] As a computation can be defined purely by its inputs and outputs; two systems that produce the same outputs given the same inputs are 'functionally' the same thing and should be treated as such.
+\item[{\label{org1ce07fc}Functional Equivalence}] As a computation can be defined purely by its inputs and outputs, two systems that produce the same outputs given the same inputs are 'functionally' the same thing and should be treated as such.
 \begin{itemize}
 \item \emph{Lemmas:} Applying \hyperref[org1ce07fc]{functional equivalence} to the \hyperref[org204d6ba]{CTM} yields two related concepts:
 \begin{description}
@@ -957,7 +957,7 @@ It could in principle be replaced by some other computing material (say silicon 
 \item[{The Very Hungry Transistor Hypothesis (VHTH)}] Non-biological hardware will bear an increasing share of our cognition.
 Transistors out-compete neurons for their (currently) favourable properties\footnote{Such as being faster (up to 10,000,000x), more durable, and within our capabilities to engineer.}.
 \begin{itemize}
-\item \emph{Note:} It's possible to imagine a situation in the not-to-distant future where the majority of our cognition is silicon extended; It might even be possible to go as far as to remove all/most biological wetware from human cognition.
+\item \emph{Note:} It's possible to imagine a situation in the not-too-distant future where the majority of our cognition is silicon extended; it might even be possible to go as far as to remove all/most biological wetware from human cognition.
 \end{itemize}
 \end{description}
 \end{mdframed}
@@ -975,23 +975,23 @@ Finally, we question if/when humanity is no longer still the same species once d
 \label{sec:org7f79682}
 \begin{figure}[H]
 \centering
-\includegraphics[width=1\textwidth]{../../../Images/5AA_3.png}
+\includegraphics[width=1\textwidth]{figures/5AA_3.png}
 \caption{\label{fig:5AA}The \hyperref[org2644eb5]{5AA} (5 Advancing Attributes) of BCI Interfaces}
 \end{figure}
 
 \textbf{The \emph{\label{org2644eb5}5AA} (\emph{5 advancing attributes of BCI interfaces}) is our fledgling theoretical framework for understanding and quantifying how BCI interfaces improve over time.}
-It is an attempt to identify and detail the fundamental axes along which BCI interfaces progress, having have already discussed how humans \hyperref[sec:orgb436956]{approximately scale (slowly) in \emph{intelligence}} (\S \ref{sec:orgb436956}) and computers likewise \hyperref[sec:org97180ae]{scale in \emph{functionality} and \emph{efficiency}} (\S \ref{sec:org97180ae}).
+It is an attempt to identify and detail the fundamental axes along which BCI interfaces progress, having already discussed how humans \hyperref[sec:orgb436956]{approximately scale (slowly) in \emph{intelligence}} (\S \ref{sec:orgb436956}) and computers likewise \hyperref[sec:org97180ae]{scale in \emph{functionality} and \emph{efficiency}} (\S \ref{sec:org97180ae}).
 We propose five separate but strongly interacting advancing attributes (\emph{\hyperref[org2644eb5]{5AA}}) and, where applicable, their subcategories (see Figure \ref{fig:5AA}).
 We try to lay out in information theoretic terms why each attribute is synonymous with an improved flow of communication (and hence greater combined system intelligence).
 
 As you will see from our following work, we use the \hyperref[org2644eb5]{5AA} framework as our core explanatory tool for analysing the strengths, weaknesses and opportunities of different interfaces.
-Changes that advance \hyperref[org2644eb5]{5AA} attributes are seen as positively powerful, enough so and they can be \hyperref[sec:orgbbbb2de]{highly revolutionary} (\S \ref{sec:orgbbbb2de}).
+Changes that advance \hyperref[org2644eb5]{5AA} attributes are seen as positively powerful, enough so that they can be \hyperref[sec:orgbbbb2de]{highly revolutionary} (\S \ref{sec:orgbbbb2de}).
 Conversely, interfaces that neglect or underperform in certain attributes are ripe for disruption.
 \textbf{This is an evolutionary framework: better interfaces get adopted over time.}
 
 Note that many of the \hyperref[org2644eb5]{5AA}'s concepts have been lifted direct from \hyperref[sec:org94f7b3f]{our study of information theory} (\S \ref{sec:org94f7b3f}).
 For example, \emph{accessibility} is a direct analog to \emph{\hyperref[org1125b77]{system uptime}.}
-Additionally, though measuring attributes quantitatively is possible, we tend to stick to broad comparative measures e.g. ``Interface X can do everything interface Y can do but in E additional useful environment, hence making X more pervasive.''
+Additionally, though measuring attributes quantitatively is possible, we tend to stick to broad comparative measures e.g. ``Interface X can do everything interface Y can do but in E additional useful environments, hence making X more pervasive.''
 
 Note also the previously defined concept of \emph{\hyperref[range]{range}} or \emph{\hyperref[org04e38cf]{frequency band}}, which bounds our \hyperref[org2644eb5]{5AA} analysis over a spectrum of communication, ``Allowing a system to be decomposed into many discrete channels in which the bandwidth/noise/etc. may be treated differently''; say, over some category of symbols (e.g. the ones found on a standard keyboard)\footnote{If you wanted to make serious quantitative measures, you would probably want to run experiments sampling from a corpus of text with a known symbol frequency distribution.}.
 For example, a monitor might have great visual throughput but no working audio and a keyboard might have high WPM on prose text but be slow to type symbols.
@@ -1012,7 +1012,7 @@ This is composed of \emph{(data) compression} and \emph{familiarity}.
 
 Abstraction is about allowing the user to do 'more with less'.
 For example, WYSIWYG text editors \emph{compress} a lot of the underlying complexity of document processing in a simple interface with many \emph{familiarities} from physical paper.
-Our concept of abstraction covers the many complexities of UX design (e.g subtleties of symmetry, proximity, etc.).
+Our concept of abstraction covers the many complexities of UX design (e.g. subtleties of symmetry, proximity, etc.).
 Note that Abstraction is closely related to the attribute of (decreasing) \emph{mental impedance} as better abstractions require less cognition to utilise.
 \subsection{(Data) Compression}
 \label{sec:orge2035bf}
@@ -1037,7 +1037,7 @@ Note that data compression can be \emph{leaky} (\emph{lossy})-- disregarding som
 \end{mdframed}
 
 Familiarity can be viewed as a \hyperref[compression]{5AA-compression} \emph{across} domains-- if some abstraction is already known by a user, it is optimal to use it rather than creating some new equivalent.
-Familiarity leverages \hyperref[network effects]{network effects} as designers 'cluster' around certain common interaction models\footnote{Hence incurring \hyperref[switching costs]{switching costs} and contributing to the interface revolution cycle.}
+Familiarity leverages \hyperref[network effects]{network effects} as designers 'cluster' around certain common interaction models\footnote{Hence incurring \hyperref[switching costs]{switching costs} and contributing to the interface revolution cycle.}.
 For example, the (top of the screen) drop-down menu bar became such a familiar navigation abstraction across many GUI computer applications that there was a considerable backlash when Microsoft Word removed one in 2000.
 See also \hyperref[sec:org9801c9a]{Spatial Computing} (\S \ref{sec:org9801c9a}), which leverages familiarity relating to the physical world.
 
@@ -1064,7 +1064,7 @@ BCI interfaces tend towards decreasing \emph{latency} over time.
 \end{description}
 \end{mdframed}
 
-Latency is arguably the most perfected attribute of modern computer interfaces: which feel essentially instantaneous to humans\footnote{Should computers ever become sentient, we can expect human latency to spell the end for us.}.
+Latency is arguably the most perfected attribute of modern computer interfaces, which feel essentially instantaneous to humans\footnote{Should computers ever become sentient, we can expect human latency to spell the end for us.}.
 This is partly because digital computers now operate much faster than human 'frame rate', completing many thousands of operations in the blink of an eye.
 Note, in the early days of computing, latency was a huge bottleneck.
 For instance, having a printer as the primary output device, rather than a monitor, put output latency in the seconds/minutes range, greatly limiting human-computer communication.
@@ -1110,7 +1110,7 @@ For example, a keyboard that takes two hands to operate has a greater physical i
 \end{description}
 \end{mdframed}
 
-\emph{Mental impedance} or \emph{Cognitive Load} is an abstract concept covering all the complex ways using an interface can take up more or less of your mental capacity, including; concentration, switching/learning costs, mental \hyperref[org99cfbfd]{congestion}, \hyperref[noise]{noise}, sensory attenuation, etc.
+\emph{Mental impedance} or \emph{Cognitive Load} is an abstract concept covering all the complex ways using an interface can take up more or less of your mental capacity, including: concentration, switching/learning costs, mental \hyperref[org99cfbfd]{congestion}, \hyperref[noise]{noise}, sensory attenuation, etc.
 As you can imagine, mental impedance is highly related to the concept of \emph{\hyperref[abstraction]{5AA-abstraction}}.
 
 \section{Accessibility \{cost, pervasiveness\}}
@@ -1124,7 +1124,7 @@ Interfaces tend towards increasing \emph{accessibility} over time; specifically 
 \end{mdframed}
 
 Increasing accessibility essentially means 1) more people use computers-- as \emph{cost} decreases, in 2) more varied situations-- as \emph{pervasiveness} increases.
-Notice that our concept of accesibility has been derived from the information theory primitive of \emph{\hyperref[org1125b77]{system uptime}}.
+Notice that our concept of accessibility has been derived from the information theory primitive of \emph{\hyperref[org1125b77]{system uptime}}.
 \subsection{Cost}
 \label{sec:org52afe96}
 We'll leave defining cost as an exercise for the reader.
@@ -1141,7 +1141,7 @@ Note that cost was an important factor in the ascendance of mobile over desktop 
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.90\textwidth]{../../../Images/wolfram_pervasive.jpeg}
+\includegraphics[width=0.90\textwidth]{figures/wolfram_pervasive.jpeg}
 \caption[Stephen Wolfram experimenting with pervasive computing]{Computational physicist Stephen Wolfram experimenting with (post-desktop pre-\hyperref[org39cbd51]{XR}) pervasive computing environments. From left: treadmill, laptop strap, standing desk \autocite{SeekingProductiveLife}.}
 \end{figure}
 
@@ -1154,11 +1154,11 @@ Increases in pervasiveness are some of the most powerful changes to computer int
 \setcounter{section}{-1}
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.85\textwidth]{../../../Images/evolution1.png}
+\includegraphics[width=0.85\textwidth]{figures/evolution1.png}
 \caption{The BCI interface revolutions}
 \end{figure}
 
-We have already established that whilst raw computer functionality progresses in a \hyperref[sec:org97180ae]{approximatly continuous evolution} (\S \ref{sec:org97180ae}) as per Moore's law, interfaces progress in \hyperref[sec:orgd66842e]{revolutionary cycles} (\S \ref{sec:orgd66842e}) driven by \hyperref[network effects]{network effects} and \hyperref[switching costs]{switching costs}.
+We have already established that whilst raw computer functionality progresses in an \hyperref[sec:org97180ae]{approximately continuous evolution} (\S \ref{sec:org97180ae}) as per Moore's law, interfaces progress in \hyperref[sec:orgd66842e]{revolutionary cycles} (\S \ref{sec:orgd66842e}) driven by \hyperref[network effects]{network effects} and \hyperref[switching costs]{switching costs}.
 \textbf{We now present an opinionated history and futurology of these BCI interface revolutions to help understand and navigate the current moment.}
 Each revolution upgrades the \hyperref[org2644eb5]{5AA} interaction model, affording countless new opportunities.
 \textbf{It is hard to overstate the impact of these revolutions; with each we become considerably better entwined with computers, making us more intelligent and unlocking new innovation and social change.}
@@ -1169,7 +1169,7 @@ With each revolution, we observe the following cyclical structure:
 \item Visionaries imagine the revolution many years in advance.
 \item Subsequent attempts to engineer the revolution are unsuccessful as computers remain too large/slow/expensive\footnote{Waiting for Moore's law to catch up.}.
 \item Unsuccessful attempts lead many to \hyperref[sec:org65142ce]{Moore's Blunder} (\S \ref{sec:org65142ce})\footnote{Most importantly market leaders from the previous revolution.}, overlooking the revolution's feasibility and opportunities.
-\item Progression Moore's law abruptly makes the revolution feasible and the revolution is pioneered by a small group of early innovators.
+\item Progression of Moore's law abruptly makes the revolution feasible and the revolution is pioneered by a small group of early innovators.
 \item The revolution ascends rapidly, locking in early pioneers with their design decisions and displacing the incumbent interface paradigm(s).
 \item The revolution empowers more uses than anyone predicted.
 \item Progress stagnates and the cycle begins again.
@@ -1178,7 +1178,7 @@ With each revolution, we observe the following cyclical structure:
 \label{sec:orgc7c68a4}
 \begin{wrapfigure}{r}{0.6\textwidth}
 \centering
-\includegraphics[width=0.58\textwidth]{../../../Images/Colossus_computer.jpg}
+\includegraphics[width=0.58\textwidth]{figures/Colossus_computer.jpg}
 \caption[Colossus code breaking computer (1944)]{Colossus code breaking computer (1944) with paper-tape input}
 \end{wrapfigure}
 
@@ -1202,11 +1202,11 @@ Arguably the first computer with keyboard input was the 'BINAC' (1948) which use
 This confirmed the great convenience of keyboard input, which quickly became standard.
 In 1964, M.I.T and Bell Labs debuted the MULTICS computer, which had direct keyboard input to a \emph{Video Display Terminal (VDT)}.
 This is the keyboard as we know it today-- direct and instantly responsive.
-The improvement in latency made communicating commands and controls far more efficient, and by the mid-1970 almost all computers used this method.
-As an idea of how powerful this made computers, almost all the complex internals of modern computer architecture was worked out in this period between the keyboard and the personal computing revolution.
+The improvement in latency made communicating commands and controls far more efficient, and by the mid-1970s almost all computers used this method.
+As an idea of how powerful this made computers, almost all the complex internals of modern computer architecture were worked out in this period between the keyboard and the personal computing revolution.
 
 Note that at first keyboard layouts were far more varied than today.
-With significant influence from the IBM model M keyboard, the modern standard layout crystallised in the 1980s as computers became consumer devices in the personal computing revolution.
+With significant influence from the IBM Model M keyboard, the modern standard layout crystallised in the 1980s as computers became consumer devices in the personal computing revolution.
 
 \section{Personal computing}
 \label{sec:orga623008}
@@ -1222,7 +1222,7 @@ This all changed with the introduction of the graphic user interface.
 \label{sec:org57da438}
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.5\textwidth]{../../../Images/apple_macintosh_GUI_1984.png}
+\includegraphics[width=0.5\textwidth]{figures/apple_macintosh_GUI_1984.png}
 \caption{\label{fig:apple_gui}Apple Macintosh GUI (1984)}
 \end{figure}
 
@@ -1233,7 +1233,7 @@ GUIs began with Douglas Engelbart's 'Augmentation of Human Intellect' project at
 He went on to develop the 'oN-Line System' (NLS), a computer which incorporated multiple windows and his specially invented new navigation tool, the \hyperref[sec:org9f2dc02]{computer mouse} (\S \ref{sec:org9f2dc02}).
 This work led directly to the progress at Xerox PARC, where they soon demonstrated a GUI with (the now commonplace) windows, icons and menus (1974).
 Apple had been shown the mouse and GUI at Xerox PARC (1979) and subsequently scrapped existing plans to redesign everything around this new paradigm.
-They released the comercially sucessful GUI-operated Apple Macintosh in 1984\footnote{The high-end, GUI-operated Apple Lisa was released a year earlier (1983).} (see Figure \ref{fig:apple_gui}),  leading to the ascendance of the mouse-operated GUI as the de-facto computing interface.
+They released the commercially successful GUI-operated Apple Macintosh in 1984\footnote{The high-end, GUI-operated Apple Lisa was released a year earlier (1983).} (see Figure \ref{fig:apple_gui}),  leading to the ascendance of the mouse-operated GUI as the de-facto computing interface.
 
 \section{Mobile computing}
 \label{sec:org0d3bcff}
@@ -1242,9 +1242,9 @@ The mobile revolution was principally a revolution in \hyperref[org2644eb5]{5AA}
 
 Portable computers were a widely foreseen continuation of the success of personal computers as Moore's law continued to push the bounds of computing.
 Alan Kay had one of the first practical visions for a portable computer in the 1970s, the 'Dynabook', and although it was never developed, it is credited with inspiring many following attempts.
-Through the 1980s and 90's a progression of gradually more portable computers evolved into the modern 'clam shell' laptop, a pervasiveness middle ground between desktops and what would soon be pocket-sized mobile devices\footnote{A laptop can be transported to any location, but can't be fit in a pocket or practically used on the move.}.
+Through the 1980s and 90s a progression of gradually more portable computers evolved into the modern 'clam shell' laptop, a pervasiveness middle ground between desktops and what would soon be pocket-sized mobile devices\footnote{A laptop can be transported to any location, but can't be fit in a pocket or practically used on the move.}.
 
-Advancing pervasivness beyond the laptop, the first \emph{PDA} (\emph{Personal Digital Assistant}), 'The Organiser', was released in 1984 by Psion.
+Advancing pervasiveness beyond the laptop, the first \emph{PDA} (\emph{Personal Digital Assistant}), 'The Organiser', was released in 1984 by Psion.
 These were limited functionality handheld computers, operated by a mixture of miniature keyboards, buttons and styluses.
 Through the mid-1990s many companies released popular PDAs, and in the early-2000s these devices merged into smartphones as they were increasingly equipped with cellular capabilities.
 A final near-miss before modern smartphones were 'Pocket PCs' (mid-2000s)-- devices which had a more featureful operating system than previous PDAs, running Windows Mobile OS.
@@ -1253,7 +1253,7 @@ Note that in a classic case of \hyperref[sec:org65142ce]{Moore's blunder} (\S \r
 
 The watershed moment for mobile computing came in 2007 with the release of the Apple iPhone.
 It debuted essentially all the remaining interface features of modern mobile devices.
-It had a large multi-touch capacitve touch screen (see \hyperref[sec:org492bcd7]{Touchscreen Interfaces}; \S \ref{sec:org492bcd7}), a simplified mobile operating system (with the now iconic app grid and 'home row')  , the best mobile web experience to date, and 1\textsuperscript{st} class support for third party applications ('Apps').
+It had a large multi-touch capacitive touch screen (see \hyperref[sec:org492bcd7]{Touchscreen Interfaces}; \S \ref{sec:org492bcd7}), a simplified mobile operating system (with the now iconic app grid and 'home row'), the best mobile web experience to date, and 1\textsuperscript{st} class support for third party applications ('Apps').
 Additionally they dropped the stylus-- allowing the device to be used one handed\footnote{Resulting in less physical-impedance and hence greater pervasiveness.}, and physical keyboard-- an ineffective waste of space (see \hyperref[sec:org492bcd7]{Touchscreens}; \S \ref{sec:org492bcd7} para. 3).
 
 Note that mobile devices generally have lower throughput than desktop devices due to factors such as limited screen real estate and slower input (touchscreen typing).
@@ -1275,23 +1275,23 @@ As of 2022, we are witnessing the tail-end stagnation of mobile, making way for 
 \end{description}
 \end{mdframed}
 
-At the time of writing we are at the onset of \emph{\hyperref[org39cbd51]{XR} computing revolution} (alt. \emph{\hyperref[wearable computing]{wearable computing}} revolution).
+At the time of writing we are at the onset of the \emph{\hyperref[org39cbd51]{XR} computing revolution} (alt. \emph{\hyperref[wearable computing]{wearable computing}} revolution).
 In the \hyperref[org39cbd51]{XR} revolution computers become i) \emph{totally immersive}-- capable of engaging the entire field of perception, and ii) \emph{almost fully pervasive}-- available for use in almost any situation.
-In \hyperref[org2644eb5]{5AA} terms, this 1) overhauls throughput-- massively increasing bandwidth, whilst decreasing noise, 2) pushes pervasiveness near its limit-- becoming constantly 'wearable', and (3) considerably reduces impedance, both physical, and mental.
+In \hyperref[org2644eb5]{5AA} terms, this 1) overhauls throughput-- massively increasing bandwidth, whilst decreasing noise, 2) pushes pervasiveness near its limit-- becoming constantly 'wearable', and 3) considerably reduces impedance, both physical, and mental.
 \textbf{We predict that \hyperref[org39cbd51]{XR} will combine the best qualities of desktop and mobile in a single interface and replace them both.}
 
 Note, our focus is on \hyperref[org39cbd51]{XR} as a \hyperref[org6ef4753]{GPC} platform for maximally augmenting human intelligence.
 This puts some distance between us and the in-vogue (narrower) outlook of \hyperref[org39cbd51]{XR} as a social-interactive entertainment metaverse of 3D virtual objects\footnote{We call this the 'Zuckervision'.}.
 
 One of the first visions of \emph{VR} occurs in the novel Pygmalion's Spectacles (1935), as goggles that transport you to a simulated holographic world.
-In 1958, the first VR machine, the Sensora, used stereoscopic lenses to show short films and in the 1960's similar displays became head-mounted.
+In 1958, the first VR machine, the Sensora, used stereoscopic lenses to show short films and in the 1960s similar displays became head-mounted.
 The Sword of Damocles (1968) was a landmark VR/AR headset, connected to a computer rather than a camera.
 VR progressed gradually over the next decades finding use in flight simulators and military headsets.
 The first mass-produced VR arcade machine came in 1991 and the first home VR headsets came in 1995.
 The late 1990s and 2000s were a period of relative public and investor disinterest in VR.
 We think VR was impeded from mass market viability by the need for (expensive) high-powered CPUs \footnote{To (1) run high-resolution displays (for the large field of view), and (2) do intensive 3D rendering.}.
-Such a CPU, which would also be heavy and large would also need to be either 1) head mounted-- increasing weight so reducing comfort, or 2) grounded/worn elsewhere-- requiring impractical wiring.
-In 2010, Palmer Lucky recaptured the public's imagination with his design for the 'Oculus Rift', a modern VR gaming headset, beginning the wave of innovation that we are currently riding (2022).
+Such a CPU, which would also be heavy and large, would also need to be either 1) head mounted-- increasing weight so reducing comfort, or 2) grounded/worn elsewhere-- requiring impractical wiring.
+In 2010, Palmer Luckey recaptured the public's imagination with his design for the 'Oculus Rift', a modern VR gaming headset, beginning the wave of innovation that we are currently riding (2022).
 In 2021 the Oculus headsets outsold the Xbox and there are hundreds of companies developing VR products.
 
 \emph{AR} arguably began with simple \emph{Heads-Up Displays} (HUDs) that were developed for pilots in the 1950s showing a laser beam overhead.
@@ -1300,7 +1300,7 @@ Steve Mann coined the term \emph{wearable computing} in 1980 and Thomas P Caudel
 The first modern AR system was probably the 'Virtual Fixtures' (1992), a complex robotic system that would overlay sensory information on a workspace to improve human productivity.
 Though incremental progress continued to be made, particularly in military applications, AR suffered much the same relative disinterest as VR through the late 1990s and 2000s, likely because computers weren't yet powerful enough.
 An underrated cultural factor in the reinvigorating of the vision of \hyperref[org39cbd51]{XR} was the pop iconic 'Iron Man' superhero film franchise (2008, 2010, 2013),  in which the protagonist's superpower is a technological suit equipped with an intelligent \hyperref[org39cbd51]{XR} computing environment.
-In 2014, Google released their limited access 'Google Glass', a pair of glasses with a simple smartphone-esqe AR overlay to one eye, before axing the project in 2015\footnote{Rumored over the privacy concerns of its front-facing camera.}.
+In 2014, Google released their limited access 'Google Glass', a pair of glasses with a simple smartphone-esque AR overlay to one eye, before axing the project in 2015\footnote{Rumoured over the privacy concerns of its front-facing camera.}.
 Google tentatively restarted the project in 2017 focusing on Enterprise use cases, but we gauge that so far it has received relatively little development attention.
 In 2016, Microsoft released the 'HoloLens', a competitor visor-like headset also targeted at specialised business functionality.
 As of 2022, Apple is rumoured to have both an AR and VR headset in the works.
@@ -1308,7 +1308,7 @@ Additionally, several smaller companies have been releasing increasingly impress
 The current state of the art is a large, high-resolution 2D display overlay but a little more.
 \textbf{We expect this to take off rapidly over the next couple of years.}
 
-For more, see \hyperref[sec:orgb165994]{The Next Revolution: XR Computing} (\S \ref{sec:orgb165994})
+For more, see \hyperref[sec:orgb165994]{The Next Revolution: XR Computing} (\S \ref{sec:orgb165994}).
 
 \section{Nervous System Interface (\hyperref[orgf403bf3]{NSI}) computing}
 \label{sec:org4b6c5db}
@@ -1325,7 +1325,7 @@ The \hyperref[orgf403bf3]{NSI} revolution will principally be a revolution in \h
 The history of NSIs starts in 1924 when Hans Berger discovered the electrical waves of the brain and fathered \emph{electroencephalography} (\emph{EEG})--  a method to record an electrogram of the electrical activity on the scalp via electrodes.
 The modern field was pioneered by UCLA professor Jacques Vidal in the 1970s who coined the term BCI and set out the 'BCI challenge'-- to control external objects using EEG signals.
 In academia, brain signal acquisition and processing have made considerable gradual progress in the decades since, finding themselves increasingly in the scientific mainstream.
-So far work has often been with an emphasis on allowing impaired peoples to (re)gain normative control over their lives.
+So far work has often been with an emphasis on allowing impaired people to (re)gain normative control over their lives.
 The research literature is now vast and a detailed coverage can be found in \autocite{kawala-sterniukSummaryFiftyYears2021}.
 
 One commercial company in this space we would like to mention is Neuralink \autocite{muskNeuralink}: a well-funded and high-profile attempt to rapidly advance invasive \hyperref[orgf403bf3]{NSI}.
@@ -1341,7 +1341,7 @@ Worth mentioning is that \hyperref[org39cbd51]{XR} is closely related to the int
 
 \begin{mdframed}
 \begin{description}
-\item[{Wearable Computing\label{wearable computing}}] Computing environments with a \hyperref[pervasiveness]{pervasiveness} comparable to clothes\footnote{i.e pervasiveness greater than mobile computing and less than NSIs.} -- easy to put on and remove, constantly operational, lightly carried on the person, and externally visible.
+\item[{Wearable Computing\label{wearable computing}}] Computing environments with a \hyperref[pervasiveness]{pervasiveness} comparable to clothes\footnote{i.e. pervasiveness greater than mobile computing and less than NSIs.} -- easy to put on and remove, constantly operational, lightly carried on the person, and externally visible.
 \end{description}
 \end{mdframed}
 \section{Output: 3D FOV HMDs}
@@ -1369,7 +1369,7 @@ This greater bandwidth, which fundamentally allows more (and more complex) infor
 \textbf{You accept that many computing applications are impossible or impractical on mobile for the reason of screen size, would a similar relation not hold between monitors and FOV displays?}
 
 The value proposition of FOV is even greater for mobile use cases, as mobile screens are an order of magnitude smaller than computer monitors.
-When combined with high-pervasiveness (HMDs), FOV displays will grant us to take (better than) desktop computing anywhere.
+When combined with high-pervasiveness (HMDs), FOV displays will allow us to take (better than) desktop computing anywhere.
 
 \subsection{Head Mounted Displays (HMDs)}
 \label{sec:org088970f}
@@ -1377,7 +1377,7 @@ When combined with high-pervasiveness (HMDs), FOV displays will grant us to take
 They also relieve us from the physical and mental constraints of \emph{stationary computing}.
 
 \textbf{HMDs transform the situations in which computers can be carried and used.}
-For example, an HMD could be utilised whilst moving, such as when exercising and could potentially provide access to computing an interface during social interaction that is more subtle and less obstructive than a mobile device.
+For example, an HMD could be utilised whilst moving, such as when exercising, and could potentially provide access to a computing interface during social interaction that is more subtle and less obstructive than a mobile device.
 
 \textbf{Combined with ultra-high throughput FOV displays, HMDs allow the computing currently constrained to stationary desktops, to be freed into any environment.}
 Ask yourself why computing should be tied to the stationary desk.
@@ -1388,28 +1388,28 @@ We also predict cognitive benefits of computing environments that embrace natura
 \section{Input: Unknown (the Achilles heel of \hyperref[org39cbd51]{XR})}
 \label{sec:org93500e2}
 \textbf{In our study of the \hyperref[sec:orgbbbb2de]{BCI interface revolutions} (\S \ref{sec:orgbbbb2de}), every time there is a significant change to the \hyperref[output]{output} interaction model, this compels a corresponding novel input paradigm/device.}
-For example, the continuous 2D spatial environment of the GUI revolution lead to the creation of the computer mouse pointing device.
+For example, the continuous 2D spatial environment of the GUI revolution led to the creation of the computer mouse pointing device.
 
-On the other side, \textbf{it's obvious to say that incumbent paradigms interface devices simply will not do in \hyperref[org39cbd51]{XR}}.
+On the other side, \textbf{it's obvious to say that incumbent paradigms' interface devices simply will not do in \hyperref[org39cbd51]{XR}}.
 The keyboard and mouse both require a desk, something we won't be carrying around with us, and touchscreens require impossible panels as large as the output display, not to mention them being inherently 2D.
 
 For reasons related to the \emph{\hyperref[ipadification fallacy]{iPadification fallacy}} (\S \ref{sec:org650adbc}) (the assumption that \hyperref[org39cbd51]{XR} will be only like mobile, not desktop) we are confident people are working on a good 3D pointing device solution for \hyperref[org39cbd51]{XR} (we think \hyperref[sec:orged432e5]{eye tracking} (\S \ref{sec:orged432e5}) is best).
 \textbf{However, the converse is also true: despite hundreds of millions of pounds flowing into the development of \hyperref[org39cbd51]{XR}, almost no one is explicitly working on high-throughput (symbolic) input devices for \hyperref[org39cbd51]{XR}, to supersede the keyboard and hence desktop functionality.}
 \textbf{We think this oversight will hold back \hyperref[org39cbd51]{XR} from its near-term potential while it remains unresolved.}
-*Meanwhile, there is a great opportunity and responsibility\footnote{As what catches on in an interface revolution will likely get entrenched through \hyperref[sec:org61d0814]{network effects and switching costs} (\S \ref{sec:org61d0814})} in filling this void.
-This is the fundamental logic that motivated our \hyperref[sec:org5f92648]{practical project} (\S \ref{sec:org5f92648}) to design a novel input device worthy \hyperref[org39cbd51]{XR} and why we claim that (high-\hyperref[throughput]{throughput}) input is presently the \emph{Achilles heel} of \hyperref[org39cbd51]{XR}.
+Meanwhile, there is a great opportunity and responsibility\footnote{As what catches on in an interface revolution will likely get entrenched through \hyperref[sec:org61d0814]{network effects and switching costs} (\S \ref{sec:org61d0814}).} in filling this void.
+This is the fundamental logic that motivated our \hyperref[sec:org5f92648]{practical project} (\S \ref{sec:org5f92648}) to design a novel input device worthy of \hyperref[org39cbd51]{XR} and why we claim that (high-\hyperref[throughput]{throughput}) input is presently the \emph{Achilles heel} of \hyperref[org39cbd51]{XR}.
 
 See also \hyperref[sec:org650adbc]{Common Misconceptions (why nobody is building this)} (\S \ref{sec:org650adbc}).
 \subsection{Overcoming the limitations of keyboards/mobile}
 \label{sec:org85bf0b5}
 Many advantages of \hyperref[org39cbd51]{XR} stand in relation to overcoming the flaws and limitations of the incumbent interface paradigm, the desktop (monitor, \hyperref[sec:org9338bc4]{keyboard} (\S \ref{sec:org9338bc4}) and \hyperref[sec:org9f2dc02]{mouse} (\S \ref{sec:org9f2dc02})) and \hyperref[sec:org492bcd7]{mobile} (\S \ref{sec:org492bcd7}) respectively.
 In brief summary, keyboards have poor ergonomics (causing \hyperref[org77f0234]{RSI}), low pervasiveness (not mobile), have only moderate throughput, and suffer from \hyperref[sec:org4bd894e]{the 3 hands problem} (\S \ref{sec:org4bd894e}).
-Mobile touchscreens meanwhile, have low throughput-- for both output (screen size) and input (typing speed), are not fully pervasive-- need one hand to operate at all times, and are not tactile (cannot be operated without looking)-- increasing mental and physical impedance.
+Mobile touchscreens, meanwhile, have low throughput-- for both output (screen size) and input (typing speed), are not fully pervasive-- need one hand to operate at all times, and are not tactile (cannot be operated without looking)-- increasing mental and physical impedance.
 \hyperref[org39cbd51]{XR} computing stands to fix all of these issues and more.
 
 As seen in \hyperref[sec:org93500e2]{I/O interaction model: The inputs} (\S \ref{sec:org93500e2}), we expect the \hyperref[org39cbd51]{XR} revolution to necessitate a revolutionary new input device/paradigm.
 Remember (from \hyperref[sec:org61d0814]{switching costs and network effects}; \S \ref{sec:org61d0814}) that there are many established (non-\hyperref[org39cbd51]{XR}) minor improvements to the current interface paradigm that
-can cascade into an interface revolution, such as the many innovations from \hyperref[sec:org895c4cc]{ergonomic keyboards} (\S \ref{sec:org895c4cc})
+can cascade into an interface revolution, such as the many innovations from \hyperref[sec:org895c4cc]{ergonomic keyboards} (\S \ref{sec:org895c4cc}).
 They need the shake-up of a revolution to overcome the stickiness of the entrenched paradigm.
 
 Additionally, a new \hyperref[org39cbd51]{XR} interface should solve the \emph{\hyperref[two interface problem]{two interface problem}}, providing a single unified computing interface rather than having users straddled between desktop and mobile environments.
@@ -1417,13 +1417,13 @@ Note this doesn't happen unless we get keyboard-level throughput, otherwise, peo
 
 \subsection{Radical new opportunities}
 \label{sec:org23d9ecb}
-We have already argued that the \hyperref[org39cbd51]{XR} revolution will \hyperref[sec:org93500e2]{necessitate a radical new input device} (\S \ref{sec:org93500e2}), outlined \hyperref[sec:org85bf0b5]{the flaws to be fix of the current ones} (\S \ref{sec:org85bf0b5}), and hinted that this is what our \hyperref[sec:org5f92648]{practical project} (\S \ref{sec:org5f92648}) will tackle.
+We have already argued that the \hyperref[org39cbd51]{XR} revolution will \hyperref[sec:org93500e2]{necessitate a radical new input device} (\S \ref{sec:org93500e2}), outlined \hyperref[sec:org85bf0b5]{the flaws to be fixed of the current ones} (\S \ref{sec:org85bf0b5}), and hinted that this is what our \hyperref[sec:org5f92648]{practical project} (\S \ref{sec:org5f92648}) will tackle.
 Briefly, we would like to cover some radical opportunities beyond merely fixing the flaws of the current paradigm.
 Specifically, the opportunities of drastically increasing 1) input throughput and 2) pervasiveness.
 
 \subsubsection{\hyperref[org39cbd51]{XR} throughput}
 \label{sec:orgeaf3584}
-As we have already discussed, and later \hyperref[sec:org628e096]{lay out in detail} (\S \ref{sec:org628e096}): the keyboard is only a moderate throughput device (30-120wpm), far from what we think are \hyperref[sec:org86b40c5]{the theoretical throughput limits of BCI} (\S \ref{sec:org86b40c5}) (\(\ge\)350wpm), and there are already devices such as \hyperref[sec:orgdb71557]{the stenotype} (\S \ref{sec:orgdb71557}) and various chrded keyboards  that comfortably allow input throughput over 200wpm.
+As we have already discussed, and later \hyperref[sec:org628e096]{lay out in detail} (\S \ref{sec:org628e096}): the keyboard is only a moderate throughput device (30-120wpm), far from what we think are \hyperref[sec:org86b40c5]{the theoretical throughput limits of BCI} (\S \ref{sec:org86b40c5}) (\(\ge\)350wpm), and there are already devices such as \hyperref[sec:orgdb71557]{the stenotype} (\S \ref{sec:orgdb71557}) and various chorded keyboards  that comfortably allow input throughput over 200wpm.
 \textbf{We hope that the \hyperref[org39cbd51]{XR} revolution will integrate this opportunity for much faster input than the keyboard.}
 
 \textbf{Drastically increasing input throughput leads to a radically different world.}
@@ -1433,7 +1433,7 @@ There is a realistic near future where the average person could input 5\texttime
 \paragraph{The true cost of low throughput input}
 \label{sec:org10cbd04}
 \textbf{We also think there are some non-obvious hidden costs to low(er) throughput input.}
-We attest that there are both the (more obvious) \emph{quantitative costs} of being slower and wasting time, and the (less obvious) \emph{qualitative costs} of \hyperref[cognitive load]{cognitive load} \hyperref[org99cfbfd]{congestion}-- interrupting the stream of consciousness, breaking up ones ability to form the most complex thoughts.
+We attest that there are both the (more obvious) \emph{quantitative costs} of being slower and wasting time, and the (less obvious) \emph{qualitative costs} of \hyperref[cognitive load]{cognitive load} \hyperref[org99cfbfd]{congestion}-- interrupting the stream of consciousness, breaking up one's ability to form the most complex thoughts.
 An example of the second is when you forget the details of a sentence because you can't copy it down fast enough.
 
 \subsubsection{\hyperref[org39cbd51]{XR} pervasiveness}
@@ -1453,12 +1453,12 @@ This unlocks many aspects of \hyperref[sec:org9801c9a]{Spatial computing} (\S \r
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.6\textwidth]{../../../Images/ironman_jarvis2_crop2_upscale.jpg}
-\caption{Superhero Tony Stark (Ironman) interacting with spatial computing \hyperref[org39cbd51]{XR} interface 'Jarvis'}
+\includegraphics[width=0.6\textwidth]{figures/ironman_jarvis2_crop2_upscale.jpg}
+\caption{Superhero Tony Stark (Iron Man) interacting with spatial computing \hyperref[org39cbd51]{XR} interface 'Jarvis'}
 \end{figure}
 
 The powerful abstraction of spatial computing has been limited in computing interface paradigms so far (e.g. the mouse could be considered rudimentary 2D spatial computing) and now has a chance to take centre stage with \hyperref[org39cbd51]{XR}.
-It's value proposition is supported by arguments from the literature that the movement and manipulation of objects in 3D space is central to and even involved in cognition (see \hyperref[orgef09c3f]{embodied cognition} in \S \ref{sec:org86b40c5}).
+Its value proposition is supported by arguments from the literature that the movement and manipulation of objects in 3D space is central to and even involved in cognition (see \hyperref[orgef09c3f]{embodied cognition} in \S \ref{sec:org86b40c5}).
 \textbf{This would imply that there has not yet been a computer interface paradigm native to human movement and spatial thought.}
 
 Many people claim\footnote{Including this author.} to do much of their best thinking whilst walking, counting some of the greatest philosophers (Aristotle, Nietzsche, Kant, etc.) among them.
@@ -1468,7 +1468,7 @@ We predict spatial computing could be the wow factor that makes \hyperref[org39c
 
 \chapter{Input Devices}
 \label{sec:org6a11140}
-Having identified input as \hyperref[sec:org93500e2]{the achillies heel of XR}, we dive deeper into our theoretical study of BCI input devices, with a focus on \hyperref[org39cbd51]{XR}.
+Having identified input as \hyperref[sec:org93500e2]{the Achilles heel of XR}, we dive deeper into our theoretical study of BCI input devices, with a focus on \hyperref[org39cbd51]{XR}.
 For \hyperref[sec:orgb1f4c1e]{case studies} see \S \ref{sec:orgb1f4c1e} and for our practical research see \hyperref[sec:orge0c8edf]{initial research} (\S \ref{sec:orge0c8edf}).
 \section{Symbolic input vs. pointing devices}
 \label{sec:org0736070}
@@ -1549,7 +1549,7 @@ See also \hyperref[sec:org238989b]{Voice Control} (\S \ref{sec:org238989b}) for 
 \label{sec:org4ee11b2}
 \begin{mdframed}
 \begin{description}
-\item[{Hand Controled Input Device (\label{org0c83164}HCID) Thesis}] The most sophisticated tools humans build tend to be hand\footnote{And by extension including the arm.} controlled.
+\item[{Hand Controlled Input Device (\label{org0c83164}HCID) Thesis}] The most sophisticated tools humans build tend to be hand\footnote{And by extension including the arm.} controlled.
 \begin{itemize}
 \item \emph{Note:} Throughout the rest of this work we often use the term \emph{\hyperref[org0c83164]{HCID}} as a synonym for 'dominant input device to a computer'.
 \end{itemize}
@@ -1558,11 +1558,11 @@ See also \hyperref[sec:org238989b]{Voice Control} (\S \ref{sec:org238989b}) for 
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.6\textwidth]{../../../Images/motor_homunculus.png}
-\caption{\label{fig:motohomo}The Motor Homunculus: The body scaled by the brains motor control real estate}
+\includegraphics[width=0.6\textwidth]{figures/motor_homunculus.png}
+\caption{\label{fig:motohomo}The Motor Homunculus: The body scaled by the brain's motor control real estate}
 \end{figure}
 
-Examples of \hyperref[org0c83164]{HCID} thesis include blacksmiths, sculptors, artists, surgeons, military combatants, musicians and now programmers.
+Examples of the \hyperref[org0c83164]{HCID} thesis include blacksmiths, sculptors, artists, surgeons, military combatants, musicians and now programmers.
 Figure \ref{fig:motohomo} alludes strongly to the biomechanical/neurological/evolutionary underpinning of this reality.
 
 Perhaps a corollary of the \hyperref[org0c83164]{HCID} thesis is that input devices should strive to use the whole hand (say, not just the thumb and index finger as with smartphone keyboards), and do so in harmony with the natural ergonomics of the hand.
@@ -1573,16 +1573,16 @@ One possible interpretation of the \hyperref[org0c83164]{HCID} thesis, inspired 
 
 \section{Eye Tracking}
 \label{sec:orged432e5}
-Briefly, we would like to make the cases for eye-tracking as an input device for \hyperref[org39cbd51]{XR} and the future more broadly, specifically as a \hyperref[pointing device]{pointing device}.
+Briefly, we would like to make the case for eye-tracking as an input device for \hyperref[org39cbd51]{XR} and the future more broadly, specifically as a \hyperref[pointing device]{pointing device}.
 
 Firstly note that eye tracking hardware is well suited to \hyperref[org39cbd51]{XR} as you already have considerable computing apparatus strapped to your face.
-Our fundamental argument is that we thing eye tracking is the ideal \hyperref[sec:org0736070]{pointing device} (\S \ref{sec:org0736070}), an instantaneous and effortless demarcator of attention.
+Our fundamental argument is that we think eye tracking is the ideal \hyperref[sec:org0736070]{pointing device} (\S \ref{sec:org0736070}), an instantaneous and effortless demarcator of attention.
 For every other pointing device, you necessarily already move your gaze over the desired path; eye tracking is just cutting out the middle man of hand movement and all impedance that comes as baggage.
 
-Consider also the widely accepted evolutionary argument of \emph{the cooperative eye hypothesis}, that humans developed white sclera\footnote{As opposed to all our nearest animal relations who have consistently dark eyes.} (outer ring of eye) to make it easier for humans to follow each others' gaze when communication and cooperating.
+Consider also the widely accepted evolutionary argument of \emph{the cooperative eye hypothesis}, that humans developed white sclera\footnote{As opposed to all our nearest animal relations who have consistently dark eyes.} (outer ring of eye) to make it easier for humans to follow each other's gaze when communicating and cooperating.
 This suggests that we are already highly evolved to the use of eye gaze as a pointing device of attention.
 
-We think there is a high chance that eye-tracking replaces the mouse/trackpad/joystick as the primary indicator of attention and inspection pointing device in \hyperref[org39cbd51]{XR} interfaces\footnote{Freeing hand control for manipulation as per the \hyperref[org0c83164]{HCID} thesis.}
+We think there is a high chance that eye-tracking replaces the mouse/trackpad/joystick as the primary indicator of attention and inspection pointing device in \hyperref[org39cbd51]{XR} interfaces\footnote{Freeing hand control for manipulation as per the \hyperref[org0c83164]{HCID} thesis.}.
 As for the question of feasibility, we have good reason to believe eye tracking can be harnessed accurately \autocites{PrecisionGazeMouse}[][]{TobiiGamingNext} and confined within a reasonably sized headset \autocite{VIVEProEye}.
 
 \section{Voice Control}
@@ -1613,7 +1613,7 @@ Thirdly there is the issue of low throughput for certain tasks.
 Generally, everything requires a full sentence or specified keywords; no rapid set of keyboard shortcuts.
 For example, consider working on a spreadsheet (something we find hard to believe humans will relinquish the need for).
 For many a primitive spreadsheet task, voice is considerably more cumbersome than the status quo, e.g. scrolling around, making selections, exploring menus or writing formulas.
-This point is generalised in that that humans communicate with computers in visuospatial, symbolic, as well as linguistic ways.
+This point is generalised in that humans communicate with computers in visuospatial, symbolic, as well as linguistic ways.
 
 Finally there is the more abstract issue of problems relating to \hyperref[sec:org7b0cd10]{brain-computer ADC} (\S \ref{sec:org7b0cd10}).
 In summary, it is not clear that a computer can, or should, convert natural language to computer commands (over a large input range) considering the complexity, ambiguity and situational dependence of speech.
@@ -1623,7 +1623,7 @@ In summary, it is not clear that a computer can, or should, convert natural lang
 \medskip
 \begin{mdframed}
 \begin{description}
-\item[{Brain-Computer \label{org44fccbb}ADC (Analog-to-Digitial Conversion)}] That BCI interfaces must bridge the complex analog--digital divide between humans and computers.
+\item[{Brain-Computer \label{org44fccbb}ADC (Analog-to-Digital Conversion)}] That BCI interfaces must bridge the complex analog--digital divide between humans and computers.
 \end{description}
 \end{mdframed}
 
@@ -1654,7 +1654,7 @@ See \hyperref[sec:org4bd894e]{The 3 hands problem} (\S \ref{sec:org4bd894e}).
 \chapter{Common Misconceptions}
 \label{sec:org650adbc}
 We cover some common misconceptions that relate to our theoretical work.
-They aim to why some people may overlook our reasoning.
+They aim to explain why some people may overlook our reasoning.
 
 \begin{enumerate}
 \item \emph{Base-rater's fallacy (the future will resemble the present)}.
@@ -1687,7 +1687,7 @@ Their argument is a standard case of \emph{confirming the consequent}; A, then B
 This view ignores the \hyperref[sec:orgf3c2e36]{drawbacks of touchscreen input} (\S \ref{sec:orgf3c2e36}) and the reciprocal \hyperref[sec:org20f3860]{merits of keyboard \& mouse operated desktop interface} (\S \ref{sec:org20f3860}).
 Just because the mobile revolution followed the desktop, it doesn't mean that future development will be exclusively in this direction.
 We expect a combination of both as well as something new entirely.
-If mobile-esqe devices are the future, why are you still using a desktop?
+If mobile-esque devices are the future, why are you still using a desktop?
 \item \emph{They want to keep you stupid}.
 This is the slightly conspiratorial view that large technology companies are (consciously or unconsciously) building interfaces that excessively limit user degrees of freedom.
 This could be for several reasons: it makes their jobs easier, locks users into their network, and users genuinely value simplicity.
@@ -1708,49 +1708,49 @@ It's not that we think that \hyperref[orgf403bf3]{NSI} is never coming, but acce
 We think this misconception stems from a lack of appreciation of \hyperref[sec:org33e9f1b]{how revolutionary XR will be to computing} (\S \ref{sec:org33e9f1b}) in the near term.
 As an analogy, this is the equivalent of not getting a driving licence in 1900, instead waiting for driverless cars.
 
-\item \emph{Keyboards are good enough (you can't, and wouldn't want to type faster than they will allow.)}.
+\item \emph{Keyboards are good enough (you can't, and wouldn't want to type faster than they will allow)}.
 Many severely underappreciate the \hyperref[sec:org9338bc4]{flaws of the keyboard} (\S \ref{sec:org9338bc4}), don't consider \hyperref[sec:org10cbd04]{the true cost of low throughput input} (\S \ref{sec:org10cbd04}), and can't imagine the opportunity for something \hyperref[sec:orgf250acb]{radically better} (\S \ref{sec:orgf250acb}) and haven't considered the unique value proposition of \hyperref[org39cbd51]{XR}.
 \end{enumerate}
 
 \part{Case Studies \emph{or} Doug Engelbart and the Keyset}
 \label{sec:orgb1f4c1e}
-This section contains our curated selection of cases studies on BCI input devices that were influential to our work, analysed through our \hyperref[sec:org7f79682]{5AA framework} (\S \ref{sec:org7f79682}).
+This section contains our curated selection of case studies on BCI input devices that were influential to our work, analysed through our \hyperref[sec:org7f79682]{5AA framework} (\S \ref{sec:org7f79682}).
 
 Interestingly, since the decline of (physical) interface design research in academia (late 1980s onwards), the best sources of knowledge have tended not to come from academia\footnote{We theorise this change occurred because (1) building experimental interface devices became considered less academically ``pure'', and (2) an unspoken assumption developed that the keyboard \& mouse was here to stay.}, but rather from online sources: start-ups, blogs and builder communities (Reddit, Discord, etc.).
-The exception to this rule is Nervous System Interfaces (NSIs) which remains almost entirely rooted in academia.
+The exception to this rule is Nervous System Interfaces (NSIs) which remain almost entirely rooted in academia.
 
-The major theme running through our cases studies is the flaws of the typewriter keyboard and their prospects of salvation.
+The major theme running through our case studies is the flaws of the typewriter keyboard and their prospects of salvation.
 
 There were many additional case studies that we did not get to include here, examples include the game controller, the CTRL-Labs Wristband \autocite{27CTRLlabsLinkedIn}, Neuralink \hyperref[orgf403bf3]{NSI} \autocite{muskNeuralink} and the Google Glass AR glasses.
 \chapter{Typewriter Keyboard}
 \label{sec:org20f3860}
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.9\textwidth]{../../../Images/ISO_keyboard_QWERTY_UK.png}
+\includegraphics[width=0.9\textwidth]{figures/ISO_keyboard_QWERTY_UK.png}
 \caption{\label{fig:stand_keyb}Standard 105-key qwerty keyboard}
 \end{figure}
 
-They modern (typewriter style) physical keyboard is presently one of the most ubiquitous and powerful tools in existence.
-It is a high-bandwidth symbolic input device, that, together with the mouse \textbf{dominates the professional and high performance computing landscape where there are effectively no market share competitors}.
+The modern (typewriter style) physical keyboard is presently one of the most ubiquitous and powerful tools in existence.
+It is a high-bandwidth symbolic input device, that, together with the mouse, \textbf{dominates the professional and high performance computing landscape where there are effectively no market share competitors}.
 
-In terms of total computer usage, the keyboard \& mouse currently has approximately equal market share to mobile devices by metrics such as 'time spent web surfing', with mobile devices steadily increasing in popularity over the past decade due their ease of use and accessibility (greater \hyperref[pervasiveness]{pervasiveness} and reduced cost).
+In terms of total computer usage, the keyboard \& mouse currently has approximately equal market share to mobile devices by metrics such as 'time spent web surfing', with mobile devices steadily increasing in popularity over the past decade due to their ease of use and accessibility (greater \hyperref[pervasiveness]{pervasiveness} and reduced cost).
 For example, most people in developing countries only have a mobile device.
 
 Tablets, notably, are increasingly appropriate for many computing use cases where a keyboard \& mouse would have otherwise been used, but, as a rule, this tends to be for the more 'casual' use cases.
-For the most productive work, the relative higher throughput (WPM) of a physical keyboard with tactile keys is strongly favoured which means that \textbf{no touchscreen is every likely to be preferred over a keyboard for high productivity input}.
+For the most productive work, the relatively higher throughput (WPM) of a physical keyboard with tactile keys is strongly favoured which means that \textbf{no touchscreen is ever likely to be preferred over a keyboard for high productivity input}.
 As mobile computing also has situational necessity, we are currently stuck with the \emph{\hyperref[two interface problem]{two interface problem}}.
 
-The typewriter keyboard in a visually recognisable form can trace its roots back as least as far as 1710.
+The typewriter keyboard in a visually recognisable form can trace its roots back at least as far as 1710.
 The standard Qwerty layout was invented for typewriters in the 1870s\footnote{And became the standard layout from the 1920s onwards.}.
 The keyboard only became the de facto symbolic input device for computers in the late 1950s, previously computers were predominantly controlled using \hyperref[sec:orgc7c68a4]{punchcards and derivatives such as tape} (§ \ref{sec:orgc7c68a4}).
-The modern standard layout (Figure \ref{fig:stand_keyb}) crystallised in the 1980's as computers became popular consumer devices.
+The modern standard layout (Figure \ref{fig:stand_keyb}) crystallised in the 1980s as computers became popular consumer devices.
 
 From its 18\textsuperscript{th} century origins, \textbf{the design has changed surprisingly little despite the fact that many decisions were made for contingent reasons that are now redundant.}
-For example, mechanical typewriters were designed around physical levers, favouring a 2D-grid tabletop design, a constraint that does not applies to modern electronics.
+For example, mechanical typewriters were designed around physical levers, favouring a 2D-grid tabletop design, a constraint that does not apply to modern electronics.
 Meanwhile, evolving technology has created new \hyperref[sec:org2d37584]{use cases} (\S \ref{sec:org2d37584}) that should be incorporated into the \hyperref[sec:orgf250acb]{design goals} (§ \ref{sec:orgf250acb}) of a modern symbolic input device.
 \section{The problems}
 \label{sec:org9338bc4}
-We will now consider some of the flaws of the keyboard in detail, specifically with respect to our  \hyperref[sec:org7f79682]{5AA interface framework } (§ \ref{sec:org7f79682}) and our \hyperref[sec:org33e9f1b]{vision of the (XR) future} (§ \ref{sec:org33e9f1b}).
+We will now consider some of the flaws of the keyboard in detail, specifically with respect to our  \hyperref[sec:org7f79682]{5AA interface framework} (§ \ref{sec:org7f79682}) and our \hyperref[sec:org33e9f1b]{vision of the (XR) future} (§ \ref{sec:org33e9f1b}).
 
 Note, many of the discussed problems have already been fully or partially solved, sometimes in several different ways, most commonly by \hyperref[sec:org895c4cc]{ergonomic/custom keyboards} (§ \ref{sec:org895c4cc}).
 We have tried to make note of when this is the case.
@@ -1758,11 +1758,11 @@ We have tried to make note of when this is the case.
 \label{sec:orga6aecc9}
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.6\textwidth]{../../../Images/hand_grips2.jpeg}
+\includegraphics[width=0.6\textwidth]{figures/hand_grips2.jpeg}
 \caption{\label{fig:hand_grips}Some natural hand grips (\autocite{victorBriefRantFuture})}
 \end{figure}
 
-\textbf{Keyboards seem obviously unergonomic with respect to the hands that operate them as the 2D-grid layout does not induce the natural posture of the hand (see Figure \ref{fig:hand_grips})}
+\textbf{Keyboards seem obviously unergonomic with respect to the hands that operate them as the 2D-grid layout does not induce the natural posture of the hand (see Figure \ref{fig:hand_grips}).}
 Note that generally ergonomics fall under our \hyperref[org2644eb5]{5AA} attribute of \hyperref[sec:org8699e79]{physical impedance} (\S \ref{sec:org8699e79}), though there are many other factors at play.
 Specifically this unergonomic posture excludes any opportunity to leverage \hyperref[sec:org8e50c21]{familiarity} (\S \ref{sec:org8e50c21})
 (see also \hyperref[sec:org9801c9a]{Spatial computing}; \S \ref{sec:org9801c9a}) and chronically induces strain and injury (see \hyperref[sec:org6d70a7d]{Repetitive Strain Injury (RSI)}; \S \ref{sec:org6d70a7d}).
@@ -1773,7 +1773,7 @@ Another weakness of standard keyboard ergonomics is the underutilisation of the 
 \label{sec:org6d70a7d}
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.6\textwidth]{../../../Images/strain_wrist_crop.jpeg}
+\includegraphics[width=0.6\textwidth]{figures/strain_wrist_crop.jpeg}
 \caption{Strained wrist position on a standard keyboard (\autocite{ZergoFreedomErgonomics})}
 \end{figure}
 
@@ -1787,7 +1787,7 @@ This situation is not unpreventable as effective solutions do exist in the form 
 The standard 'Qwerty' keyboard layout was originally designed to prevent permanent print errors on paper\footnote{This innovation was made redundant with the invention of the electronic backspace.}, spacing associated letters as far apart as possible.
 \textbf{This redundant centrepiece of the qwerty design is antithetical to both reducing strain and increasing speed as it maximises the distance fingers have to travel.}
 
-The Qwerty layout has many futher ergonomic faults.
+The Qwerty layout has many further ergonomic faults.
 Firstly, the offset between rows are diagonally staggered\footnote{Again, a legacy of housing the mechanics of the typewriter.} which causes extra strain even compared to an ortholinear (chocolate bar) grid where fingers move in more natural straight lines.
 \textbf{Additionally, the layout does not make it easy to reach the most common keys-- generally considered the most important priority in keymap design.}
 \textbf{For example, in English, only three of the ten most common letters are on the 'home row'.}
@@ -1808,12 +1808,12 @@ As both have insurmountable domain superiority --in throughput and pervasiveness
 \end{mdframed}
 
 As we have already seen, keyboards are presently irreplaceable because they are the highest throughput form of input.
-But \hyperref[sec:org0d3bcff]{mobile computing} (\S \ref{sec:org0d3bcff}) is also non-negotiable as a feature of many modern computing environments sue to its \hyperref[pervasiveness]{pervasiveness}.
+But \hyperref[sec:org0d3bcff]{mobile computing} (\S \ref{sec:org0d3bcff}) is also non-negotiable as a feature of many modern computing environments due to its \hyperref[pervasiveness]{pervasiveness}.
 This has created a fundamental bifurcation of our computing landscape between desktop and mobile computers.
 The present status quo is that desktops are used for 'serious' computing whilst \hyperref[sec:org492bcd7]{mobile touchscreen devices} (\S \ref{sec:org492bcd7}) are better when on the move, with laptops providing some bridge in functionality.
 
 To many, this may not seem significant, however we think this is extremely costly.
-Users have to deal with two quite different interfaces paradigms (different abstractions, interaction models, and even operating systems) to achieve essentially the same functionality.
+Users have to deal with two quite different interface paradigms (different abstractions, interaction models, and even operating systems) to achieve essentially the same functionality.
 This surely has a \hyperref[sec:orgbe59543]{cognitive overhead} (\S \ref{sec:orgbe59543}) for users.
 Meanwhile, developers have essentially built everything twice at the OS/UI level.
 For example, in building some application you must choose to 1) build everything twice, 2) only build for one paradigm-- leaving the functionality unavailable on the other, or 3) build some compromise-- which is most often just (2) with a non-native interface provided to the second environment.
@@ -1826,10 +1826,10 @@ Nonetheless, we think this equilibrium is expensive and are confident that we wi
 
 \subsection{Moderate throughput}
 \label{sec:org628e096}
-We hold the moderately controversial opinion that although the keyboard prevails for it's superior throughput (30-120wpm; average \(\approx\)40wpm) compared to mobile devices (20-40wpm), it is still far from \hyperref[sec:org86b40c5]{the theoretical throughput limits of BCI} (\S \ref{sec:org86b40c5}) (\(\ge\)350wpm).
-\textbf{Consequentially, we think keyboard throughput is a bottleneck that can be dramatically improved with the reach existing technology.}
+We hold the moderately controversial opinion that although the keyboard prevails for its superior throughput (30-120wpm; average \(\approx\)40wpm) compared to mobile devices (20-40wpm), it is still far from \hyperref[sec:org86b40c5]{the theoretical throughput limits of BCI} (\S \ref{sec:org86b40c5}) (\(\ge\)350wpm).
+\textbf{Consequentially, we think keyboard throughput is a bottleneck that can be dramatically improved within the reach of existing technology.}
 \textbf{This is critically important because we rate \hyperref[sec:orgf7efab3]{throughput} (\S \ref{sec:orgf7efab3}) as the most consequential attribute in determining the power of a BCI interface device-- any meaningful increase would be revolutionary.}
-\textbf{An important corollary is that, any new input device designed to replace the keyboard must have at least as high throughput to be viable.}
+\textbf{An important corollary is that any new input device designed to replace the keyboard must have at least as high throughput to be viable.}
 
 Note that we regularly encounter the common misconception that \hyperref[sec:org650adbc]{you can't (and wouldn't want to) type considerably faster than current keyboards allow} (\S \ref{sec:org650adbc}).
 For one, there are already devices such as \hyperref[sec:orgdb71557]{the stenotype} (\S \ref{sec:orgdb71557}) that comfortably allow input over 200wpm.
@@ -1843,36 +1843,36 @@ See \hyperref[sec:org4bd894e]{The 3 hands problem} (Sec. \ref{sec:org4bd894e}).
 \label{sec:org895c4cc}
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.8\textwidth]{../../../Images/ergo_keyboard_collage.png}
+\includegraphics[width=0.8\textwidth]{figures/ergo_keyboard_collage.png}
 \caption[Collage of ergonomic keyboards]{\label{fig:ergo_collage}Selection of DIY ergonomic keyboards. Clockwise from top left: Santoku 2, Chordie, Grabbity Gloves, Dactyl Manuform, Charybdis, Chunky v2  (\autocite{ErgoMechBoards})}
 \end{figure}
 
-Many keyboards have now been build that deviate from the standard Qwerty layout for the purpose of improving design, particularly ergonomics.
+Many keyboards have now been built that deviate from the standard Qwerty layout for the purpose of improving design, particularly ergonomics.
 These vary greatly in their degree of change from the standard layout, from simple keymap changes (such as DVORAK and COLEMAK) to radical redesigns.
 We discovered that many users are drawn to ergonomic keyboards after suffering from \hyperref[org77f0234]{RSI}.
 
 Ergonomic keyboards are made by companies but also (importantly) by enthusiasts (see Figure \ref{fig:ergo_collage}).
 Fascinatingly, the cutting edge of this field currently resides in the open network of online communities dedicated to designing, building and sharing  experimental interface designs.
 This network conducts a huge amount of specialist expertise, high quality documentation, open source designs and thoughtful discussion.
-In particular, we benefited greatly from Reddit's r/MechanicalKeyboards \autocite{MechanicalKeyboardsAllClick} and  r/ErgoMechBoards \autocite{ErgoMechBoards} , and Discord's ZMK and ARTSEY communities.
+In particular, we benefited greatly from Reddit's r/MechanicalKeyboards \autocite{MechanicalKeyboardsAllClick} and  r/ErgoMechBoards \autocite{ErgoMechBoards}, and Discord's ZMK and ARTSEY communities.
 
 Interestingly, handheld/wearable ergonomic keyboards have seldom been attempted, assumably for their added difficulty.
-One user strapped the two half's of a split ergonomic keyboard to their legs, another made a handheld model out of clay.
-Elsewhere on the internet we found a couple of old blogs discussing similar ideas \autocite{ChorditeAnotherOnehand}, and numerous un-ergonomic TV-remote like controllers that made no serious attempt to match the keyboard for input bandwidth \autocite{TwiddlerTekGear} .
-Most convincing was the mid 2000's \hyperref[sec:org1b6f9a0]{AlphaGrip Controller} (\S \ref{sec:org1b6f9a0}).
+One user strapped the two halves of a split ergonomic keyboard to their legs, another made a handheld model out of clay.
+Elsewhere on the internet we found a couple of old blogs discussing similar ideas \autocite{ChorditeAnotherOnehand}, and numerous un-ergonomic TV-remote like controllers that made no serious attempt to match the keyboard for input bandwidth \autocite{TwiddlerTekGear}.
+Most convincing was the mid 2000s \hyperref[sec:org1b6f9a0]{AlphaGrip Controller} (\S \ref{sec:org1b6f9a0}).
 
 Though many ergonomic keyboards have been produced at commercial scale, none has yet challenged the popularity of the standard Qwerty layout.
 If you believe, as we do, that a suitable ergonomic keyboard is objectively better than the standard Qwerty keyboard, the question arises why they have not received greater adoption.
-We think this mostly due to \hyperref[sec:org61d0814]{switching costs and network effects} (\S \ref{sec:org61d0814}).
+We think this is mostly due to \hyperref[sec:org61d0814]{switching costs and network effects} (\S \ref{sec:org61d0814}).
 Qwerty is very deeply entrenched (every laptop comes with qwerty, everyone already knows it, etc.) so it will take a device that is significantly better and/or a radical change of circumstance to displace it.
-We think \hyperref[sec:orgb165994]{the next interface revolution (XR)} (\S \ref{sec:orgb165994}) is certainly such as circumstance, as the forcing function of pervasive output will render the stationary keyboard useless inviting a replacement bringing the smaller cumulative advancements of ergonomic keyboards with it.
+We think \hyperref[sec:orgb165994]{the next interface revolution (XR)} (\S \ref{sec:orgb165994}) is certainly such a circumstance, as the forcing function of pervasive output will render the stationary keyboard useless inviting a replacement bringing the smaller cumulative advancements of ergonomic keyboards with it.
 
 \section{Progress: problems solved by ergonomic keyboards}
 \label{sec:org50e6363}
 We will now overview the progress of ergonomic keyboards with respect to the aforementioned flaws of the Qwerty keyboard in the context of our \hyperref[sec:org7f79682]{5AA framework} (\S  \ref{sec:org7f79682}).
 We consider the class of problems solved by ergonomic keyboards as a whole even though mileage may vary greatly between keyboards.
 
-Fully fixed problems from the Qwerty keyboard are the \emph{addition of thumb clusters}-- to make use of our most versatile finger,  and the \emph{elimination of \hyperref[org77f0234]{RSI}} which we are informed is suitably alleviated by measures including of 1) changing the keymap to have the most common keys most easily accessible, 2) changing the shape of the keyboard to better fit the natural hand (and provide wrist support), and 3) remove/minimise the most straining movements-- making the layout ortholinear, reducing the number of physical keys, and moving modifiers away from the pinky (to the thumb).
+Fully fixed problems from the Qwerty keyboard are the \emph{addition of thumb clusters}-- to make use of our most versatile finger,  and the \emph{elimination of \hyperref[org77f0234]{RSI}} which we are informed is suitably alleviated by measures including 1) changing the keymap to have the most common keys most easily accessible, 2) changing the shape of the keyboard to better fit the natural hand (and provide wrist support), and 3) remove/minimise the most straining movements-- making the layout ortholinear, reducing the number of physical keys, and moving modifiers away from the pinky (to the thumb).
 
 Partially fixed from the Qwerty keyboard is \emph{the 3 hands problem}-- some keyboards are equipped with pointing devices and one-handed keymaps do exist, though are not especially popular, and transcending \emph{moderate throughput}-- there is the  \hyperref[sec:orgdb71557]{stenotype} (\S  \ref{sec:orgdb71557}) and other whole word (chorded) input methods which can achieve over 200wpm, and \textbf{we think there are more throughput-increasing techniques to be explored such as syllable input, strong autocomplete and mixed letters/whole-word input systems.}
 
@@ -1884,12 +1884,12 @@ Remaining problems that ergonomic keyboards have not yet at all solved are \emph
 \label{sec:org9f2dc02}
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.70\textwidth]{../../../Images/mouse_collage2.png}
-\caption[Computer mouse collage]{Selection of computer mice. Clockwise from top left: Engelbarts orginal mouse, inside of classic mechanical mouse, gaming mouse with many buttons, ergonomic mouse, 3D mouse}
+\includegraphics[width=0.70\textwidth]{figures/mouse_collage2.png}
+\caption[Computer mouse collage]{Selection of computer mice. Clockwise from top left: Engelbart's original mouse, inside of classic mechanical mouse, gaming mouse with many buttons, ergonomic mouse, 3D mouse}
 \end{figure}
 The computer mouse was invented by Doug Engelbart at the Stanford Research Institute (SRI) in 1963-64 and famously demonstrated in 'The Mother of all Demos' in 1968.
 It was the first computer \emph{pointing device}, designed specifically for the \hyperref[sec:org57da438]{GUI computing revolution}\footnote{The GUI also having been recently invented at Engelbart's research lab.} (\S \ref{sec:org57da438}) to spatially control a pointer (\emph{cursor}) with continuous and multi-dimensional data in a 2D plane-- input that was not native to the existing keyboard (see \hyperref[sec:org0736070]{Symbolic input vs. pointing  devices}; \S \ref{sec:org0736070}).
-Generally, in addition to moving a cursor, computer mice are equipped with one or more (symbolic) buttons to allows operations such as making a selection or inspecting the environment\footnote{Mice are also equipped with a \emph{scroll wheel} by custom.}.
+Generally, in addition to moving a cursor, computer mice are equipped with one or more (symbolic) buttons to allow operations such as making a selection or inspecting the environment\footnote{Mice are also equipped with a \emph{scroll wheel} by custom.}.
 
 The mouse was shown to Steve Jobs in 1979 who was so inspired that his company Apple scrapped their existing plans and redesigned everything around a mouse operated GUI.
 Subsequently, in 1984, the Apple Macintosh became the first consumer computer to popularise the mouse, and from there, the mouse (and descendent pointing devices such as the trackpad and touchscreen) quickly became a ubiquitous input paradigm, arguably eclipsing even the keyboard in popularity.
@@ -1897,14 +1897,14 @@ Subsequently, in 1984, the Apple Macintosh became the first consumer computer to
 \section{Alternate pointing devices}
 \label{sec:orgcd27d58}
 Similar to keyboards, \emph{ergonomic mice} exist and are designed for optimum comfort and to reduce strain.
-Also notable are \emph{gaming mice} which have been thought-provoking for their many additional buttons and \emph{3D mice}, which generalise the pointing device to at least three degrees of freedom, making them natural fit for \hyperref[sec:orgb165994]{the next interface revolution: XR computing} (\S  \ref{sec:orgb165994}), which is innately three dimensional.
-Alternate pointing devices have also been invented and are highly popular, including; the trackpad-- which is standard on laptops, the joystick-- common on game controllers, the touchscreen\footnote{Specifically a subset of touchscreen functionality.}-- which dominates mobile, and \hyperref[sec:orged432e5]{eye tracking} (\S \ref{sec:orged432e5})-- which we bet is the future.
-In out practical project we explore \hyperref[sec:org29cf3b7]{the benefits and drawbacks of each} (\S \ref{sec:org29cf3b7}).
+Also notable are \emph{gaming mice} which have been thought-provoking for their many additional buttons and \emph{3D mice}, which generalise the pointing device to at least three degrees of freedom, making them a natural fit for \hyperref[sec:orgb165994]{the next interface revolution: XR computing} (\S  \ref{sec:orgb165994}), which is innately three dimensional.
+Alternate pointing devices have also been invented and are highly popular, including: the trackpad-- which is standard on laptops, the joystick-- common on game controllers, the touchscreen\footnote{Specifically a subset of touchscreen functionality.}-- which dominates mobile, and \hyperref[sec:orged432e5]{eye tracking} (\S \ref{sec:orged432e5})-- which we bet is the future.
+In our practical project we explore \hyperref[sec:org29cf3b7]{the benefits and drawbacks of each} (\S \ref{sec:org29cf3b7}).
 \section{The 3 hands problem}
 \label{sec:org4bd894e}
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.35\textwidth]{../../../Images/mouse_hand_move_cropped.png}
+\includegraphics[width=0.35\textwidth]{figures/mouse_hand_move_cropped.png}
 \caption{The 3 hands problem (\autocite{ZergoFreedomErgonomics})}
 \end{figure}
 
@@ -1920,10 +1920,10 @@ We refer to this as \emph{the 3 hands problem}.
 
 The 3 hands problem means that using standard keyboard and mouse together incurs a switching cost when swapping between devices, i.e. the time, effort, and strain of picking up your hands, moving and putting them down, and finally re-calibrating their position-- all before making the intended input (and then back again if the switch was transient).
 
-Evaluating through our \hyperref[org2644eb5]{5AA} framework, we identify significant \emph{physical obstruction}, increased \emph{latency}, and reduced \emph{throughput}, all in our opinion, unnecessarily.
-This limits our ability to use the two devices together, this is particularly problematic for activities that are both keyboard and mouse intensive such as CAD, gaming and text editing.
+Evaluating through our \hyperref[org2644eb5]{5AA} framework, we identify significant \emph{physical obstruction}, increased \emph{latency}, and reduced \emph{throughput}, all, in our opinion, unnecessarily.
+This limits our ability to use the two devices together; this is particularly problematic for activities that are both keyboard and mouse intensive such as CAD, gaming and text editing.
 A partial coping mechanism has evolved in which the most important keyboard controls are usually stacked on the left hand of the keyboard freeing them to be used simultaneously with the mouse.
-\textbf{In extreme cases, users forgo the native input of either a keyboard (symbolic) or mouse (pointing) all together, unnaturally pigeonholing one's functionality into the other because the switching cost is so high.}
+\textbf{In extreme cases, users forgo the native input of either a keyboard (symbolic) or mouse (pointing) altogether, unnaturally pigeonholing one's functionality into the other because the switching cost is so high.}
 For instance, programmers are infamous for avoiding the mouse.
 They do so not because (as some claim) the mouse is a bad input paradigm, but because you can't use one simultaneously with a keyboard, so it becomes optimal to move as much functionality as possible to the keyboard, sacrificing the genuine value of the mouse.
 For example, the optimal way to navigate and select text is with a pointing device,  yet many programmers find symbolic keyboard methods such as 'vim bindings' faster.
@@ -1935,15 +1935,15 @@ Engelbart realised this and invented \emph{the Keyset}, a one handed keyboard re
 \label{sec:orgdb71557}
 \begin{figure}[h]
 \centering
-\includegraphics[width=\textwidth]{../../../Images/steno_collage.png}
-\caption[Stenotype machince]{Stenotype machine and keymap (left) and example output shorthand (right)}
+\includegraphics[width=\textwidth]{figures/steno_collage.png}
+\caption[Stenotype machine]{Stenotype machine and keymap (left) and example output shorthand (right)}
 \end{figure}
 
-A \emph{stenotype} (machine) is a specialised chorded keyboard used by steographers\footnote{A person who's job it is to transcribe speech in real time (generally shorthand).} to keep up with speech, 180-300wpm.
+A \emph{stenotype} (machine) is a specialised chorded keyboard used by stenographers\footnote{A person whose job it is to transcribe speech in real time (generally shorthand).} to keep up with speech, 180-300wpm.
 The stenotype machine works by typing in syllables\footnote{A specialised set of syllables.} rather than letters, and each word is a unique 'chord' of one or more syllables pressed and released simultaneously.
 For example, the word calendar, which takes eight strokes on a normal keyboard, takes just one three syllable chord (``cal'' + ``en'' + ``dar'').
 Note that the onboard computer adds spaces and interprets words.
-In this condensed for stenotype machines have only 22 keys (unlike the standard keyboards which has 70-105) which combine to make hundreds of syllables.
+In this condensed form, stenotype machines have only 22 keys (unlike the standard keyboard which has 70-105) which combine to make hundreds of syllables.
 Additionally, the steno machine uses ortholinear (non-staggered) keys with a light activation force, making it easy to press multiple keys at once.
 
 One drawback is that words have to be in a preexisting dictionary which must be memorised.
@@ -1957,12 +1957,12 @@ Note that until their recent digitalisation, the output shorthand needed to be m
 \label{sec:org492bcd7}
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.7\textwidth]{../../../Images/touchscreens.jpg}
-\caption[Selection of touchscreen interfaces]{\label{fig:touchscreen_interfaces}Selection of touchscreen interfaces. From left: smartphone, tablet, smartwatch. Some touchscreens are a better fits for their form factor than others.}
+\includegraphics[width=0.7\textwidth]{figures/touchscreens.jpg}
+\caption[Selection of touchscreen interfaces]{\label{fig:touchscreen_interfaces}Selection of touchscreen interfaces. From left: smartphone, tablet, smartwatch. Some touchscreens are a better fit for their form factor than others.}
 \end{figure}
 
 A touchscreen (input device) is an intuitive  \emph{pointing device} often equipped with a reasonable (symbolic) 'on-screen' keyboard and 'gestures'.
-Touchscreens are the de-facto choice for portable \emph{mobile} devices chiefly due to their pervasiveness-- they come in many sizes so can comfortably be taken anywhere; unlike a keyboard \& mouse.
+Touchscreens are the de facto choice for portable \emph{mobile} devices chiefly due to their pervasiveness-- they come in many sizes so can comfortably be taken anywhere; unlike a keyboard \& mouse.
 More generally, they are favoured for their simplicity, ease of use and good-enough symbolic input (that is not obstructive when out of use).
 \section{Advantages}
 \label{sec:org4552562}
@@ -1970,11 +1970,11 @@ One factor contributing to their ease of use is that they enable the user to int
 Relatedly, the interface is very \emph{discoverable}-- and almost all functionality is visually hinted at with few hidden commands, unlike a keyboard which has many shortcuts that do hidden things across many applications.
 Additionally, touchscreens (also trackpads) are notably better than a traditional mouse at gesture based symbolic input (e.g. pinch to zoom) which can often be highly intuitive.
 Note that mobile touchscreens semi-solve \hyperref[sec:org4bd894e]{the 3 hands problem} (\S \ref{sec:org4bd894e}) by essentially moving the keyboard into the pointing device.
-Compared with the keyboard \& mouse, touchscreen GUI interfaces tend to require larger buttons as fingers are less precise than a mouse\footnote{And impede visibility.}, this is especially notable on smartphones where the screen is small and buttons are very large relative to the screen-- essentially making smartphone/desktop GUIs incompatible.
+Compared with the keyboard \& mouse, touchscreen GUI interfaces tend to require larger buttons as fingers are less precise than a mouse\footnote{And impede visibility.}; this is especially notable on smartphones where the screen is small and buttons are very large relative to the screen-- essentially making smartphone/desktop GUIs incompatible.
 
 \section{Drawbacks}
 \label{sec:orgf3c2e36}
-Mobile touchscreen input does have its drawbacks, it is generally slower (\emph{throughput}), less accurate\footnote{Than pointing devices such as the mouse or stylus.}   not \emph{tactile} (so cannot be operated without looking) and more \emph{obstructive}, requiring constant gaze, screen real estate, and focus.
+Mobile touchscreen input does have its drawbacks: it is generally slower (\emph{throughput}), less accurate\footnote{Than pointing devices such as the mouse or stylus.}, not \emph{tactile} (so cannot be operated without looking) and more \emph{obstructive}, requiring constant gaze, screen real estate, and focus.
 \textbf{This means the touchscreen is not the preferred choice for the most demanding work.}
 As a thought experiment on the limits of  touchscreens, imagine telling a fighter jet pilot that you will soon send them to battle with all their controls replaced by touchscreens.
 
@@ -1982,30 +1982,30 @@ As a thought experiment on the limits of  touchscreens, imagine telling a fighte
 \label{sec:org6d663f8}
 Touchscreens are increasingly becoming a favoured input paradigm over the keyboard and mouse by users and interface designers for their perceived simplicity and generality\footnote{As previously stated, we think this falls short of full generality.}.
 Many casual computer users have only a touchscreen device.
-Moreover, consider the 'iPadification' of the MacOS desktop operating system (bigger buttons, larger text, etc.), despite the fact it does not (yet) have a touch screen.
+Moreover, consider the 'iPadification' of the macOS desktop operating system (bigger buttons, larger text, etc.), despite the fact it does not (yet) have a touchscreen.
 
 \section{The mistake of miniature physical keyboards}
 \label{sec:org4b9bf3e}
 Miniaturised physical keyboards have been tried on mobile devices but they are now relatively uncommon as they provide a negligible benefit.
-Compared to a an on-screen keyboard, they take up space-- both physical and on-screen real estate (which can be precious for mobile devices), are not truly tactile-- as they are too miniature to be operated without looking, are not meaningfully familiar to keyboard users-- requiring new muscle memory, and are less flexible-- consider emojis and foreign language input.
-The notable exception is larger touchscreen devices, such as tablets, where attachable keyboards are popular, note that these are full-size keyboards that do no require learning an essentially different input device.
+Compared to an on-screen keyboard, they take up space-- both physical and on-screen real estate (which can be precious for mobile devices), are not truly tactile-- as they are too miniature to be operated without looking, are not meaningfully familiar to keyboard users-- requiring new muscle memory, and are less flexible-- consider emojis and foreign language input.
+The notable exception is larger touchscreen devices, such as tablets, where attachable keyboards are popular; note that these are full-size keyboards that do not require learning an essentially different input device.
 
 \section{\hyperref[org39cbd51]{XR} \& High-Pervasiveness}
 \label{sec:org994f37d}
-When projected into \hyperref[sec:orgb165994]{the coming XR revolution} (\S \ref{sec:orgb165994}), or for that matter very large display panels, the 'direct on environment' input of touchscreens could become cumbersome and inefficient in such a large environment, ideally you want some projection from a smaller input space to the full environment (like how a touchpad is smaller than the display it navigates).
-Additionally, in high-pervasiveness environments, such as those involving movement, a touchscreen can be unergonomic, such as on the Apple watch (see Figure \ref{fig:touchscreen_interfaces}).
-This is one reason touchscreen smart watches have not been as dominant as touchscreen smartphones.
+When projected into \hyperref[sec:orgb165994]{the coming XR revolution} (\S \ref{sec:orgb165994}), or for that matter very large display panels, the 'direct on environment' input of touchscreens could become cumbersome and inefficient in such a large environment; ideally you want some projection from a smaller input space to the full environment (like how a touchpad is smaller than the display it navigates).
+Additionally, in high-pervasiveness environments, such as those involving movement, a touchscreen can be unergonomic, such as on the Apple Watch (see Figure \ref{fig:touchscreen_interfaces}).
+This is one reason touchscreen smartwatches have not been as dominant as touchscreen smartphones.
 
 \chapter{AlphaGrip Controller}
 \label{sec:org1b6f9a0}
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.70\textwidth]{../../../Images/alphagrip.jpg}
-\caption{AlphagGrip ergonomic keyboard controller}
+\includegraphics[width=0.70\textwidth]{figures/alphagrip.jpg}
+\caption{AlphaGrip ergonomic keyboard controller}
 \end{figure}
 
 AlphaGrip is a handheld ergonomic game-console shaped keyboard controller.
-It was created in the mid 2000's, enjoyed limited commercial success but fizzled out as the ownership neglected evolving the project.
+It was created in the mid-2000s, enjoyed limited commercial success but fizzled out as the ownership neglected evolving the project.
 Of all the input devices researched, AlphaGrip is the device that is most in the spirit of our practical work, completing the most of our \hyperref[sec:orgf250acb]{design goals} (\S \ref{sec:orgf250acb}), being \emph{pervasive}, \emph{functional}, \emph{ergonomic}, \emph{tactile-ish} and \emph{fast-ish}.
 
 We were able to get our hands on one for testing, noting that it lacked good keyswitch ergonomics, wireless capabilities, good modifier positions, but otherwise was functional and highly usable.
@@ -2016,18 +2016,18 @@ Nervous System Interface (\hyperref[orgf403bf3]{NSI}) ?
 \label{sec:org69f16d7}
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.70\textwidth]{../../../Images/joystick2.jpg}
+\includegraphics[width=0.70\textwidth]{figures/joystick2.jpg}
 \caption{F-16 flight simulator joystick}
 \end{figure}
 
 The computer simulator joystick (and throttle) is directly modelled on the fighter jet joystick used to control the navigation and essential functionality of the aircraft.
-Notable ergonomic features include it's acclaimed superior 'trigger grip' and extensive thumb cluster of functionality.
+Notable ergonomic features include its acclaimed superior 'trigger grip' and extensive thumb cluster of functionality.
 
-\textbf{We found the shape and  layout of buttons convincingly more ergonomic that all other devices researched.}
-We suspect that the high velocity, notoriously difficult 3D controls, and competitive military environment has evolved highly optimal solutions that apply well designing input controllers for a 3D \hyperref[org39cbd51]{XR} computing environment.
+\textbf{We found the shape and  layout of buttons convincingly more ergonomic than all other devices researched.}
+We suspect that the high velocity, notoriously difficult 3D controls, and competitive military environment have evolved highly optimal solutions that apply well to designing input controllers for a 3D \hyperref[org39cbd51]{XR} computing environment.
 Note that our study of the flight joystick came after the design of our latest prototype so its influence is not yet represented in our practical work.
 
-Interestingly, the aeroplane joystick did not used to have buttons, they were a 1950's British military innovation, acronymed \emph{HOTAS} (\emph{hands on throttle-and-stick}), to allow pilots to perform all vital functions whilst keeping their hands on the navigation controls of the aircraft.
+Interestingly, the aeroplane joystick did not use to have buttons; they were a 1950s British military innovation, acronymed \emph{HOTAS} (\emph{hands on throttle-and-stick}), to allow pilots to perform all vital functions whilst keeping their hands on the navigation controls of the aircraft.
 Previously they had to switch between navigation and operational functionality which could be costly.
 We think this is almost perfectly analogous to our \hyperref[sec:org4bd894e]{3 hands problem} (\S \ref{sec:org4bd894e}), suggesting that pointing devices (mice) and symbolic input (keyboard) should be similarly unified in a single interface to improve performance.
 
@@ -2035,11 +2035,11 @@ We think this is almost perfectly analogous to our \hyperref[sec:org4bd894e]{3 h
 \label{sec:org5f92648}
 Summarising our most important work so far, we
 \begin{enumerate*}[label={\arabic*)}, itemjoin={, \,}, itemjoin*={, and \,}]
-\item Developed the \hyperref[sec:org7f79682]{The 5AA Framework} (§ \ref{sec:org7f79682}) for evaluating the strengths and weaknesses of different interface devices
+\item Developed \hyperref[sec:org7f79682]{The 5AA Framework} (§ \ref{sec:org7f79682}) for evaluating the strengths and weaknesses of different interface devices
 \item Established that contemporary input devices are not suitable for the coming \hyperref[sec:org33e9f1b]{XR Revolution} (§ \ref{sec:org33e9f1b}), fundamentally because they lack pervasiveness (typewriter keyboard), and/or bandwidth (VR controller)
-\item Argued that text/symbolic input is essential to \hyperref[orgbaec896]{general-purpose computing} and it is a common misconception to overlook this.
+\item Argued that text/symbolic input is essential to \hyperref[orgbaec896]{general-purpose computing} and it is a common misconception to overlook this
 \item Postulated that Hand Controlled Input Devices (\hyperref[org0c83164]{HCID}) are, and will remain, the predominant input mechanism\footnote{certainly for text/symbolic input.} for BCIs (§ \ref{sec:org4ee11b2})
-\item Identified typewriter keyboard as a leading interface bottleneck in the pervasiveness of BCIs (§ \ref{sec:org20f3860}) and additionally identified several other important ways they could be improved
+\item Identified the typewriter keyboard as a leading interface bottleneck in the pervasiveness of BCIs (§ \ref{sec:org20f3860}) and additionally identified several other important ways they could be improved
 \item Conducted \hyperref[sec:orgb1f4c1e]{Case Studies} (§ \ref{sec:orgb1f4c1e}) on existing, past and envisioned \hyperref[org0c83164]{HCID} solutions.
 \end{enumerate*}
 We now task ourselves with practically innovating in this space. \medskip
@@ -2049,7 +2049,7 @@ We now task ourselves with practically innovating in this space. \medskip
 \item[{GOAL}] 
 \end{description}
 
-Design a high-bandwidth, high pervasiveness \hyperref[org0c83164]{HCID} to supersede the keyboard and mouse appropriate for \hyperref[org39cbd51]{XR}.
+Design a high-bandwidth, high-pervasiveness \hyperref[org0c83164]{HCID} to supersede the keyboard and mouse appropriate for \hyperref[org39cbd51]{XR}.
 \end{mdframed}
 
 A diverse range of knowledge and skills had to be acquired to undertake this project, much of which we had to learn from scratch.
@@ -2060,23 +2060,23 @@ Specifically:
 \item \emph{Electronics.} Basic electronics including the reading and creating of electrical diagrams and PCB design.
 \item \emph{Design Engineering.} CAD modelling, 3D printing and material science.
 \item \emph{Ergonomics.} Including the study of hand mechanics and \hyperref[org77f0234]{RSI}.
-\item \emph{Cognitive Science.} Human centred keymap design and abstractions.
+\item \emph{Cognitive Science.} Human-centred keymap design and abstractions.
 \end{itemize}
 \chapter{Initial Research}
 \label{sec:orge0c8edf}
 We researched various \textbf{theoretic} aspects of input devices.
 Influential to our thinking was \hyperref[sec:org94f7b3f]{Information Theory} (§ \ref{sec:org94f7b3f}), the \hyperref[extended mind thesis]{Extended Mind Thesis} \autocite{ExtendedMindAndy}, and Doug Engelbart's early work on augmenting human intellect \autocite{engelbartAugmentingHumanIntellect1962}.
 They influenced the development of our theoretical framework, \hyperref[sec:org7f79682]{The 5AA} (§ \ref{sec:org7f79682}).
-We also researched the \textbf{history} of input devices in depth, most notably the focusing on (1) the strengths and limitations of the \hyperref[sec:org20f3860]{Typewriter keyboard} (§ \ref{sec:org20f3860}) and (2) alternate input devices, naturally starting with when Doug Engelbart invented \hyperref[sec:org9f2dc02]{The Mouse} (§ \ref{sec:org9f2dc02}) and inadvertently created \hyperref[sec:org4bd894e]{The 3 hands problem} (§ \ref{sec:org4bd894e}), leading him to propose \emph{the keyset} as the first potential solution.
-We collected \hyperref[sec:orgb1f4c1e]{\textbf{case studies}} (§ \ref{sec:orgb1f4c1e}) of attempts to build an alternative input devices to the typewriter keyboard.
+We also researched the \textbf{history} of input devices in depth, most notably focusing on (1) the strengths and limitations of the \hyperref[sec:org20f3860]{Typewriter keyboard} (§ \ref{sec:org20f3860}) and (2) alternate input devices, naturally starting with when Doug Engelbart invented \hyperref[sec:org9f2dc02]{The Mouse} (§ \ref{sec:org9f2dc02}) and inadvertently created \hyperref[sec:org4bd894e]{The 3 hands problem} (§ \ref{sec:org4bd894e}), leading him to propose \emph{the keyset} as the first potential solution.
+We collected \hyperref[sec:orgb1f4c1e]{\textbf{case studies}} (§ \ref{sec:orgb1f4c1e}) of attempts to build alternative input devices to the typewriter keyboard.
 The themes found, such as chorded-input, directed our ideas for hardware, firmware and keymaps.
 Finally, we studied \textbf{hand biomechanics}, attempting to engage in \emph{first principles thinking} with regards to what movements a hand makes most naturally so as to best design a \hyperref[org0c83164]{HCID} around this.
-This lead us to devise our \hyperref[sec:org57a8fd2]{FBD model of finger movements} (§ \ref{sec:org57a8fd2}).
+This led us to devise our \hyperref[sec:org57a8fd2]{FBD model of finger movements} (§ \ref{sec:org57a8fd2}).
 \section{FBD model (Forward, Backward, Down)}
 \label{sec:org57a8fd2}
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.5\textwidth]{../../../Images/FBD_sketch2.png}
+\includegraphics[width=0.5\textwidth]{figures/FBD_sketch2.png}
 \caption[FBD model of finger movements]{\label{fig:FBD}FBD model of finger movements. The arrow indicates the force vector in each case.}
 \end{figure}
 
@@ -2108,12 +2108,12 @@ A list of \emph{aspiring} design goals for a new \hyperref[org0c83164]{HCID}, ge
 
 \item \textbf{Spatial} making use of movement and gestures natural to humans and usable from a flexible range of hand/arm positions (see \hyperref[sec:org9801c9a]{spatial computing}; § \ref{sec:org9801c9a}).
 
-\item \textbf{Isomorphic} leverage familiarity of known tools. For example, providing access to a keymap similar to QWERTY. would make the device easy to learn.
+\item \textbf{Isomorphic} leverage familiarity of known tools. For example, providing access to a keymap similar to QWERTY would make the device easy to learn.
 
 \item \textbf{Extensible} it should allow for future growth and be easy for users to modify/extend.
 \end{enumerate}
 
-These criteria will not all be fully reachable within the scope of this dissertation, however, I do believe they will eventually all be a necessity.
+These criteria will not all be fully reachable within the scope of this dissertation; however, I do believe they will eventually all be a necessity.
 
 \chapter{Use Cases}
 \label{sec:org2d37584}
@@ -2128,30 +2128,30 @@ See also the main section on \hyperref[sec:org1cf5999]{Pervasiveness} (§ \ref{s
 
 \item[{\hyperref[org39cbd51]{XR} (VR, AR, etc.)}] Related to \emph{pervasive use}, a compelling and arguably irreplaceable use case for our \hyperref[org0c83164]{HCID} would be in \hyperref[org39cbd51]{XR}; a platform many are betting on being the future of computing.
 Keyboards are obviously unsuitable here as they force you to sacrifice freely moving your arms or body.
-\textbf{There is no existing solution for moving text input in \hyperref[org39cbd51]{XR} beyond point-and-click on a virtual keyboard}\footnote{may I suggest a ``swipe'' keyboard (CITE) as a substantial improvement. See also; [BROKEN LINK: ee9403cf-caa9-4884-a4d5-b52cb8d4c8a3] (§ [BROKEN LINK: ee9403cf-caa9-4884-a4d5-b52cb8d4c8a3]) for makeshift partial solution.} (see Figure \ref{fig:virtual_keyboard}), which almost certainly does not have the bandwidth capacity for general-purpose text/symbolic input.
+\textbf{There is no existing solution for moving text input in \hyperref[org39cbd51]{XR} beyond point-and-click on a virtual keyboard}\footnote{may I suggest a ``swipe'' keyboard (CITE) as a substantial improvement. See also; [BROKEN LINK: ee9403cf-caa9-4884-a4d5-b52cb8d4c8a3] (§ [BROKEN LINK: ee9403cf-caa9-4884-a4d5-b52cb8d4c8a3]) for a makeshift partial solution.} (see Figure \ref{fig:virtual_keyboard}), which almost certainly does not have the bandwidth capacity for general-purpose text/symbolic input.
 This use case is grounded in a vision for \hyperref[org39cbd51]{XR} as a platform for \hyperref[orgbaec896]{general-purpose computing}.
 This is in stark contrast to the vision currently pursued by (at the time of writing) the world's most influential entity in this space, Meta Inc. \autocite{WelcomeMetaMeta}, led by CEO Mark Zuckerberg, whose current focus seems to be on \hyperref[org39cbd51]{XR} as a social-interactive gaming/entertainment 'Metaverse'.
 Meta's framing effect contributes to our understanding of why \hyperref[org39cbd51]{XR} as a \hyperref[orgbaec896]{general-purpose computing} platform is underrated.
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.6\textwidth]{../../../Images/vr_keyboard.jpg}
-\caption[VR point-and-click on-screen keybaord]{\label{fig:virtual_keyboard}A state-of-the-art VR on-screen point-and-click keyboard. This is obviously a terrible long term solution for general purpose use.}
+\includegraphics[width=0.6\textwidth]{figures/vr_keyboard.jpg}
+\caption[VR point-and-click on-screen keyboard]{\label{fig:virtual_keyboard}A state-of-the-art VR on-screen point-and-click keyboard. This is obviously a terrible long term solution for general purpose use.}
 \end{figure}
 \item[{Preventing Repetitive Strain Injury (\hyperref[org77f0234]{RSI})}] Many users of traditional keyboards suffer from \hyperref[org77f0234]{RSI}\footnote{One study suggested that 60\% of IT professionals suffer symptoms of \hyperref[org77f0234]{RSI} at some point \autocite{namayandegiEVALUATIONMETHODWHICH2015}.}.
 Effective solutions do seem to exist in the form of ergonomic keyboards and alternate layouts such as DVORAK.
 Any new device should incorporate the existing wisdom on how to avoid users developing \hyperref[org77f0234]{RSI}.
 
 \item[{One handed input}] There are many reasons why a user may only have, or want to have, one hand available, the opposite of which is assumed for efficient use of a typewriter keyboard.
-For example, some user may have an injury or disability and many professionals need to constantly use a mouse (or some other tool) with the other hand (see \hyperref[sec:org4bd894e]{The 3 hands problem}; § \ref{sec:org4bd894e}).
+For example, some users may have an injury or disability and many professionals need to constantly use a mouse (or some other tool) with the other hand (see \hyperref[sec:org4bd894e]{The 3 hands problem}; § \ref{sec:org4bd894e}).
 There is also the more open advantage of (having the option to) have a hand free whilst maintaining full access to a computing environment, adding flexibility that makes usage practical in many new hybrid (pervasive) scenarios.
 For example, a shopkeeper who still needs a hand free to perform manual tasks.
 
-\item[{Spatial computing}] A new input device could incorporates natural movement of the body, such as gestures, to power fluid and intuitive input (see \hyperref[sec:org9801c9a]{Spatial computing}; § \ref{sec:org1cf5999}).
+\item[{Spatial computing}] A new input device could incorporate natural movement of the body, such as gestures, to power fluid and intuitive input (see \hyperref[sec:org9801c9a]{Spatial computing}; § \ref{sec:org1cf5999}).
 
 \item[{Productivity}] There are many ways a new \hyperref[org0c83164]{HCID} could be adopted as an indispensable productivity device.
 For example, if progress was made on throughput allowing input text/commands closer to the speed of thought there would be obvious productivity advantages.
-Similarly, if the \hyperref[sec:org4bd894e]{The 3 hands problem} (§ \ref{sec:org4bd894e}) could be overcome, allowing true simultaneous use of a keyboard and mouse, it would be a strong productivity proposition for existing professionals who need to use both a mouse and keyboard.
+Similarly, if \hyperref[sec:org4bd894e]{The 3 hands problem} (§ \ref{sec:org4bd894e}) could be overcome, allowing true simultaneous use of a keyboard and mouse, it would be a strong productivity proposition for existing professionals who need to use both a mouse and keyboard.
 Additionally, many people may be attracted to VR/\hyperref[org39cbd51]{XR} for the productivity benefits of limitless screen real estate, and you would imagine they would want an input device native to the spatially fluid form-factor.
 \end{description}
 
@@ -2159,7 +2159,7 @@ Additionally, many people may be attracted to VR/\hyperref[org39cbd51]{XR} for t
 \label{sec:org07d55de}
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.8\textwidth]{../../../Images/previous_prototypes_collage.png}
+\includegraphics[width=0.8\textwidth]{figures/previous_prototypes_collage.png}
 \caption{Previous prototypes and ideas}
 \end{figure}
 
@@ -2171,22 +2171,22 @@ Write-ups on the most important previous prototypes can be found in \hyperref[se
 \label{sec:org25f7bc2}
 \begin{figure}[h]
 \centering
-\includegraphics[width=1\textwidth]{../../../Images/HCIDv0.3_2holding_crop.pdf}
+\includegraphics[width=1\textwidth]{figures/HCIDv0.3_2holding_crop.pdf}
 \caption{\hyperref[org0c83164]{HCID} v0.3: Using in hand}
 \end{figure}
 
 \hyperref[org0c83164]{HCID} v0.3 is a fully operational early prototype of a \textbf{one-handed ergonomic handheld input device functional and fast enough to fully replace a mouse and keyboard}.
-Although functional, \hyperref[org0c83164]{HCID} v0.3 is still far from being a consumer product, we still intend to iterate on major design elements such as the button layout, there are many flaws to be fixed and much of the hardware is still makeshift such as the handstrap or hand-wired electronics.
+Although functional, \hyperref[org0c83164]{HCID} v0.3 is still far from being a consumer product; we still intend to iterate on major design elements such as the button layout; there are many flaws to be fixed and much of the hardware is still makeshift such as the hand strap or hand-wired electronics.
 This is understandable given the time and resource constraints of the project and we have many straightforward improvements suggested in \hyperref[sec:orgf0596d4]{Next Prototype: HCID v0.4}  (§ \ref{sec:orgf0596d4}).
 
 In overview, \hyperref[org0c83164]{HCID} v0.3 consists of an ergonomic 3D-printed casing with buttons on two faces: the \emph{front} (thumb-controlled) and \emph{back} (finger-controlled).
-The back has a \(2\times4\) array of standard mechanical key switches and the front has a trackball, two additional keys\footnote{six were originally planned.}, a \texttt{Pause} button lock the input\footnote{not fully implemented at time of writing} and a small OLED screen for displaying information such as the battery, layer and modifier status.
+The back has a \(2\times4\) array of standard mechanical key switches and the front has a trackball, two additional keys\footnote{six were originally planned.}, a \texttt{Pause} button to lock the input\footnote{not fully implemented at time of writing} and a small OLED screen for displaying information such as the battery, layer and modifier status.
 It is fully usable with both just one hand and two hands-- in the latter, you get two identical mirrored keymaps (sharing modifier keys).
 See also \hyperref[sec:org70f081f]{design decisions and discussion} (\S \ref{sec:org70f081f}).
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=1\textwidth]{../../../Images/HCIDv0.3_annotated2.png}
+\includegraphics[width=1\textwidth]{figures/HCIDv0.3_annotated2.png}
 \caption{\hyperref[org0c83164]{HCID} v0.3: Annotated views}
 \end{figure}
 
@@ -2238,14 +2238,14 @@ For discussion see \hyperref[sec:org2af288b]{Design Decisions: Casing} (§ \ref{
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=1\textwidth]{../../../Images/HCID v0.3 Drawings - Casing 1.pdf}
+\includegraphics[width=1\textwidth]{figures/HCID v0.3 Drawings - Casing 1.pdf}
 \caption{\label{fig:tech_draw_ex}\hyperref[org0c83164]{HCID} v0.3: Technical diagrams: Selected example}
 \end{figure}
 \subsection{Wiring schematic}
 \label{sec:org91570ae}
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.85\textwidth]{../../../Images/HCIDv0.3_wiring schematic.png}
+\includegraphics[width=0.85\textwidth]{figures/HCIDv0.3_wiring schematic.png}
 \caption{\label{fig:wiring_schematic}\hyperref[org0c83164]{HCID} v0.3: Electronic wiring schematic}
 \end{figure}
 
@@ -2254,7 +2254,7 @@ It was not strictly necessary for this prototype as it was hand-wired, but it do
 \subsection{Keymap (code)}
 \label{sec:org29305bd}
 For any unfamiliar terminology, particularly that in \emph{italics}, see \hyperref[sec:org807f536]{Keymap Nomenclature} (Appendix \ref{sec:org807f536}).
-The \emph{back} (fingers) dominate the symbolic input (letters, numbers, punctuation, functions) whilst the \emph{front} (thumb) controls the pointing device (mouse), two additional general-purpose keys (currently set to \texttt{SHIFT} and \texttt{GUI}) and a \texttt{Pause} button to lock the input from accidentally pressing buttons when you don't want to use the device.
+The \emph{back} (fingers) dominates the symbolic input (letters, numbers, punctuation, functions) whilst the \emph{front} (thumb) controls the pointing device (mouse), two additional general-purpose keys (currently set to \texttt{SHIFT} and \texttt{GUI}) and a \texttt{Pause} button to lock the input from accidentally pressing buttons when you don't want to use the device.
 The \emph{back} keymap is a modified version of that created by the \texttt{ARTSEY} keyboard community \autocite{ARTSEYEasyFast}.
 
 The keymap (back) is best understood as a reference diagram which can be found in
@@ -2264,7 +2264,7 @@ These keys are laid out (in order of priority) to 1) have the most common keys i
 For an example of (1), the 8 base keys (keys that function with a single finger press as on a standard keyboard) are  \texttt{A-R-T-S-E-Y-I-O}, approximately the most common letters in English.
 For an example of (2), multi-finger chords that involve the pinky and middle finger have been kept to a minimum.
 For an example of (3), the letter \texttt{l} has the chord \(\begin{matrix} \square & \square  & \square  & \square \\ \blacksquare &  \blacksquare & \blacksquare & \square \end{matrix}\) (left hand), which looks like the letter making it feel natural and easier to remember.
-Beyond the base layer, the remaining functionality (\emph{numbers}, \emph{symbols}, etc.) is achieved through zmk's \autocite{ZMKFirmware}  \emph{Hold-tap} \emph{Momentary-Layers}-- several \emph{Layers} that are activated whilst holding down some button (generally a corner of the \(2\times4\) array).
+Beyond the base layer, the remaining functionality (\emph{numbers}, \emph{symbols}, etc.) is achieved through ZMK's \autocite{ZMKFirmware}  \emph{Hold-tap} \emph{Momentary-Layers}-- several \emph{Layers} that are activated whilst holding down some button (generally a corner of the \(2\times4\) array).
 For more discussion on the keymap design, see \hyperref[sec:org5385a41]{Design Decisions: Keymap} (§ \ref{sec:org5385a41}).
 
 The custom firmware for this keymap can be found in the \texttt{/zmk} folder of the main repository \autocite{sharpNazzacodeHCIDMy}.
@@ -2273,21 +2273,21 @@ The custom firmware for this keymap can be found in the \texttt{/zmk} folder of 
 \subsection{WPM}
 \label{sec:org61723c3}
 We have been able to consistently achieve typing speeds of over 30wpm (see Figure \ref{fig:wpm}), with quite limited practice, and are confident that 40-50wpm is easily possible with more practice.
-Note this is using the device one-handed, we haven't tried two-handed yet as we have only built left-handed prototypes, but believe it should be \(1.3\)-\(1.6\times\) faster.
+Note this is using the device one-handed; we haven't tried two-handed yet as we have only built left-handed prototypes, but believe it should be \(1.3\)-\(1.6\times\) faster.
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.8\textwidth]{../../../Images/artsey_progress2_invert.png}
+\includegraphics[width=0.8\textwidth]{figures/artsey_progress2_invert.png}
 \caption[WPM progress over time]{\label{fig:wpm}WPM progress over time (data collected with Monkeytype \autocite{miodecMonkeytype})}
 \end{figure}
 
 Anecdotally, whilst 30wpm is reasonably comfortable for daily use\footnote{The author types around 60wpm on a standard QWERTY layout.}, it can be frustrating for activities that require extensive use of \emph{symbols} and \emph{modifiers} such as programming.
 For reference, the average American adult types at roughly 40wpm\footnote{Programmers tend to type faster; an average of 55wpm.} \autocite{WhatAverageTyping} so we are approaching the range of average performance on a QWERTY keyboard.
-This is good for a first prototype, however we want it to be considerably faster (approaching 100wpm) for it be truly viable as a keyboard replacement.
+This is good for a first prototype; however, we want it to be considerably faster (approaching 100wpm) for it to be truly viable as a keyboard replacement.
 This may require a revised keymap in the next prototype.
-Note that there are may features in the pipeline that should help increase the input speed such as whole word input and autocompletion.
+Note that there are many features in the pipeline that should help increase the input speed such as whole word input and autocompletion.
 Additionally, one notable factor currently impeding wpm is
-\hyperref[sec:org52342a1]{Rocking} (§ \ref{sec:org52342a1}),  the device was noticeably faster (roughly 37wpm) when set down on a flat surface, though this could also be due to the drawbacks of our ergonomics. \medskip
+\hyperref[sec:org52342a1]{Rocking} (§ \ref{sec:org52342a1}); the device was noticeably faster (roughly 37wpm) when set down on a flat surface, though this could also be due to the drawbacks of our ergonomics. \medskip
 
 Note that standard typing speed tests (such as the ones we used) do not include extensive symbolic (or even numeric) input, testing only on prose (\emph{alphas}). This can hide a weakness of (QWERTY) keyboards: being relatively slow to input these keys. We think non-\emph{alpha} inputs are important and should be included in future testing.
 
@@ -2332,16 +2332,16 @@ However, the hand strap is not secure enough to prevent rocking and extended use
 
 \item \textbf{Spatial} 2.5/5. You can wave your arms around, which is progress, but it doesn't control anything directly (yet). \smallskip
 
-\item \textbf{Isomorphic} 1/5. The design has an isomorphism to letter shapes, but not to QWERTY which is the priority, and could be the key to mainstream addoption. \smallskip
+\item \textbf{Isomorphic} 1/5. The design has an isomorphism to letter shapes, but not to QWERTY which is the priority, and could be the key to mainstream adoption. \smallskip
 
 \item \textbf{Extensible} 4/5. Nothing to our knowledge stands in the way of future growth and everything is open source.
-Perhaps in future, zmk \autocite{ZMKFirmware} may need to be replaced with custom firmware and our hardware upgraded to include motion sensors for gesture control. \smallskip
+Perhaps in future, ZMK \autocite{ZMKFirmware} may need to be replaced with custom firmware and our hardware upgraded to include motion sensors for gesture control. \smallskip
 \end{enumerate}
 
 \section{Conclusions}
 \label{sec:orgc11c21e}
-Overall \hyperref[org0c83164]{HCID} v0.3 is a usable proof of concept that works well for the most essential set of use cases (keyboard and mouse), it is merely a little slow and rough around the edges.
-Whilst there is still a long way to go, \hyperref[org0c83164]{HCID} v0.3 shows that a fast, portable, ergonomic input device is realstic, and provides strong indicators for how we can achieve our remaining \hyperref[sec:orgf250acb]{Design Goals} (§ \ref{sec:orgf250acb}). See \hyperref[sec:orgf0596d4]{Next Prototype: HCID v0.4}; § \ref{sec:orgf0596d4}) for more.
+Overall \hyperref[org0c83164]{HCID} v0.3 is a usable proof of concept that works well for the most essential set of use cases (keyboard and mouse); it is merely a little slow and rough around the edges.
+Whilst there is still a long way to go, \hyperref[org0c83164]{HCID} v0.3 shows that a fast, portable, ergonomic input device is realistic, and provides strong indicators for how we can achieve our remaining \hyperref[sec:orgf250acb]{Design Goals} (§ \ref{sec:orgf250acb}). See \hyperref[sec:orgf0596d4]{Next Prototype: HCID v0.4} (§ \ref{sec:orgf0596d4}) for more.
 \chapter{Design Decisions}
 \label{sec:org70f081f}
 This section became extremely long, so for brevity it has been moved to the appendices (\S \ref{sec:org427ef7d}).
@@ -2351,14 +2351,14 @@ In summary we made the following key design decisions:
 \item A one-handed keymap prioritised over a two-handed keymap; with intention to support both
 \item A handheld device rather than being leg or wrist mounted
 \item A keymap incorporating both a 2D-Array of buttons and 3D-ergonomic layout
-\item Standard mechanical key switches over others options such as multi-directional switches
+\item Standard mechanical key switches over other options such as multi-directional switches
 \item A small rollball as a pointing device (mouse); though being open to change in future to pointing devices such as joysticks, touchpads and eye tracking.
 \item A 2x4 button layout for the fingers and a 3 button cluster for the thumbs (including the trackball)
-\item A custom 3D-printed casing, purpose build for the ergonomics of our own hand
+\item A custom 3D-printed casing, purpose-built for the ergonomics of our own hand
 \item Use the ZMK framework \autocite{ZMKFirmware} to provide many high level abstractions for our firmware
 \item Use the nice!nano v2 microcontroller \autocite{NiceNanoNice}
 \item Use a modified version of the ARTSEY keyboard layout \autocite{ARTSEYEasyFast} (making extensive use of chording), with modifications following the heuristic of having the most common functionality easiest to reach.
-\item Hand wired electronics for flexibility with a desire to later move onto a custom printed PCB
+\item Hand-wired electronics for flexibility with a desire to later move onto a custom printed PCB
 \end{enumerate}
 
 \chapter{Next Steps: \hyperref[org0c83164]{HCID} v0.4}
@@ -2444,7 +2444,7 @@ One difficulty was the need to write coherently and extensively about an early-s
 We solved this by freezing the report to a certain prototype version (\hyperref[org0c83164]{HCID} v0.3)-- even though by submission our thinking had evolved and we had begun work on the next prototype.
 Nevertheless, it captures our thinking at a certain time well.
 Again the expectation to present one's work formally was probably counterproductive.
-In future, we intend to publish updates of our work in a less academic format
+In future, we intend to publish updates of our work in a less academic format.
 
 A noticeable weak point in our knowledge was in the electronics, as we did not have a strong background in this subject or have time to study it intensively.
 We intend to remedy this with a serious study of the fundamentals.
@@ -2452,7 +2452,7 @@ We intend to remedy this with a serious study of the fundamentals.
 One trade-off we began to view more positively as time went on was 'taking shortcuts'; building on other people's work as much as possible rather than trying to build everything from first principles.
 This allowed us to focus more on novel parts of the design such as the casing and keymap and less on more 'solved' problems such as key switches and low-level firmware, even though we could envision the possibility of something better than the status quo.
 
-Throughout this project, we have become increasingly convinced in our central thesis, that the \hyperref[org39cbd51]{XR} revolution is forthcoming, and a fast and pervasive input device will be required (we hope you have too).
+Throughout this project, we have become increasingly convinced of our central thesis, that the \hyperref[org39cbd51]{XR} revolution is forthcoming, and a fast and pervasive input device will be required (we hope you have too).
 We hope to be able to continue this work and are actively considering the best path forward.
 
 \begin{mdframed}
@@ -2487,30 +2487,30 @@ The full list of key codes is given in the USB HID Usage Tables \autocite{mcgowa
 \item[{Layer}] Maps buttons to key codes.
 Switching layers remaps all the keys (or as many as you want) to new key codes.
 Generally a layer is themed to a set of keys, say \emph{numbers}, or \emph{functions}.
-Layers can be reached either through dedicated buttons or some mechanisms that cycles-through layers.
+Layers can be reached either through dedicated buttons or some mechanism that cycles through layers.
 \end{description}
 \end{mdframed}
 
 \section{Key presses}
 \label{sec:orga9873e1}
-Where there are multiple names for a behaviour, we have followed the ZMK \autocite{ZMKFirmware} documentation and alternate name has been shown in brackets.
+Where there are multiple names for a behaviour, we have followed the ZMK \autocite{ZMKFirmware} documentation and alternate names have been shown in brackets.
 
 \begin{mdframed}
 \begin{description}
 \item[{Send on press}] Key code sends when you press the key.
 Standard keyboards work like this.
-\item[{Send on release}] Key code send on release of key.
+\item[{Send on release}] Key code sends on release of key.
 Chorded keyboards work like this because humans are not capable of pressing multiple keys within the electronic read cycle of a key.
 \item[{Toggle}] Enables some functionality until manually disabled.
 \item[{Chord (Combo)}] When a key code is specified by simultaneous press of multiple keys at once.
-Chords are a way to expand the number of keypress' available on a (small) keyboard; you go from \(n\) keys, to \(\sum_{i \in n}{ n \choose i}\) chords (sum of all combinations).
+Chords are a way to expand the number of keypresses available on a (small) keyboard; you go from \(n\) keys, to \(\sum_{i \in n}{ n \choose i}\) chords (sum of all combinations).
 \item[{Hold-Tap}] Will output the 'tap' behaviour if pressed quickly. Will output 'hold' behaviour if held for a while.
 \begin{description}
 \item[{Mod-Tap}] If key is tapped, send key code 'tap'. If key is held, send key code 'mod'. Useful for \emph{modifiers}.
 \item[{Layer-Tap}] If key is tapped, send key code 'tap'. If key is held, enable 'layer'.
 \end{description}
-\item[{Momentary layer}] Press enables a layers while a certain key is pressed
-\item[{Tap-Dace (Double-Tap+)}] Enables different behaviour depending on how many times the key is pressed. A common use is \texttt{SHIFT} if pressed once and \texttt{CapsLock} if pressed twice.
+\item[{Momentary layer}] Press enables a layer while a certain key is pressed.
+\item[{Tap-Dance (Double-Tap+)}] Enables different behaviour depending on how many times the key is pressed. A common use is \texttt{SHIFT} if pressed once and \texttt{CapsLock} if pressed twice.
 \item[{Macro}] meta-programming functionality to chain other behaviours together with logic.
 For example, can be used to send multiple key codes at once (e.g. whole words).
 \item[{Arpeggio (Sticky Key, One-Shot-Mod, Leader Key)}] enables the user to enter key combinations by pressing keys in sequence rather than simultaneously.
@@ -2530,14 +2530,14 @@ To avoid confusion with the usual meaning, set names are referred to in \emph{it
 \item[{\emph{alphas} (26)}] Roman alphabet (e.g., \texttt{a}, \texttt{b}, \texttt{c}, etc.).
 \item[{\emph{numbers} (10)}] Numbers \texttt{0} - \texttt{9}.
 \item[{\emph{essentials} (4)}] \texttt{Space}, \texttt{Return}, \texttt{Tab} and \texttt{Escape}.
-\item[{\emph{symbols} (40)}] The standard set of symbolic keys found on a keybaord (e.g.,  \texttt{\textasciitilde{}}, \texttt{!}, \texttt{@}, \texttt{\#}, \texttt{\$}, \texttt{\%}, etc.).
+\item[{\emph{symbols} (40)}] The standard set of symbolic keys found on a keyboard (e.g.,  \texttt{\textasciitilde{}}, \texttt{!}, \texttt{@}, \texttt{\#}, \texttt{\$}, \texttt{\%}, etc.).
 \begin{description}
 \item[{\emph{modifiers} (4+)}] used in conjunction with another key to modify its normal action. The most important ones are \texttt{Ctrl}, \texttt{Alt}, \texttt{Shift} and \texttt{GUI}\footnote{\texttt{Win} / \texttt{Cmd} / \texttt{Meta} / \texttt{Super} depending on your operating system. They are generally considered equivalent.}.
 \end{description}
 \item[{\emph{navigation} (10)}] Keys for moving around (arrow keys, \texttt{Home}, \texttt{End}, \texttt{PageUp}, \texttt{PageDown}, \texttt{Delete}, and \texttt{Insert}).
 \item[{\emph{functions} (12)}] the F keys (\texttt{F1} - \texttt{F12}); used to perform specific tasks.
-\item[{\emph{mouse} (10+)}] Mouse movement and buttons (e.g., move, right-click (\texttt{MouseButton1}), left-click (\texttt{MouseButton3}), scroll-down (\texttt{MouseButton5}), \texttt{MouseButton7}, etc.)).
-Unlike most keyboards these will need to be integrated into out design.
+\item[{\emph{mouse} (10+)}] Mouse movement and buttons (e.g., move, right-click (\texttt{MouseButton1}), left-click (\texttt{MouseButton3}), scroll-down (\texttt{MouseButton5}), \texttt{MouseButton7}, etc.).
+Unlike most keyboards these will need to be integrated into our design.
 \end{description}
 Additionally we have some helpful combined sets,
 \begin{description}
@@ -2556,37 +2556,37 @@ Our original \hyperref[org0c83164]{HCID} idea was for a gesture control wristban
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.7\textwidth]{../../../Images/wristband_mdpi2.png}
+\includegraphics[width=0.7\textwidth]{figures/wristband_mdpi2.png}
 \caption{\hyperref[org0c83164]{HCID} wristband concept (\autocite{cote-allardLowCostWireless3DPrinted2019})}
 \end{figure}
 
-We found two companies (and one excellent paper \autocite{cote-allardLowCostWireless3DPrinted2019}) that had tried this, the first (Thalmic Labs' Myo Armband \autocite{MyoGestureControl}) was acquired by the second (CTRL-Labs \autocite{27CTRLlabsLinkedIn}) which was acquired by Facebook, now Meta, who discontinued the public product and integrated into their VR/AR team in 2019 and are still working on the technology.
+We found two companies (and one excellent paper \autocite{cote-allardLowCostWireless3DPrinted2019}) that had tried this, the first (Thalmic Labs' Myo Armband \autocite{MyoGestureControl}) was acquired by the second (CTRL-Labs \autocite{27CTRLlabsLinkedIn}) which was acquired by Facebook, now Meta, who discontinued the public product and integrated it into their VR/AR team in 2019 and are still working on the technology.
 As a result, at the time of writing there are no (longer) commercial products available in this space which is a great shame/opportunity considering what a great idea we think this is.
-We predict that withing 10 years EMG-wristbands could become humanities predominant input device.
+We predict that within 10 years EMG-wristbands could become humanity's predominant input device.
 
 Although we consider an EMG-wristband a more ideal final-form of \hyperref[org0c83164]{HCID}, ultimately it was considered too challenging a project given the time and resource constraints of the project. For a more detailed discussion see \hyperref[sec:org16fb948]{Design Decisions:: Portable keyboard vs. EMG wristband} (Section \ref{sec:org16fb948}).
 \section{\hyperref[org0c83164]{HCID} v0.1}
 \label{sec:org148afbc}
 \hyperref[org0c83164]{HCID} v0.1
 was the first working prototype.
-It was designed to maximally simple.
+It was designed to be maximally simple.
 It has just \(5\times1\) keys and a very square casing.
-It used the same keymap as Doug Englebart's original keyset and was implemented on the Arduino firmware platform \autocite{ArduinoHome}.
+It used the same keymap as Doug Engelbart's original keyset and was implemented on the Arduino firmware platform \autocite{ArduinoHome}.
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.7\textwidth]{../../../Images/HCIDv0.1_drawing_cropped.jpg}
+\includegraphics[width=0.7\textwidth]{figures/HCIDv0.1_drawing_cropped.jpg}
 \caption{\hyperref[org0c83164]{HCID} v0.1: Renders}
 \end{figure}
 
 \section{\hyperref[org0c83164]{HCID} v0.2}
 \label{sec:org283f883}
-\hyperref[org0c83164]{HCID} was a continuation of \hyperref[org0c83164]{HCID} v0.1, with a joystick replacing the single thumb button and 5-way navigation switches \autocite{5wayNavigationSwitch} replacing standard (one-way) mechanical switches in an attempt to realise our \hyperref[sec:org57a8fd2]{FBD model (Forward, Backward, Down)} (Sec. \ref{sec:org57a8fd2}).
-The joystick was a success but the 5-way nav switches were unergonomic and prone to breaking, so swapped back to (two rows of) standard switches for \hyperref[sec:org25f7bc2]{HCID v0.3} (Section \ref{sec:org25f7bc2}).
+\hyperref[org0c83164]{HCID} v0.2 was a continuation of \hyperref[org0c83164]{HCID} v0.1, with a joystick replacing the single thumb button and 5-way navigation switches \autocite{5wayNavigationSwitch} replacing standard (one-way) mechanical switches in an attempt to realise our \hyperref[sec:org57a8fd2]{FBD model (Forward, Backward, Down)} (Sec. \ref{sec:org57a8fd2}).
+The joystick was a success but the 5-way nav switches were unergonomic and prone to breaking, so we swapped back to (two rows of) standard switches for \hyperref[sec:org25f7bc2]{HCID v0.3} (Section \ref{sec:org25f7bc2}).
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.7\textwidth]{../../../Images/HCIDv0.2.jpg}
+\includegraphics[width=0.7\textwidth]{figures/HCIDv0.2.jpg}
 \caption{\hyperref[org0c83164]{HCID} v0.2}
 \end{figure}
 
@@ -2600,7 +2600,7 @@ If more detailed dimensions are needed, source files are available in the \textt
 \begin{landscape}
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=.9\linewidth]{../../../Images/HCID v0.3 Drawings - Casing 1.pdf}
+\includegraphics[width=.9\linewidth]{figures/HCID v0.3 Drawings - Casing 1.pdf}
 \caption{\hyperref[org0c83164]{HCID} v0.3: Casing dimensions 1/2}
 \end{figure}
 \end{landscape}
@@ -2608,7 +2608,7 @@ If more detailed dimensions are needed, source files are available in the \textt
 \begin{landscape}
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=.9\linewidth]{../../../Images/HCID v0.3 Drawings - Casing 2.pdf}
+\includegraphics[width=.9\linewidth]{figures/HCID v0.3 Drawings - Casing 2.pdf}
 \caption{\hyperref[org0c83164]{HCID} v0.3: Casing dimensions 2/2}
 \end{figure}
 \end{landscape}
@@ -2617,7 +2617,7 @@ If more detailed dimensions are needed, source files are available in the \textt
 \label{sec:org4e5a658}
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.9\textwidth]{../../../Images/artsey_keymap_grey.jpg}
+\includegraphics[width=0.9\textwidth]{figures/artsey_keymap_grey.jpg}
 \caption{\hyperref[org0c83164]{HCID} v0.3: Backside keymap \autocite{ARTSEYEasyFast}}
 \end{figure}
 
@@ -2668,7 +2668,7 @@ Of course, in reality, the decision-making process was much more chaotic. \\
 \end{enumerate}
 
 (1) was chosen, despite (2) being considered a more ideal final form.
-In fact, we did spend some time trying to work on (2) but it was considered too ambitious, see \hyperref[sec:orgbfe155b]{HCID Wrsitband Concept} (Appendix \ref{sec:orgbfe155b}).
+In fact, we did spend some time trying to work on (2) but it was considered too ambitious, see \hyperref[sec:orgbfe155b]{HCID Wristband Concept} (Appendix \ref{sec:orgbfe155b}).
 
 (1) was considered far more practical to build as much of the \emph{vast existing knowledge can be applied} that comes from the custom keyboard building community.
 Also, the benefit of \emph{tactile feedback} is very important (and easily underestimated)- it provides positive/negative reinforcement for learning and can transform the fengshui of a device.
@@ -2714,7 +2714,7 @@ We had a strong intuition to choose (a), as we were drawn to thinking of ambidex
 It is also worth noting that (a) is easier to implement as you only need to design and program a single keymap.
 Perhaps this could be paired with the option to implement some kind of semi-permanent layer on the second device giving the de facto behaviour of (b).
 
-There is then also the question in the two-handed case of whether the two halves should act (c) separately or (d) as a whole, e.g when pressing Control, should it act globally or be bound to the side it was pressed on.
+There is then also the question in the two-handed case of whether the two halves should act (c) separately or (d) as a whole, e.g. when pressing Control, should it act globally or be bound to the side it was pressed on.
 We chose (c) because it was easier to implement but it might be possible to add the ability to switch between the two.
 \section{Handheld vs. leg-mounted vs. wrist mounted}
 \label{sec:org61979b5}
@@ -2723,7 +2723,7 @@ We chose (c) because it was easier to implement but it might be possible to add 
 \begin{longtable}{|p{6.25cm}|p{6.25cm}|}
 \hline
 + familiar/obvious & - probably requires strap\\
-+ 3D-Ergonomic layout possible & - peoples hands differently sized\\
++ 3D-Ergonomic layout possible & - people's hands differently sized\\
 \hline
 \end{longtable}
 \item{$\square$} \sout{\textbf{Leg Mounted}} strapped to your leg (see \autocite{SimulaVR2021}).
@@ -2733,7 +2733,7 @@ We chose (c) because it was easier to implement but it might be possible to add 
 + trivial to implement & - unnatural placement on legs\\
 \hline
 \end{longtable}
-\item{$\boxminus$} \textbf{Wrist Mounted} think Assassins Creed blade.
+\item{$\boxminus$} \textbf{Wrist Mounted} think Assassin's Creed blade.
 \begin{longtable}{|p{6.25cm}|p{6.25cm}|}
 \hline
 + stable support & - tricky mechanical engineering\\
@@ -2743,7 +2743,7 @@ We chose (c) because it was easier to implement but it might be possible to add 
 \end{longtable}
 \end{enumerate}
 
-(1) was chosen primarily because it offers more freedom of movement than (2) in which you \emph{cannot move you arms} which are \emph{unnaturally placed on your legs}.
+(1) was chosen primarily because it offers more freedom of movement than (2) in which you \emph{cannot move your arms} which are \emph{unnaturally placed on your legs}.
 (3) was only seriously considered after building (1) and is a potential avenue to be explored in future.
 
 One drawback of (1) considering our decision for a one-handed design, is that we will now almost certainly require a handstrap which will make the device more cumbersome and  could be considered ugly.
@@ -2751,22 +2751,22 @@ Finally, there is the consideration that \emph{people's hands are differently si
 It was reasoned this could be solved by first designing a device solely for some individual hand-shape and iterating from there; either to a universal one-size-fits-all or to multiple sizes or even individualised design\footnote{Perhaps use hand scanning to generate a parameterised casing to be 3D printed.}.
 
 (3) is an interesting idea that was only come across recently and has not been ruled out for future designs.
-Taking inspiration from the hidden blade in the video game Assasins's Creed it has the advantage of obviously being super cool.
-More technically, it has the advantage of hopefully acting as a \emph{stabilising support} to the device, which turned out to be a serious problem for (1), and makes a \emph{2D-Array (QWERTY) layout} possible, although you working within a somewhat limited space.
-\section{2D-Array vs 3D-Ergonomic}
+Taking inspiration from the hidden blade in the video game Assassin's Creed it has the advantage of obviously being super cool.
+More technically, it has the advantage of hopefully acting as a \emph{stabilising support} to the device, which turned out to be a serious problem for (1), and makes a \emph{2D-Array (QWERTY) layout} possible, although you are working within a somewhat limited space.
+\section{2D-Array vs. 3D-Ergonomic}
 \label{sec:org9716be3}
 \begin{enumerate}
 \item{$\boxtimes$} \textbf{2D-Grid} like a standard keyboard. Anything that lays keys out in a grid.
 \begin{longtable}{|p{6.25cm}|p{6.25cm}|}
 \hline
-+ spatially organised & - potentially unerogonomic\\
++ spatially organised & - potentially unergonomic\\
 + one size fits all & \\
 \hline
 \end{longtable}
 \item{$\boxtimes$} \textbf{3D-Ergonomic} buttons can be anywhere on the surface of a 3D object.
 \begin{longtable}{|p{6.25cm}|p{6.25cm}|}
 \hline
-- ergonomic & - harder electronics\\
++ ergonomic & - harder electronics\\
  & - people have different shaped hands\\
 \hline
 \end{longtable}
@@ -2788,7 +2788,7 @@ Additionally our research into hand movements produced the \hyperref[sec:org57a8
  & - expensive\\
 \hline
 \end{longtable}
-\item{$\boxtimes$} \textbf{Membrane/Rubber Dome Switches}. standard switches on a game controller or TV remote.
+\item{$\boxtimes$} \textbf{Membrane/Rubber Dome Switches} standard switches on a game controller or TV remote.
 \begin{longtable}{|p{6.25cm}|p{6.25cm}|}
 \hline
 + variable size & - relatively poor ergonomics\\
@@ -2850,14 +2850,14 @@ Firstly, they come in a \emph{fixed large size}, which fixes the number you can 
 Critically, this reduced us from our favoured 3-keys per finger to 2-keys per finger in our latest prototype\footnote{it might have been possible to squeeze three rows in, something to experiment with in future.}.
 
 We decided against using (2) in the general case, despite their \emph{variable size}, they generally have much less satisfying \emph{ergonomics}, feeling a bit tacky.
-However we did using (2) for some smaller, less prominent buttons such as the pause key.
+However we did use (2) for some smaller, less prominent buttons such as the pause key.
 
 (5) was considered. Perhaps at some point, we would like to add a rotary encoder for scrolling and some game console triggers for shooting the bad guys.
 \section{Pointing Device (Mouse)}
 \label{sec:org29cf3b7}
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.85\textwidth]{../../../Images/pointing_devices_crop.jpeg}
+\includegraphics[width=0.85\textwidth]{figures/pointing_devices_crop.jpeg}
 \caption{Selection of pointing devices (\autocite{TrackpointJoricJorne})}
 \end{figure}
 
@@ -2889,7 +2889,7 @@ However we did using (2) for some smaller, less prominent buttons such as the pa
 \hline
 \end{longtable}
 
-\item{$\boxminus$} \textbf{Trackpoint} 'nipple' classically found on Lenovo Thinkpad keyboards.
+\item{$\boxminus$} \textbf{Trackpoint} 'nipple' classically found on Lenovo ThinkPad keyboards.
 \begin{longtable}{|p{6.25cm}|p{6.25cm}|}
 \hline
 + good control & - no inbuilt button\\
@@ -2919,23 +2919,23 @@ However we did using (2) for some smaller, less prominent buttons such as the pa
 \end{longtable}
 \end{enumerate}
 
-We decided that this decision is not particularly urgent to finalise as it is reasonably easy swap pointing device between prototypes and their functionality generally acts in isolation from the rest of the device.
+We decided that this decision is not particularly urgent to finalise as it is reasonably easy to swap pointing device between prototypes and their functionality generally acts in isolation from the rest of the device.
 Note that all options are viable and many people have a personal preference.
 It potentially might even be possible in production to let users choose their own or have multiple such as in the Steam Deck \autocite{SteamDeck2022}  which uses both (1) and (5).
 
 (1) has the advantage of being \emph{game console compatible}- (most likely) necessary for implementing the functionality of a game controller, which could remove the need to switch between a controller and keyboard device.
 Additionally, we think it could be \emph{utilised in symbolic input}- using large movements to control things like modifier keys or layers.
 (1) also feels the most \emph{natural for navigating 3D space}\footnote{this could potentially be extended to 6-DOF}.
-The downside of (1) is that is probably the only option that has \emph{poor control} for fine movements-- this is probably a deal breaker for sole use as a pointing device.
+The downside of (1) is that it is probably the only option that has \emph{poor control} for fine movements-- this is probably a deal breaker for sole use as a pointing device.
 (1) in combination with a second pointing device (we don't currently have any strong preference which), is probably our idealised option.
-Note, earlier prototypes used (1) (see \hyperref[sec:org283f883]{HCID v0.2} (Appendix \ref{sec:org283f883}).
+Note, earlier prototypes used (1) (see \hyperref[sec:org283f883]{HCID v0.2} (Appendix \ref{sec:org283f883})).
 
 (2) was used for the most recent prototype as it was \emph{easiest to implement on ZMK} (our chosen firmware) due to having the best support.
 
 (3) does come in a range of sizes and many swear by (4) having the best control.
-(5) despite being \emph{familiar} (ubiquitous on laptops), does have the disadvantage of \emph{no /continuous scroll}- the ability to, say on a joystick, hold/lock in a maximised position, as opposed to having to pick up and replace your finger when you reach the end of the trackpad.
+(5) despite being \emph{familiar} (ubiquitous on laptops), does have the disadvantage of \emph{no continuous scroll}- the ability to, say on a joystick, hold/lock in a maximised position, as opposed to having to pick up and replace your finger when you reach the end of the trackpad.
 (6) has the advantage of feeling very \emph{natural} see \hyperref[sec:org9801c9a]{Spatial computing} (§ \ref{sec:org9801c9a}) however has the disadvantages of being \emph{unstable for fine movements} and \emph{strenuous to hold up} for long periods of time.
-(7) will certainly be \emph{the future of pointing devices}, perhaps sooner rather than later,but suffers from not currently existing in an easy to integrate manner.
+(7) will certainly be \emph{the future of pointing devices}, perhaps sooner rather than later, but suffers from not currently existing in an easy to integrate manner.
 \section{Button Layout}
 \label{sec:org68327cb}
 What layout of physical buttons do we want available for each finger (and thumb) to reach?
@@ -2949,7 +2949,7 @@ To recap, we have previously established a preference for
 We also think the following should be added:
 \begin{enumerate*}[label={\arabic*)}, itemjoin={, \,}, itemjoin*={, and \,}]
 \item a power button to turn the device on/off
-\item a pause button to lock keypress' from being registered.
+\item a pause button to lock keypresses from being registered.
 \end{enumerate*}
 
 For our most recent prototype (\hyperref[org0c83164]{HCID} v0.3) space constraints made us settle for only 2 buttons per finger, giving us a 2x4 2D-array for the fingers.
@@ -2958,13 +2958,13 @@ For the thumb cluster, we designed the casing with 6 additional thumb buttons (3
 \label{sec:org2af288b}
 In early prototypes (up to \hyperref[sec:org283f883]{HCID v0.2}; § \ref{sec:org283f883}) serious consideration of ergonomics was skipped in favour of a cuboid (resulting in a quicker first prototype).
 
-We the decided to first design the casing to fit a single hand before trying to generalise beyond that.
-Even so, completing our \hyperref[sec:orgf250acb]{Design Goal} (§ \ref{sec:orgf250acb}) to make the device ergonomic was much more difficult that expected.
+We then decided to first design the casing to fit a single hand before trying to generalise beyond that.
+Even so, completing our \hyperref[sec:orgf250acb]{Design Goal} (§ \ref{sec:orgf250acb}) to make the device ergonomic was much more difficult than expected.
 
 \begin{wrapfigure}{r}{0.6\textwidth}
 \centering
-\includegraphics[width=0.58\textwidth]{../../../Images/casing_warping.png}
-\caption[Casing misprints]{\label{fig:casing_misprints}Casing misprints, Clockwise from left; warping, under-extrusion, contamination, warping.}
+\includegraphics[width=0.58\textwidth]{figures/casing_warping.png}
+\caption[Casing misprints]{\label{fig:casing_misprints}Casing misprints, clockwise from left; warping, under-extrusion, contamination, warping.}
 \end{wrapfigure}
 
 Firstly, CAD is not our specialist subject, so there was a lot to learn to build something that wasn't just a glorified box.
@@ -2988,7 +2988,7 @@ Important features of our design so far include
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.85\textwidth]{../../../Images/casing_prototype_array.png}
+\includegraphics[width=0.85\textwidth]{figures/casing_prototype_array.png}
 \caption{\label{fig:casing_prototypes}Various casing prototypes}
 \end{figure}
 \section{Firmware}
@@ -3011,7 +3011,7 @@ Important features of our design so far include
 \hline
 \end{longtable}
 
-\item{$\boxtimes$} \textbf{ZMK} \autocite{ZMKFirmware}  bluetooth-first keyboard firmware.
+\item{$\boxtimes$} \textbf{ZMK} \autocite{ZMKFirmware}  Bluetooth-first keyboard firmware.
 \begin{longtable}{|p{6.25cm}|p{6.25cm}|}
 \hline
 + highly popular & - pointing devices are bleeding edge\\
@@ -3022,7 +3022,7 @@ Important features of our design so far include
 \item{$\square$} \sout{\textbf{BlueMicro}} \autocite{constantineauBlueMicroFirmware2022} Arduino based keyboard firmware.
 \begin{longtable}{|p{6.25cm}|p{6.25cm}|}
 \hline
-+ arduino based & - least support\\
++ Arduino based & - least support\\
  & - verbose chording mechanics\\
 \hline
 \end{longtable}
@@ -3032,7 +3032,7 @@ For far too long we attempted (1).
 The main reasons were: a) we didn't really understand keyboard firmware, and b) being a School of Informatics project, we subconsciously felt that we should take on the most ambitious programming project possible.
 This turned out to be a massive waste of time that cost us hundreds of hours we could have spent elsewhere to essentially build a buggy subset of existing open source solutions.
 Some of these projects have dozens of active contributors and all of them are tens-of-thousands of lines of code and built over multiple years.
-The silver lining of attempting (1) was that it taught how many things are implemented under the hood.
+The silver lining of attempting (1) was that it taught us how many things are implemented under the hood.
 
 Customising and extending existing keyboard firmware was exactly what we needed.
 This allows the imported firmware framework to handle the low level hardware and provide abstractions whilst we worked on novel functionality.
@@ -3055,23 +3055,23 @@ Being \emph{Arduino based} was an advantage for prototyping new features however
 \item{$\square$} \sout{\textbf{Adafruit Feather Sense}} \autocite{AdafruitFeatherNRF52840}
 \begin{longtable}{|p{6.25cm}|p{6.25cm}|}
 \hline
-+ motion sensors included & - not ZMK recomended\\
-+ arduino compatible & - relatively more expensive\\
++ motion sensors included & - not ZMK recommended\\
++ Arduino compatible & - relatively more expensive\\
 \hline
 \end{longtable}
 \end{enumerate}
 
 (2) was my original choice, but current prototypes were made with (1).
-Our main requirement was onboard bluetooth, which only gave us a handful of options, most of which are based on the same nRF52840 SoC \autocite{semionductorNRF52840NordicSemiconductor2021}.
+Our main requirement was onboard Bluetooth, which only gave us a handful of options, most of which are based on the same nRF52840 SoC \autocite{semionductorNRF52840NordicSemiconductor2021}.
 
-(2) was originally chosen for its plug and play battery, inbuilt bluetooth, \emph{Arduino compatibility}, and collection of \emph{motion sensors included}- with the hope of using them for gesture support.
+(2) was originally chosen for its plug and play battery, inbuilt Bluetooth, \emph{Arduino compatibility}, and collection of \emph{motion sensors included}- with the hope of using them for gesture support.
 However, choosing an MCU ended up being quite dependent on the firmware framework.
 (1) was the most supported on our ZMK firmware, and gestures support was still a long way off.
 Technically (2) is supported by ZMK, and could be used in future but would be more work to get set up.
 \section{Keymap}
 \label{sec:org5385a41}
 This was by far the most intellectually difficult part of the project.
-Deciding how to input movements should map to commands is a very large search space-- there's almost an infinite number of ways you can layout and combine keys and theres no obvious way to begin working out what is optimal.
+Deciding how input movements should map to commands is a very large search space-- there's almost an infinite number of ways you can lay out and combine keys and there's no obvious way to begin working out what is optimal.
 We realised early on that often the best you can do is guess and iterate.
 
 \subsection{Functionality goals}
@@ -3081,7 +3081,7 @@ To recap, the important functionality we want to include is
 \item the full range of standard keyboard symbols (letters, numbers, special characters, etc.)
 \item mouse movement and buttons
 \item multi-letter/whole-word direct input
-\item An isomorphism to QWERTY (and similar layouts)- this essentially means a 3x5 grid for each hand.
+\item an isomorphism to QWERTY (and similar layouts)- this essentially means a 3x5 grid for each hand.
 \end{enumerate*}
 For more see \hyperref[sec:orgf250acb]{Design Goals} (§ \ref{sec:orgf250acb}).
 
@@ -3090,7 +3090,7 @@ For more see \hyperref[sec:orgf250acb]{Design Goals} (§ \ref{sec:orgf250acb}).
 The important decisions made so far constraining our keymap include
 \begin{enumerate*}[label={\arabic*)}, itemjoin={, \,}, itemjoin*={, and \,}]
 \item 2x4 Array of key switches\footnote{This prevents us from implementing a QWERTY isomorphism for this prototype.} (potentially 3x5 in future)\footnote{Note that as the button layout is subject to change in future prototypes, so is the keymap.}
-\item 2 additional thumb buttons (with the potential to add joystick gestures in future)
+\item 2 additional thumb buttons (with the potential to add joystick gestures in future).
 \end{enumerate*}
 These constraints make the design space a lot more manageable\footnote{This is far more true in hindsight than it was in the development process as the complexities of the keymap had to be strongly taken into consideration when designing the button layout.}.
 
@@ -3099,23 +3099,23 @@ These constraints make the design space a lot more manageable\footnote{This is f
 Note that \hyperref[sec:org807f536]{Keymap Nomenclature} (Appendix \ref{sec:org807f536}), covers the following section's specialist terms.
 
 The accepted wisdom of custom keyboard layout design goes something as follows.
-You have a \emph{base layer} containing (in the most extreme case of having the fewest keys) \emph{alphas}, \emph{essentials}, some important subset of \emph{symbols} along with \emph{modifiers} and layer switching keys\footnote{A slight variation of this is the Vim \autocite{WelcomeHomeVim} keymap, who's base layer is commands based and the alphanumeric 'Insert' mode has to be entered like any other layer. This reveals the hidden (incorrect) assumption that computer input is foremostly alphanumeric, rather than command based. We intend experiment with this in future.}.
+You have a \emph{base layer} containing (in the most extreme case of having the fewest keys) \emph{alphas}, \emph{essentials}, some important subset of \emph{symbols} along with \emph{modifiers} and layer switching keys\footnote{A slight variation of this is the Vim \autocite{WelcomeHomeVim} keymap, whose base layer is commands based and the alphanumeric 'Insert' mode has to be entered like any other layer. This reveals the hidden (incorrect) assumption that computer input is foremostly alphanumeric, rather than command based. We intend to experiment with this in future.}.
 The logic here is you want the most frequently used keys to be most easily accessible.
 Say there are 7 essential symbols (\texttt{. , ; ) ( : /}), and two layer switching keys (\texttt{LayerUp}, \texttt{LayerDown}).
 This gives us a total of \(26+4+7+4+2=43\) keys to implement.
 Some arithmetic reveals that our current design has only \(4\times2 + 2 = 10\) keys.
-From here the natural choice is to involve \emph{chording}\footnote{alternatives such as \emph{arpeggios} (\emph{leader-keys}) are possible but seemed less natural.}
-Chords are used extensively in musical instruments (such as the piano) and there already exist successful \emph{chorded-keyboards} such as stenography machinces.
+From here the natural choice is to involve \emph{chording}\footnote{alternatives such as \emph{arpeggios} (\emph{leader-keys}) are possible but seemed less natural.}.
+Chords are used extensively in musical instruments (such as the piano) and there already exist successful \emph{chorded-keyboards} such as stenography machines.
 A quick sum of 1, 2 and 3 key chords on 8 keys (leaving the two thumb keys) gives us 92 key combinations, which is already more than enough.
 
 From here we have the task of laying out our base layer.
-As we have already established, an isomorphism to QWERTY is not possible given out button layout.
+As we have already established, an isomorphism to QWERTY is not possible given our button layout.
 Generally, the perceived wisdom\footnote{we did experiment with other things.} for new keymaps is 1) to have the most common keys in the easiest to reach position, and 2) avoid the most straining movements (see gloss. \hyperref[org77f0234]{RSI}).
 
 The most common letters in the English language\footnote{It does vary slightly depending on the corpus used to do the analysis.}, roughly in order of frequency are, ETAOINSRHLDCU \autocite{norvigEnglishLetterFrequency}.
 From here there are many ways to start laying out keys and we have come to believe that the exact placement is somewhat arbitrary.
 
-Amazingly, at this time we found the ARTSEY keyboard community \autocite{ARTSEYEasyFast}, who had already designed a layout for a 2x4 one-handed keyboard with many of features we have been looking at.
+Amazingly, at this time we found the ARTSEY keyboard community \autocite{ARTSEYEasyFast}, who had already designed a layout for a 2x4 one-handed keyboard with many of the features we have been looking at.
 One additional feature they brought was using an isomorphism to letter shapes (similar to sign language for those familiar) as a secondary scheme for laying out letters (after frequency).
 For example, the chord for the letter \texttt{l} has the shape \(\begin{matrix} \square & \square  & \square  & \square \\ \blacksquare &  \blacksquare & \blacksquare & \square \end{matrix}\) (left hand), which can feel natural and be easier to remember.
 

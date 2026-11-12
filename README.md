@@ -13,7 +13,7 @@ My undergraduate thesis on the theory of Brain-Computer Interfaces and building 
 ## Details 
 Thesis submitted to the University of Edinburgh School of Informatics for the degree of BSc in Computational Cognitive Science 2022.[^1]
 
-[^1]: Note that 1) the thesis has received minor updates since the original submission, and 2) it is not possible to compile the pdf perfectly from the `.tex` file alone as there are many missing files (it exists for git diffs, and for those who wish to contribute edits/commentary here). 
+[^1]: Note that 1) the thesis has received minor updates since the original submission, and 2) the version as originally published is tagged [`submitted`](../../tree/submitted); `main` has since been proofread for spelling and grammar.
 
 _Author_: Nathan Sharp  
 _Supervisor_: Antonio Barbalace
@@ -29,6 +29,15 @@ _Supervisor_: Antonio Barbalace
 Download the pdf directly via github: [`thesis_reimagining-computer-input.pdf`](thesis_reimagining-computer-input.pdf) (then click `Download`)
 
 All feedback is welcome!
+
+## Building
+Everything needed to rebuild the pdf lives in [`src/`](src): the `.tex`, bibliography, figures and the Edinburgh Informatics thesis class.
+
+```bash
+cd src && latexmk -xelatex thesis_reimagining-computer-input.tex
+```
+
+Needs a full TeX Live (XeLaTeX + biber). On Nix: `nix shell nixpkgs#texliveFull`.
 
 ## Sample Page
 ![Sample Page](images/sample_page2.png?raw=true)
