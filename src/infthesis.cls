@@ -84,7 +84,7 @@
 \newcommand{\@thesispoints}{}
 \newcommand{\@draftmessage}{}
 
-\newcommand{\@versionnumber}{v1.0.6}
+\newcommand{\@versionnumber}{v1.0.7}
 
 %% Lots of boolean things to keep track of options
 \newboolean{draftthesis}

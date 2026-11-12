@@ -34,10 +34,10 @@ All feedback is welcome!
 Everything needed to rebuild the pdf lives in [`src/`](src): the `.tex`, bibliography, figures and the Edinburgh Informatics thesis class.
 
 ```bash
-cd src && latexmk -xelatex thesis_reimagining-computer-input.tex
+cd src && latexmk -pdf thesis_reimagining-computer-input.tex
 ```
 
-Needs a full TeX Live (XeLaTeX + biber). On Nix: `nix shell nixpkgs#texliveFull`.
+Needs a full TeX Live (pdfLaTeX + biber). On Nix: `nix shell nixpkgs#texliveFull`.
 
 ## Sample Page
 ![Sample Page](images/sample_page2.png?raw=true)
